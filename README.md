@@ -16,6 +16,7 @@ submitted to LPAR23.
 - `data/statements/standard_full` -- same as `standard`, but in
 	`fof(NAME,conjecture,STATEMENT)`
 	format (useful during ATP evaluation).
+
 In the first two files with statements name of conjecture/premise is separated
 from its statement with `@` symbol.
 `data/theorems_from_MPTP2078` -- all 2078 theorems in MPTP2078 data set.
@@ -223,8 +224,8 @@ python3 scripts/evaluation/atp_evaluation.py \
 ## Results
 Directory `results` contains predictions obtained from the NMT models trained
 on various training data. There are also prediction from XGBoost.
-`results/test_theorems` -- names of test theorems used in our experiments.
-`results/test_theorems_initial_dependencies` -- dependencies extracted from
+- `results/test_theorems` -- names of test theorems used in our experiments.
+- `results/test_theorems_initial_dependencies` -- dependencies extracted from
 	the initial proofs from `data/proofs`.
 For each NMT / XGBoost model there are 3 files:
 - `*.deps.proved` -- predicted dependencies which led to a proof,
