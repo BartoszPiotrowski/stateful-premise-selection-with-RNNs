@@ -10,10 +10,10 @@ submitted to LPAR23.
 3. E prover (we used version 2.3, available at: wwwlehre.dhbw-stuttgart.de/~sschulz/WORK/E_DOWNLOAD/V_2.3/E.tgz)
 
 ## Initial data
-`data/proofs` -- 24087 E-prover proofs of 1469 theorems from MPTP2078.
-`data/statements/standard` -- tokenized statement in standard TPTP notation.
-`data/statements/prefix` -- tokenized statements in prefix notation.
-`data/statements/standard_full` -- same as `standard`, but in
+- `data/proofs` -- 24087 E-prover proofs of 1469 theorems from MPTP2078.
+- `data/statements/standard` -- tokenized statement in standard TPTP notation.
+- `data/statements/prefix` -- tokenized statements in prefix notation.
+- `data/statements/standard_full` -- same as `standard`, but in
 	`fof(NAME,conjecture,STATEMENT)`
 	format (useful during ATP evaluation).
 In the first two files with statements name of conjecture/premise is separated
@@ -227,8 +227,8 @@ on various training data. There are also prediction from XGBoost.
 `results/test_theorems_initial_dependencies` -- dependencies extracted from
 	the initial proofs from `data/proofs`.
 For each NMT / XGBoost model there are 3 files:
-`*.deps.proved` -- predicted dependencies which led to a proof,
-`*.deps.not_proved` -- predicted dependencies which did not lead to a proof,
-`*.deps.proved.used` -- same as `*.deps.proved` but with additional information,
+- `*.deps.proved` -- predicted dependencies which led to a proof,
+- `*.deps.not_proved` -- predicted dependencies which did not lead to a proof,
+- `*.deps.proved.used` -- same as `*.deps.proved` but with additional information,
 	which premises from the proposed where actually used in the proof.
 
