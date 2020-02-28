@@ -1,0 +1,173 @@
+# No SInE strategy applied
+# Auto-Mode selected heuristic SAT001_MinMin_rr
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.009 s
+# Presaturation interreduction done
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(t67_zfmisc_1, conjecture, ![X1, X2]:(k4_xboole_0(k1_tarski(X1),X2)=k1_tarski(X1)<=>~(r2_hidden(X1,X2))), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t67_zfmisc_1)).
+fof(t3_xboole_0, axiom, ![X1, X2]:(~((~(r1_xboole_0(X1,X2))&![X3]:~((r2_hidden(X3,X1)&r2_hidden(X3,X2)))))&~((?[X3]:(r2_hidden(X3,X1)&r2_hidden(X3,X2))&r1_xboole_0(X1,X2)))), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t3_xboole_0)).
+fof(l97_xboole_1, axiom, ![X1, X2]:r1_xboole_0(k3_xboole_0(X1,X2),k5_xboole_0(X1,X2)), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', l97_xboole_1)).
+fof(t69_enumset1, axiom, ![X1]:k2_tarski(X1,X1)=k1_tarski(X1), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t69_enumset1)).
+fof(t70_enumset1, axiom, ![X1, X2]:k1_enumset1(X1,X1,X2)=k2_tarski(X1,X2), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t70_enumset1)).
+fof(t100_xboole_1, axiom, ![X1, X2]:k4_xboole_0(X1,X2)=k5_xboole_0(X1,k3_xboole_0(X1,X2)), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t100_xboole_1)).
+fof(t71_enumset1, axiom, ![X1, X2, X3]:k2_enumset1(X1,X1,X2,X3)=k1_enumset1(X1,X2,X3), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t71_enumset1)).
+fof(t72_enumset1, axiom, ![X1, X2, X3, X4]:k3_enumset1(X1,X1,X2,X3,X4)=k2_enumset1(X1,X2,X3,X4), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t72_enumset1)).
+fof(t73_enumset1, axiom, ![X1, X2, X3, X4, X5]:k4_enumset1(X1,X1,X2,X3,X4,X5)=k3_enumset1(X1,X2,X3,X4,X5), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t73_enumset1)).
+fof(t74_enumset1, axiom, ![X1, X2, X3, X4, X5, X6]:k5_enumset1(X1,X1,X2,X3,X4,X5,X6)=k4_enumset1(X1,X2,X3,X4,X5,X6), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t74_enumset1)).
+fof(t75_enumset1, axiom, ![X1, X2, X3, X4, X5, X6, X7]:k6_enumset1(X1,X1,X2,X3,X4,X5,X6,X7)=k5_enumset1(X1,X2,X3,X4,X5,X6,X7), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t75_enumset1)).
+fof(commutativity_k5_xboole_0, axiom, ![X1, X2]:k5_xboole_0(X1,X2)=k5_xboole_0(X2,X1), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', commutativity_k5_xboole_0)).
+fof(commutativity_k3_xboole_0, axiom, ![X1, X2]:k3_xboole_0(X1,X2)=k3_xboole_0(X2,X1), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', commutativity_k3_xboole_0)).
+fof(d4_xboole_0, axiom, ![X1, X2, X3]:(X3=k3_xboole_0(X1,X2)<=>![X4]:(r2_hidden(X4,X3)<=>(r2_hidden(X4,X1)&r2_hidden(X4,X2)))), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', d4_xboole_0)).
+fof(t16_xboole_1, axiom, ![X1, X2, X3]:k3_xboole_0(k3_xboole_0(X1,X2),X3)=k3_xboole_0(X1,k3_xboole_0(X2,X3)), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t16_xboole_1)).
+fof(idempotence_k3_xboole_0, axiom, ![X1, X2]:k3_xboole_0(X1,X1)=X1, file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', idempotence_k3_xboole_0)).
+fof(d7_xboole_0, axiom, ![X1, X2]:(r1_xboole_0(X1,X2)<=>k3_xboole_0(X1,X2)=k1_xboole_0), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', d7_xboole_0)).
+fof(t7_xboole_0, axiom, ![X1]:~((~(X1=k1_xboole_0)&![X2]:~(r2_hidden(X2,X1)))), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t7_xboole_0)).
+fof(d1_enumset1, axiom, ![X1, X2, X3, X4]:(X4=k1_enumset1(X1,X2,X3)<=>![X5]:(r2_hidden(X5,X4)<=>~((~(X5=X1)&(~(X5=X2)&~(X5=X3)))))), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', d1_enumset1)).
+fof(t125_enumset1, axiom, ![X1, X2, X3, X4]:k2_enumset1(X1,X2,X3,X4)=k2_enumset1(X4,X3,X2,X1), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t125_enumset1)).
+fof(t112_xboole_1, axiom, ![X1, X2, X3]:k5_xboole_0(k3_xboole_0(X1,X2),k3_xboole_0(X3,X2))=k3_xboole_0(k5_xboole_0(X1,X3),X2), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t112_xboole_1)).
+fof(t53_zfmisc_1, axiom, ![X1, X2, X3]:((r2_hidden(X1,X2)&r2_hidden(X3,X2))=>k3_xboole_0(k2_tarski(X1,X3),X2)=k2_tarski(X1,X3)), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t53_zfmisc_1)).
+fof(t1_xboole_0, axiom, ![X1, X2, X3]:(r2_hidden(X1,k5_xboole_0(X2,X3))<=>~((r2_hidden(X1,X2)<=>r2_hidden(X1,X3)))), file('data/MPTP/proofs/ad476443cf7e4bfe9f33d991f867437c.E_input', t1_xboole_0)).
+fof(c_0_23, negated_conjecture, ~(![X1, X2]:(k4_xboole_0(k1_tarski(X1),X2)=k1_tarski(X1)<=>~(r2_hidden(X1,X2)))), inference(assume_negation,[status(cth)],[t67_zfmisc_1])).
+fof(c_0_24, plain, ![X35, X36, X38, X39, X40]:(((r2_hidden(esk3_2(X35,X36),X35)|r1_xboole_0(X35,X36))&(r2_hidden(esk3_2(X35,X36),X36)|r1_xboole_0(X35,X36)))&(~r2_hidden(X40,X38)|~r2_hidden(X40,X39)|~r1_xboole_0(X38,X39))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t3_xboole_0])])])])])])])).
+fof(c_0_25, plain, ![X80, X81]:r1_xboole_0(k3_xboole_0(X80,X81),k5_xboole_0(X80,X81)), inference(variable_rename,[status(thm)],[l97_xboole_1])).
+fof(c_0_26, negated_conjecture, ((k4_xboole_0(k1_tarski(esk1_0),esk2_0)!=k1_tarski(esk1_0)|r2_hidden(esk1_0,esk2_0))&(k4_xboole_0(k1_tarski(esk1_0),esk2_0)=k1_tarski(esk1_0)|~r2_hidden(esk1_0,esk2_0))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[c_0_23])])])])).
+fof(c_0_27, plain, ![X13]:k2_tarski(X13,X13)=k1_tarski(X13), inference(variable_rename,[status(thm)],[t69_enumset1])).
+fof(c_0_28, plain, ![X23, X24]:k1_enumset1(X23,X23,X24)=k2_tarski(X23,X24), inference(variable_rename,[status(thm)],[t70_enumset1])).
+fof(c_0_29, plain, ![X72, X73]:k4_xboole_0(X72,X73)=k5_xboole_0(X72,k3_xboole_0(X72,X73)), inference(variable_rename,[status(thm)],[t100_xboole_1])).
+fof(c_0_30, plain, ![X69, X70, X71]:k2_enumset1(X69,X69,X70,X71)=k1_enumset1(X69,X70,X71), inference(variable_rename,[status(thm)],[t71_enumset1])).
+fof(c_0_31, plain, ![X74, X75, X76, X77]:k3_enumset1(X74,X74,X75,X76,X77)=k2_enumset1(X74,X75,X76,X77), inference(variable_rename,[status(thm)],[t72_enumset1])).
+fof(c_0_32, plain, ![X88, X89, X90, X91, X92]:k4_enumset1(X88,X88,X89,X90,X91,X92)=k3_enumset1(X88,X89,X90,X91,X92), inference(variable_rename,[status(thm)],[t73_enumset1])).
+fof(c_0_33, plain, ![X14, X15, X16, X17, X18, X19]:k5_enumset1(X14,X14,X15,X16,X17,X18,X19)=k4_enumset1(X14,X15,X16,X17,X18,X19), inference(variable_rename,[status(thm)],[t74_enumset1])).
+fof(c_0_34, plain, ![X25, X26, X27, X28, X29, X30, X31]:k6_enumset1(X25,X25,X26,X27,X28,X29,X30,X31)=k5_enumset1(X25,X26,X27,X28,X29,X30,X31), inference(variable_rename,[status(thm)],[t75_enumset1])).
+cnf(c_0_35, plain, (~r2_hidden(X1,X2)|~r2_hidden(X1,X3)|~r1_xboole_0(X2,X3)), inference(split_conjunct,[status(thm)],[c_0_24])).
+cnf(c_0_36, plain, (r1_xboole_0(k3_xboole_0(X1,X2),k5_xboole_0(X1,X2))), inference(split_conjunct,[status(thm)],[c_0_25])).
+fof(c_0_37, plain, ![X82, X83]:k5_xboole_0(X82,X83)=k5_xboole_0(X83,X82), inference(variable_rename,[status(thm)],[commutativity_k5_xboole_0])).
+cnf(c_0_38, negated_conjecture, (k4_xboole_0(k1_tarski(esk1_0),esk2_0)=k1_tarski(esk1_0)|~r2_hidden(esk1_0,esk2_0)), inference(split_conjunct,[status(thm)],[c_0_26])).
+cnf(c_0_39, plain, (k2_tarski(X1,X1)=k1_tarski(X1)), inference(split_conjunct,[status(thm)],[c_0_27])).
+cnf(c_0_40, plain, (k1_enumset1(X1,X1,X2)=k2_tarski(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_28])).
+cnf(c_0_41, plain, (k4_xboole_0(X1,X2)=k5_xboole_0(X1,k3_xboole_0(X1,X2))), inference(split_conjunct,[status(thm)],[c_0_29])).
+cnf(c_0_42, plain, (k2_enumset1(X1,X1,X2,X3)=k1_enumset1(X1,X2,X3)), inference(split_conjunct,[status(thm)],[c_0_30])).
+cnf(c_0_43, plain, (k3_enumset1(X1,X1,X2,X3,X4)=k2_enumset1(X1,X2,X3,X4)), inference(split_conjunct,[status(thm)],[c_0_31])).
+cnf(c_0_44, plain, (k4_enumset1(X1,X1,X2,X3,X4,X5)=k3_enumset1(X1,X2,X3,X4,X5)), inference(split_conjunct,[status(thm)],[c_0_32])).
+cnf(c_0_45, plain, (k5_enumset1(X1,X1,X2,X3,X4,X5,X6)=k4_enumset1(X1,X2,X3,X4,X5,X6)), inference(split_conjunct,[status(thm)],[c_0_33])).
+cnf(c_0_46, plain, (k6_enumset1(X1,X1,X2,X3,X4,X5,X6,X7)=k5_enumset1(X1,X2,X3,X4,X5,X6,X7)), inference(split_conjunct,[status(thm)],[c_0_34])).
+fof(c_0_47, plain, ![X78, X79]:k3_xboole_0(X78,X79)=k3_xboole_0(X79,X78), inference(variable_rename,[status(thm)],[commutativity_k3_xboole_0])).
+fof(c_0_48, plain, ![X41, X42, X43, X44, X45, X46, X47, X48]:((((r2_hidden(X44,X41)|~r2_hidden(X44,X43)|X43!=k3_xboole_0(X41,X42))&(r2_hidden(X44,X42)|~r2_hidden(X44,X43)|X43!=k3_xboole_0(X41,X42)))&(~r2_hidden(X45,X41)|~r2_hidden(X45,X42)|r2_hidden(X45,X43)|X43!=k3_xboole_0(X41,X42)))&((~r2_hidden(esk4_3(X46,X47,X48),X48)|(~r2_hidden(esk4_3(X46,X47,X48),X46)|~r2_hidden(esk4_3(X46,X47,X48),X47))|X48=k3_xboole_0(X46,X47))&((r2_hidden(esk4_3(X46,X47,X48),X46)|r2_hidden(esk4_3(X46,X47,X48),X48)|X48=k3_xboole_0(X46,X47))&(r2_hidden(esk4_3(X46,X47,X48),X47)|r2_hidden(esk4_3(X46,X47,X48),X48)|X48=k3_xboole_0(X46,X47))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(fof_nnf,[status(thm)],[d4_xboole_0])])])])])])).
+cnf(c_0_49, plain, (~r2_hidden(X1,k5_xboole_0(X2,X3))|~r2_hidden(X1,k3_xboole_0(X2,X3))), inference(spm,[status(thm)],[c_0_35, c_0_36])).
+cnf(c_0_50, plain, (k5_xboole_0(X1,X2)=k5_xboole_0(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_37])).
+cnf(c_0_51, negated_conjecture, (k5_xboole_0(k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0),k3_xboole_0(k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0),esk2_0))=k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)|~r2_hidden(esk1_0,esk2_0)), inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_38, c_0_39]), c_0_39]), c_0_40]), c_0_40]), c_0_41]), c_0_42]), c_0_42]), c_0_42]), c_0_43]), c_0_43]), c_0_43]), c_0_44]), c_0_44]), c_0_44]), c_0_45]), c_0_45]), c_0_45]), c_0_46]), c_0_46]), c_0_46])).
+cnf(c_0_52, plain, (k3_xboole_0(X1,X2)=k3_xboole_0(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_47])).
+fof(c_0_53, plain, ![X20, X21, X22]:k3_xboole_0(k3_xboole_0(X20,X21),X22)=k3_xboole_0(X20,k3_xboole_0(X21,X22)), inference(variable_rename,[status(thm)],[t16_xboole_1])).
+fof(c_0_54, plain, ![X84]:k3_xboole_0(X84,X84)=X84, inference(variable_rename,[status(thm)],[inference(fof_simplification,[status(thm)],[idempotence_k3_xboole_0])])).
+cnf(c_0_55, plain, (r2_hidden(X1,X2)|~r2_hidden(X1,X3)|X3!=k3_xboole_0(X4,X2)), inference(split_conjunct,[status(thm)],[c_0_48])).
+fof(c_0_56, plain, ![X50, X51]:((~r1_xboole_0(X50,X51)|k3_xboole_0(X50,X51)=k1_xboole_0)&(k3_xboole_0(X50,X51)!=k1_xboole_0|r1_xboole_0(X50,X51))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[d7_xboole_0])])).
+cnf(c_0_57, plain, (~r2_hidden(X1,k5_xboole_0(X2,X3))|~r2_hidden(X1,k3_xboole_0(X3,X2))), inference(spm,[status(thm)],[c_0_49, c_0_50])).
+cnf(c_0_58, negated_conjecture, (k5_xboole_0(k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0),k3_xboole_0(esk2_0,k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)))=k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)|~r2_hidden(esk1_0,esk2_0)), inference(rw,[status(thm)],[c_0_51, c_0_52])).
+cnf(c_0_59, plain, (k3_xboole_0(k3_xboole_0(X1,X2),X3)=k3_xboole_0(X1,k3_xboole_0(X2,X3))), inference(split_conjunct,[status(thm)],[c_0_53])).
+cnf(c_0_60, plain, (k3_xboole_0(X1,X1)=X1), inference(split_conjunct,[status(thm)],[c_0_54])).
+cnf(c_0_61, plain, (r2_hidden(X1,X2)|~r2_hidden(X1,k3_xboole_0(X3,X2))), inference(er,[status(thm)],[c_0_55])).
+fof(c_0_62, plain, ![X52]:(X52=k1_xboole_0|r2_hidden(esk5_1(X52),X52)), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t7_xboole_0])])])])).
+fof(c_0_63, plain, ![X54, X55, X56, X57, X58, X59, X60, X61, X62, X63]:(((~r2_hidden(X58,X57)|(X58=X54|(X58=X55|X58=X56))|X57!=k1_enumset1(X54,X55,X56))&((X59!=X54|r2_hidden(X59,X57)|X57!=k1_enumset1(X54,X55,X56))&((X59!=X55|r2_hidden(X59,X57)|X57!=k1_enumset1(X54,X55,X56))&(X59!=X56|r2_hidden(X59,X57)|X57!=k1_enumset1(X54,X55,X56)))))&(((esk6_4(X60,X61,X62,X63)!=X60|~r2_hidden(esk6_4(X60,X61,X62,X63),X63)|X63=k1_enumset1(X60,X61,X62))&((esk6_4(X60,X61,X62,X63)!=X61|~r2_hidden(esk6_4(X60,X61,X62,X63),X63)|X63=k1_enumset1(X60,X61,X62))&(esk6_4(X60,X61,X62,X63)!=X62|~r2_hidden(esk6_4(X60,X61,X62,X63),X63)|X63=k1_enumset1(X60,X61,X62))))&(r2_hidden(esk6_4(X60,X61,X62,X63),X63)|(esk6_4(X60,X61,X62,X63)=X60|(esk6_4(X60,X61,X62,X63)=X61|esk6_4(X60,X61,X62,X63)=X62))|X63=k1_enumset1(X60,X61,X62)))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[d1_enumset1])])])])])])])).
+cnf(c_0_64, plain, (r1_xboole_0(X1,X2)|k3_xboole_0(X1,X2)!=k1_xboole_0), inference(split_conjunct,[status(thm)],[c_0_56])).
+cnf(c_0_65, negated_conjecture, (~r2_hidden(X1,k3_xboole_0(esk2_0,k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)))|~r2_hidden(esk1_0,esk2_0)), inference(csr,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_57, c_0_58]), c_0_59]), c_0_60]), c_0_61])).
+cnf(c_0_66, plain, (X1=k1_xboole_0|r2_hidden(esk5_1(X1),X1)), inference(split_conjunct,[status(thm)],[c_0_62])).
+cnf(c_0_67, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k1_enumset1(X4,X5,X2)), inference(split_conjunct,[status(thm)],[c_0_63])).
+cnf(c_0_68, negated_conjecture, (r2_hidden(esk1_0,esk2_0)|k4_xboole_0(k1_tarski(esk1_0),esk2_0)!=k1_tarski(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_26])).
+fof(c_0_69, plain, ![X65, X66, X67, X68]:k2_enumset1(X65,X66,X67,X68)=k2_enumset1(X68,X67,X66,X65), inference(variable_rename,[status(thm)],[t125_enumset1])).
+cnf(c_0_70, plain, (k3_xboole_0(X1,X2)!=k1_xboole_0|~r2_hidden(X3,X2)|~r2_hidden(X3,X1)), inference(spm,[status(thm)],[c_0_35, c_0_64])).
+cnf(c_0_71, negated_conjecture, (k3_xboole_0(esk2_0,k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0))=k1_xboole_0|~r2_hidden(esk1_0,esk2_0)), inference(spm,[status(thm)],[c_0_65, c_0_66])).
+cnf(c_0_72, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X4,X4,X4,X4,X4,X4,X5,X2)), inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_67, c_0_42]), c_0_43]), c_0_44]), c_0_45]), c_0_46])).
+cnf(c_0_73, negated_conjecture, (r2_hidden(esk1_0,esk2_0)|k5_xboole_0(k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0),k3_xboole_0(k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0),esk2_0))!=k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)), inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_68, c_0_39]), c_0_39]), c_0_40]), c_0_40]), c_0_41]), c_0_42]), c_0_42]), c_0_42]), c_0_43]), c_0_43]), c_0_43]), c_0_44]), c_0_44]), c_0_44]), c_0_45]), c_0_45]), c_0_45]), c_0_46]), c_0_46]), c_0_46])).
+cnf(c_0_74, plain, (k2_enumset1(X1,X2,X3,X4)=k2_enumset1(X4,X3,X2,X1)), inference(split_conjunct,[status(thm)],[c_0_69])).
+cnf(c_0_75, negated_conjecture, (~r2_hidden(X1,k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0))|~r2_hidden(esk1_0,esk2_0)|~r2_hidden(X1,esk2_0)), inference(spm,[status(thm)],[c_0_70, c_0_71])).
+cnf(c_0_76, plain, (r2_hidden(X1,k6_enumset1(X2,X2,X2,X2,X2,X2,X3,X1))), inference(er,[status(thm)],[inference(er,[status(thm)],[c_0_72])])).
+fof(c_0_77, plain, ![X85, X86, X87]:k5_xboole_0(k3_xboole_0(X85,X86),k3_xboole_0(X87,X86))=k3_xboole_0(k5_xboole_0(X85,X87),X86), inference(variable_rename,[status(thm)],[t112_xboole_1])).
+cnf(c_0_78, negated_conjecture, (r2_hidden(esk1_0,esk2_0)|k5_xboole_0(k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0),k3_xboole_0(esk2_0,k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)))!=k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)), inference(rw,[status(thm)],[c_0_73, c_0_52])).
+cnf(c_0_79, plain, (k6_enumset1(X1,X1,X1,X1,X1,X2,X3,X4)=k6_enumset1(X4,X4,X4,X4,X4,X3,X2,X1)), inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_74, c_0_43]), c_0_43]), c_0_44]), c_0_44]), c_0_45]), c_0_45]), c_0_46]), c_0_46])).
+cnf(c_0_80, negated_conjecture, (~r2_hidden(esk1_0,esk2_0)), inference(spm,[status(thm)],[c_0_75, c_0_76])).
+cnf(c_0_81, plain, (k5_xboole_0(k3_xboole_0(X1,X2),k3_xboole_0(X3,X2))=k3_xboole_0(k5_xboole_0(X1,X3),X2)), inference(split_conjunct,[status(thm)],[c_0_77])).
+fof(c_0_82, plain, ![X10, X11, X12]:(~r2_hidden(X10,X11)|~r2_hidden(X12,X11)|k3_xboole_0(k2_tarski(X10,X12),X11)=k2_tarski(X10,X12)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t53_zfmisc_1])])).
+cnf(c_0_83, negated_conjecture, (k5_xboole_0(k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0),k3_xboole_0(esk2_0,k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)))!=k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)), inference(sr,[status(thm)],[inference(spm,[status(thm)],[c_0_78, c_0_79]), c_0_80])).
+cnf(c_0_84, plain, (k5_xboole_0(X1,k3_xboole_0(X2,X1))=k3_xboole_0(X1,k5_xboole_0(X2,X1))), inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_81, c_0_60]), c_0_50]), c_0_52])).
+cnf(c_0_85, plain, (k3_xboole_0(k2_tarski(X1,X3),X2)=k2_tarski(X1,X3)|~r2_hidden(X1,X2)|~r2_hidden(X3,X2)), inference(split_conjunct,[status(thm)],[c_0_82])).
+cnf(c_0_86, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k1_enumset1(X2,X4,X5)), inference(split_conjunct,[status(thm)],[c_0_63])).
+cnf(c_0_87, negated_conjecture, (k3_xboole_0(k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0),k5_xboole_0(esk2_0,k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)))!=k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)), inference(rw,[status(thm)],[c_0_83, c_0_84])).
+cnf(c_0_88, plain, (k3_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X3),X2)=k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X3)|~r2_hidden(X3,X2)|~r2_hidden(X1,X2)), inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_85, c_0_40]), c_0_40]), c_0_42]), c_0_42]), c_0_43]), c_0_43]), c_0_44]), c_0_44]), c_0_45]), c_0_45]), c_0_46]), c_0_46])).
+fof(c_0_89, plain, ![X32, X33, X34]:(((~r2_hidden(X32,X33)|~r2_hidden(X32,X34)|~r2_hidden(X32,k5_xboole_0(X33,X34)))&(r2_hidden(X32,X33)|r2_hidden(X32,X34)|~r2_hidden(X32,k5_xboole_0(X33,X34))))&((~r2_hidden(X32,X33)|r2_hidden(X32,X34)|r2_hidden(X32,k5_xboole_0(X33,X34)))&(~r2_hidden(X32,X34)|r2_hidden(X32,X33)|r2_hidden(X32,k5_xboole_0(X33,X34))))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t1_xboole_0])])])).
+cnf(c_0_90, plain, (r2_hidden(X1,X3)|X1!=X2|X3!=k6_enumset1(X2,X2,X2,X2,X2,X2,X4,X5)), inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[c_0_86, c_0_42]), c_0_43]), c_0_44]), c_0_45]), c_0_46])).
+cnf(c_0_91, negated_conjecture, (~r2_hidden(esk1_0,k5_xboole_0(esk2_0,k6_enumset1(esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0,esk1_0)))), inference(spm,[status(thm)],[c_0_87, c_0_88])).
+cnf(c_0_92, plain, (r2_hidden(X1,X3)|r2_hidden(X1,k5_xboole_0(X3,X2))|~r2_hidden(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_89])).
+cnf(c_0_93, plain, (r2_hidden(X1,k6_enumset1(X1,X1,X1,X1,X1,X1,X2,X3))), inference(er,[status(thm)],[inference(er,[status(thm)],[c_0_90])])).
+cnf(c_0_94, negated_conjecture, ($false), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_91, c_0_92]), c_0_93])]), c_0_80]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 95
+# Proof object clause steps            : 48
+# Proof object formula steps           : 47
+# Proof object conjectures             : 17
+# Proof object clause conjectures      : 14
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 25
+# Proof object initial formulas used   : 23
+# Proof object generating inferences   : 11
+# Proof object simplifying inferences  : 87
+# Training examples: 0 positive, 0 negative
+# Parsed axioms                        : 23
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 42
+# Removed in clause preprocessing      : 8
+# Initial clauses in saturation        : 34
+# Processed clauses                    : 520
+# ...of these trivial                  : 29
+# ...subsumed                          : 352
+# ...remaining for further processing  : 139
+# Other redundant clauses eliminated   : 20
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 0
+# Backward-rewritten                   : 6
+# Generated clauses                    : 2062
+# ...of the previous two non-trivial   : 1680
+# Contextual simplify-reflections      : 3
+# Paramodulations                      : 2041
+# Factorizations                       : 4
+# Equation resolutions                 : 20
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 92
+#    Positive orientable unit clauses  : 25
+#    Positive unorientable unit clauses: 5
+#    Negative unit clauses             : 4
+#    Non-unit-clauses                  : 58
+# Current number of unprocessed clauses: 1219
+# ...number of literals in the above   : 3341
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 48
+# Clause-clause subsumption calls (NU) : 855
+# Rec. Clause-clause subsumption calls : 797
+# Non-unit clause-clause subsumptions  : 142
+# Unit Clause-clause subsumption calls : 29
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 90
+# BW rewrite match successes           : 72
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 21830
+
+# -------------------------------------------------
+# User time                : 0.024 s
+# System time              : 0.000 s
+# Total time               : 0.024 s
+# Maximum resident set size: 28628 pages

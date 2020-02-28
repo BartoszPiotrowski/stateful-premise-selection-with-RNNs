@@ -1,0 +1,146 @@
+# No SInE strategy applied
+# Auto-Mode selected heuristic G_E___208_C47_F1_SE_CS_SP_PS_S0Y
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.008 s
+# Presaturation interreduction done
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(t41_tmap_1, conjecture, ![X1]:((~(v2_struct_0(X1))&(v2_pre_topc(X1)&l1_pre_topc(X1)))=>![X2]:((~(v2_struct_0(X2))&m1_pre_topc(X2,X1))=>![X3]:((~(v2_struct_0(X3))&m1_pre_topc(X3,X1))=>![X4]:((~(v2_struct_0(X4))&m1_pre_topc(X4,X1))=>(~(r1_tsep_1(X2,X3))=>((~(r1_tsep_1(k2_tsep_1(X1,X2,X3),X4))=>(~(r1_tsep_1(X2,X4))&~(r1_tsep_1(X3,X4))))&(~(r1_tsep_1(X4,k2_tsep_1(X1,X2,X3)))=>(~(r1_tsep_1(X4,X2))&~(r1_tsep_1(X4,X3)))))))))), file('data/MPTP/proofs/418fb25b86864a2ea609f7156c94d40f.E_input', t41_tmap_1)).
+fof(t35_tmap_1, axiom, ![X1]:((~(v2_struct_0(X1))&(v2_pre_topc(X1)&l1_pre_topc(X1)))=>![X2]:((~(v2_struct_0(X2))&m1_pre_topc(X2,X1))=>![X3]:((~(v2_struct_0(X3))&m1_pre_topc(X3,X1))=>![X4]:((~(v2_struct_0(X4))&m1_pre_topc(X4,X1))=>![X5]:((~(v2_struct_0(X5))&m1_pre_topc(X5,X1))=>((m1_pre_topc(X2,X3)&m1_pre_topc(X4,X5))=>((~(r1_tsep_1(X3,X5))&~(r1_tsep_1(k2_tsep_1(X1,X3,X5),k1_tsep_1(X1,X2,X4))))|(r1_tsep_1(X3,X4)&r1_tsep_1(X5,X2))))))))), file('data/MPTP/proofs/418fb25b86864a2ea609f7156c94d40f.E_input', t35_tmap_1)).
+fof(t30_tsep_1, axiom, ![X1]:((~(v2_struct_0(X1))&(v2_pre_topc(X1)&l1_pre_topc(X1)))=>![X2]:((~(v2_struct_0(X2))&m1_pre_topc(X2,X1))=>![X3]:((~(v2_struct_0(X3))&m1_pre_topc(X3,X1))=>(~(r1_tsep_1(X2,X3))=>(m1_pre_topc(k2_tsep_1(X1,X2,X3),X2)&m1_pre_topc(k2_tsep_1(X1,X2,X3),X3)))))), file('data/MPTP/proofs/418fb25b86864a2ea609f7156c94d40f.E_input', t30_tsep_1)).
+fof(dt_k2_tsep_1, axiom, ![X1, X2, X3]:(((~(v2_struct_0(X1))&l1_pre_topc(X1))&((~(v2_struct_0(X2))&m1_pre_topc(X2,X1))&(~(v2_struct_0(X3))&m1_pre_topc(X3,X1))))=>(~(v2_struct_0(k2_tsep_1(X1,X2,X3)))&(v1_pre_topc(k2_tsep_1(X1,X2,X3))&m1_pre_topc(k2_tsep_1(X1,X2,X3),X1)))), file('data/MPTP/proofs/418fb25b86864a2ea609f7156c94d40f.E_input', dt_k2_tsep_1)).
+fof(symmetry_r1_tsep_1, axiom, ![X1, X2]:((l1_struct_0(X1)&l1_struct_0(X2))=>(r1_tsep_1(X1,X2)=>r1_tsep_1(X2,X1))), file('data/MPTP/proofs/418fb25b86864a2ea609f7156c94d40f.E_input', symmetry_r1_tsep_1)).
+fof(dt_l1_pre_topc, axiom, ![X1]:(l1_pre_topc(X1)=>l1_struct_0(X1)), file('data/MPTP/proofs/418fb25b86864a2ea609f7156c94d40f.E_input', dt_l1_pre_topc)).
+fof(dt_m1_pre_topc, axiom, ![X1]:(l1_pre_topc(X1)=>![X2]:(m1_pre_topc(X2,X1)=>l1_pre_topc(X2))), file('data/MPTP/proofs/418fb25b86864a2ea609f7156c94d40f.E_input', dt_m1_pre_topc)).
+fof(t2_tsep_1, axiom, ![X1]:(l1_pre_topc(X1)=>m1_pre_topc(X1,X1)), file('data/MPTP/proofs/418fb25b86864a2ea609f7156c94d40f.E_input', t2_tsep_1)).
+fof(c_0_8, negated_conjecture, ~(![X1]:((~(v2_struct_0(X1))&(v2_pre_topc(X1)&l1_pre_topc(X1)))=>![X2]:((~(v2_struct_0(X2))&m1_pre_topc(X2,X1))=>![X3]:((~(v2_struct_0(X3))&m1_pre_topc(X3,X1))=>![X4]:((~(v2_struct_0(X4))&m1_pre_topc(X4,X1))=>(~(r1_tsep_1(X2,X3))=>((~(r1_tsep_1(k2_tsep_1(X1,X2,X3),X4))=>(~(r1_tsep_1(X2,X4))&~(r1_tsep_1(X3,X4))))&(~(r1_tsep_1(X4,k2_tsep_1(X1,X2,X3)))=>(~(r1_tsep_1(X4,X2))&~(r1_tsep_1(X4,X3))))))))))), inference(assume_negation,[status(cth)],[t41_tmap_1])).
+fof(c_0_9, plain, ![X15, X16, X17, X18, X19]:(((r1_tsep_1(X17,X18)|~r1_tsep_1(X17,X19)|(~m1_pre_topc(X16,X17)|~m1_pre_topc(X18,X19))|(v2_struct_0(X19)|~m1_pre_topc(X19,X15))|(v2_struct_0(X18)|~m1_pre_topc(X18,X15))|(v2_struct_0(X17)|~m1_pre_topc(X17,X15))|(v2_struct_0(X16)|~m1_pre_topc(X16,X15))|(v2_struct_0(X15)|(~v2_pre_topc(X15)|~l1_pre_topc(X15))))&(r1_tsep_1(X19,X16)|~r1_tsep_1(X17,X19)|(~m1_pre_topc(X16,X17)|~m1_pre_topc(X18,X19))|(v2_struct_0(X19)|~m1_pre_topc(X19,X15))|(v2_struct_0(X18)|~m1_pre_topc(X18,X15))|(v2_struct_0(X17)|~m1_pre_topc(X17,X15))|(v2_struct_0(X16)|~m1_pre_topc(X16,X15))|(v2_struct_0(X15)|(~v2_pre_topc(X15)|~l1_pre_topc(X15)))))&((r1_tsep_1(X17,X18)|~r1_tsep_1(k2_tsep_1(X15,X17,X19),k1_tsep_1(X15,X16,X18))|(~m1_pre_topc(X16,X17)|~m1_pre_topc(X18,X19))|(v2_struct_0(X19)|~m1_pre_topc(X19,X15))|(v2_struct_0(X18)|~m1_pre_topc(X18,X15))|(v2_struct_0(X17)|~m1_pre_topc(X17,X15))|(v2_struct_0(X16)|~m1_pre_topc(X16,X15))|(v2_struct_0(X15)|(~v2_pre_topc(X15)|~l1_pre_topc(X15))))&(r1_tsep_1(X19,X16)|~r1_tsep_1(k2_tsep_1(X15,X17,X19),k1_tsep_1(X15,X16,X18))|(~m1_pre_topc(X16,X17)|~m1_pre_topc(X18,X19))|(v2_struct_0(X19)|~m1_pre_topc(X19,X15))|(v2_struct_0(X18)|~m1_pre_topc(X18,X15))|(v2_struct_0(X17)|~m1_pre_topc(X17,X15))|(v2_struct_0(X16)|~m1_pre_topc(X16,X15))|(v2_struct_0(X15)|(~v2_pre_topc(X15)|~l1_pre_topc(X15)))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t35_tmap_1])])])])])).
+fof(c_0_10, negated_conjecture, ((~v2_struct_0(esk1_0)&(v2_pre_topc(esk1_0)&l1_pre_topc(esk1_0)))&((~v2_struct_0(esk2_0)&m1_pre_topc(esk2_0,esk1_0))&((~v2_struct_0(esk3_0)&m1_pre_topc(esk3_0,esk1_0))&((~v2_struct_0(esk4_0)&m1_pre_topc(esk4_0,esk1_0))&(~r1_tsep_1(esk2_0,esk3_0)&(((~r1_tsep_1(esk4_0,k2_tsep_1(esk1_0,esk2_0,esk3_0))|~r1_tsep_1(k2_tsep_1(esk1_0,esk2_0,esk3_0),esk4_0))&(r1_tsep_1(esk4_0,esk2_0)|r1_tsep_1(esk4_0,esk3_0)|~r1_tsep_1(k2_tsep_1(esk1_0,esk2_0,esk3_0),esk4_0)))&((~r1_tsep_1(esk4_0,k2_tsep_1(esk1_0,esk2_0,esk3_0))|(r1_tsep_1(esk2_0,esk4_0)|r1_tsep_1(esk3_0,esk4_0)))&(r1_tsep_1(esk4_0,esk2_0)|r1_tsep_1(esk4_0,esk3_0)|(r1_tsep_1(esk2_0,esk4_0)|r1_tsep_1(esk3_0,esk4_0)))))))))), inference(distribute,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[c_0_8])])])])])).
+cnf(c_0_11, plain, (r1_tsep_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X4)|v2_struct_0(X3)|v2_struct_0(X2)|v2_struct_0(X5)|~r1_tsep_1(X3,X1)|~m1_pre_topc(X2,X3)|~m1_pre_topc(X4,X1)|~m1_pre_topc(X1,X5)|~m1_pre_topc(X4,X5)|~m1_pre_topc(X3,X5)|~m1_pre_topc(X2,X5)|~v2_pre_topc(X5)|~l1_pre_topc(X5)), inference(split_conjunct,[status(thm)],[c_0_9])).
+cnf(c_0_12, negated_conjecture, (m1_pre_topc(esk4_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_13, negated_conjecture, (l1_pre_topc(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_14, negated_conjecture, (v2_pre_topc(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_15, negated_conjecture, (~v2_struct_0(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_16, negated_conjecture, (~v2_struct_0(esk4_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+fof(c_0_17, plain, ![X22, X23, X24]:((m1_pre_topc(k2_tsep_1(X22,X23,X24),X23)|r1_tsep_1(X23,X24)|(v2_struct_0(X24)|~m1_pre_topc(X24,X22))|(v2_struct_0(X23)|~m1_pre_topc(X23,X22))|(v2_struct_0(X22)|(~v2_pre_topc(X22)|~l1_pre_topc(X22))))&(m1_pre_topc(k2_tsep_1(X22,X23,X24),X24)|r1_tsep_1(X23,X24)|(v2_struct_0(X24)|~m1_pre_topc(X24,X22))|(v2_struct_0(X23)|~m1_pre_topc(X23,X22))|(v2_struct_0(X22)|(~v2_pre_topc(X22)|~l1_pre_topc(X22))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t30_tsep_1])])])])])).
+fof(c_0_18, plain, ![X12, X13, X14]:((~v2_struct_0(k2_tsep_1(X12,X13,X14))|(v2_struct_0(X12)|~l1_pre_topc(X12)|(v2_struct_0(X13)|~m1_pre_topc(X13,X12)|(v2_struct_0(X14)|~m1_pre_topc(X14,X12)))))&((v1_pre_topc(k2_tsep_1(X12,X13,X14))|(v2_struct_0(X12)|~l1_pre_topc(X12)|(v2_struct_0(X13)|~m1_pre_topc(X13,X12)|(v2_struct_0(X14)|~m1_pre_topc(X14,X12)))))&(m1_pre_topc(k2_tsep_1(X12,X13,X14),X12)|(v2_struct_0(X12)|~l1_pre_topc(X12)|(v2_struct_0(X13)|~m1_pre_topc(X13,X12)|(v2_struct_0(X14)|~m1_pre_topc(X14,X12))))))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[dt_k2_tsep_1])])])])).
+fof(c_0_19, plain, ![X25, X26]:(~l1_struct_0(X25)|~l1_struct_0(X26)|(~r1_tsep_1(X25,X26)|r1_tsep_1(X26,X25))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[symmetry_r1_tsep_1])])).
+cnf(c_0_20, negated_conjecture, (r1_tsep_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X2)|v2_struct_0(X3)|~r1_tsep_1(X3,X1)|~m1_pre_topc(esk4_0,X1)|~m1_pre_topc(X3,esk1_0)|~m1_pre_topc(X2,esk1_0)|~m1_pre_topc(X1,esk1_0)|~m1_pre_topc(X2,X3)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_11, c_0_12]), c_0_13]), c_0_14])]), c_0_15]), c_0_16])).
+cnf(c_0_21, plain, (m1_pre_topc(k2_tsep_1(X1,X2,X3),X3)|r1_tsep_1(X2,X3)|v2_struct_0(X3)|v2_struct_0(X2)|v2_struct_0(X1)|~m1_pre_topc(X3,X1)|~m1_pre_topc(X2,X1)|~v2_pre_topc(X1)|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_17])).
+cnf(c_0_22, plain, (v2_struct_0(X1)|v2_struct_0(X2)|v2_struct_0(X3)|~v2_struct_0(k2_tsep_1(X1,X2,X3))|~l1_pre_topc(X1)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)), inference(split_conjunct,[status(thm)],[c_0_18])).
+cnf(c_0_23, plain, (r1_tsep_1(X1,X2)|v2_struct_0(X3)|v2_struct_0(X2)|v2_struct_0(X1)|v2_struct_0(X4)|v2_struct_0(X5)|~r1_tsep_1(X1,X3)|~m1_pre_topc(X4,X1)|~m1_pre_topc(X2,X3)|~m1_pre_topc(X3,X5)|~m1_pre_topc(X2,X5)|~m1_pre_topc(X1,X5)|~m1_pre_topc(X4,X5)|~v2_pre_topc(X5)|~l1_pre_topc(X5)), inference(split_conjunct,[status(thm)],[c_0_9])).
+cnf(c_0_24, plain, (r1_tsep_1(X2,X1)|~l1_struct_0(X1)|~l1_struct_0(X2)|~r1_tsep_1(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_19])).
+cnf(c_0_25, negated_conjecture, (r1_tsep_1(X1,k2_tsep_1(X2,X3,X4))|r1_tsep_1(X3,X4)|v2_struct_0(X2)|v2_struct_0(X3)|v2_struct_0(X4)|v2_struct_0(X1)|~r1_tsep_1(X4,X1)|~m1_pre_topc(k2_tsep_1(X2,X3,X4),esk1_0)|~m1_pre_topc(esk4_0,X1)|~m1_pre_topc(X4,esk1_0)|~m1_pre_topc(X1,esk1_0)|~m1_pre_topc(X4,X2)|~m1_pre_topc(X3,X2)|~l1_pre_topc(X2)|~v2_pre_topc(X2)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_20, c_0_21]), c_0_22])).
+cnf(c_0_26, negated_conjecture, (r1_tsep_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X2)|v2_struct_0(X3)|~r1_tsep_1(X1,X3)|~m1_pre_topc(esk4_0,X1)|~m1_pre_topc(X3,esk1_0)|~m1_pre_topc(X2,esk1_0)|~m1_pre_topc(X1,esk1_0)|~m1_pre_topc(X2,X3)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_23, c_0_12]), c_0_13]), c_0_14])]), c_0_15]), c_0_16])).
+cnf(c_0_27, negated_conjecture, (~r1_tsep_1(esk4_0,k2_tsep_1(esk1_0,esk2_0,esk3_0))|~r1_tsep_1(k2_tsep_1(esk1_0,esk2_0,esk3_0),esk4_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_28, negated_conjecture, (r1_tsep_1(k2_tsep_1(X1,X2,X3),X4)|r1_tsep_1(X2,X3)|v2_struct_0(X4)|v2_struct_0(X3)|v2_struct_0(X2)|v2_struct_0(X1)|~l1_struct_0(k2_tsep_1(X1,X2,X3))|~l1_struct_0(X4)|~r1_tsep_1(X3,X4)|~m1_pre_topc(k2_tsep_1(X1,X2,X3),esk1_0)|~m1_pre_topc(esk4_0,X4)|~m1_pre_topc(X3,esk1_0)|~m1_pre_topc(X4,esk1_0)|~m1_pre_topc(X3,X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)), inference(spm,[status(thm)],[c_0_24, c_0_25])).
+cnf(c_0_29, negated_conjecture, (m1_pre_topc(esk3_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_30, negated_conjecture, (m1_pre_topc(esk2_0,esk1_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_31, negated_conjecture, (~r1_tsep_1(esk2_0,esk3_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_32, negated_conjecture, (~v2_struct_0(esk3_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_33, negated_conjecture, (~v2_struct_0(esk2_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_34, negated_conjecture, (r1_tsep_1(esk2_0,esk4_0)|r1_tsep_1(esk3_0,esk4_0)|~r1_tsep_1(esk4_0,k2_tsep_1(esk1_0,esk2_0,esk3_0))), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_35, negated_conjecture, (r1_tsep_1(X1,k2_tsep_1(X2,X3,X4))|r1_tsep_1(X3,X4)|v2_struct_0(X2)|v2_struct_0(X3)|v2_struct_0(X4)|v2_struct_0(X1)|~r1_tsep_1(X1,X4)|~m1_pre_topc(k2_tsep_1(X2,X3,X4),esk1_0)|~m1_pre_topc(esk4_0,X1)|~m1_pre_topc(X4,esk1_0)|~m1_pre_topc(X1,esk1_0)|~m1_pre_topc(X4,X2)|~m1_pre_topc(X3,X2)|~l1_pre_topc(X2)|~v2_pre_topc(X2)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_26, c_0_21]), c_0_22])).
+cnf(c_0_36, negated_conjecture, (~l1_struct_0(k2_tsep_1(esk1_0,esk2_0,esk3_0))|~l1_struct_0(esk4_0)|~r1_tsep_1(esk4_0,k2_tsep_1(esk1_0,esk2_0,esk3_0))|~r1_tsep_1(esk3_0,esk4_0)|~m1_pre_topc(k2_tsep_1(esk1_0,esk2_0,esk3_0),esk1_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_27, c_0_28]), c_0_29]), c_0_12]), c_0_30]), c_0_13]), c_0_14])]), c_0_31]), c_0_16]), c_0_32]), c_0_33]), c_0_15])).
+cnf(c_0_37, negated_conjecture, (r1_tsep_1(esk3_0,esk4_0)|r1_tsep_1(esk2_0,esk4_0)|~r1_tsep_1(esk4_0,esk3_0)|~m1_pre_topc(k2_tsep_1(esk1_0,esk2_0,esk3_0),esk1_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_34, c_0_35]), c_0_29]), c_0_12]), c_0_30]), c_0_13]), c_0_14])]), c_0_31]), c_0_15]), c_0_33]), c_0_32]), c_0_16])).
+cnf(c_0_38, plain, (m1_pre_topc(k2_tsep_1(X1,X2,X3),X1)|v2_struct_0(X1)|v2_struct_0(X2)|v2_struct_0(X3)|~l1_pre_topc(X1)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)), inference(split_conjunct,[status(thm)],[c_0_18])).
+cnf(c_0_39, negated_conjecture, (~l1_struct_0(k2_tsep_1(esk1_0,esk2_0,esk3_0))|~l1_struct_0(esk4_0)|~r1_tsep_1(esk3_0,esk4_0)|~m1_pre_topc(k2_tsep_1(esk1_0,esk2_0,esk3_0),esk1_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_36, c_0_25]), c_0_29]), c_0_12]), c_0_30]), c_0_13]), c_0_14])]), c_0_31]), c_0_15]), c_0_33]), c_0_32]), c_0_16])).
+fof(c_0_40, plain, ![X10]:(~l1_pre_topc(X10)|l1_struct_0(X10)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_l1_pre_topc])])).
+fof(c_0_41, plain, ![X20, X21]:(~l1_pre_topc(X20)|(~m1_pre_topc(X21,X20)|l1_pre_topc(X21))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_m1_pre_topc])])])).
+cnf(c_0_42, plain, (m1_pre_topc(k2_tsep_1(X1,X2,X3),X2)|r1_tsep_1(X2,X3)|v2_struct_0(X3)|v2_struct_0(X2)|v2_struct_0(X1)|~m1_pre_topc(X3,X1)|~m1_pre_topc(X2,X1)|~v2_pre_topc(X1)|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_17])).
+cnf(c_0_43, negated_conjecture, (r1_tsep_1(esk2_0,esk4_0)|r1_tsep_1(esk3_0,esk4_0)|~r1_tsep_1(esk4_0,esk3_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_37, c_0_38]), c_0_29]), c_0_30]), c_0_13])]), c_0_32]), c_0_33]), c_0_15])).
+cnf(c_0_44, negated_conjecture, (r1_tsep_1(esk4_0,esk2_0)|r1_tsep_1(esk4_0,esk3_0)|r1_tsep_1(esk2_0,esk4_0)|r1_tsep_1(esk3_0,esk4_0)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_45, negated_conjecture, (~l1_struct_0(k2_tsep_1(esk1_0,esk2_0,esk3_0))|~l1_struct_0(esk4_0)|~r1_tsep_1(esk3_0,esk4_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_39, c_0_38]), c_0_29]), c_0_30]), c_0_13])]), c_0_32]), c_0_33]), c_0_15])).
+cnf(c_0_46, plain, (l1_struct_0(X1)|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_40])).
+cnf(c_0_47, plain, (l1_pre_topc(X2)|~l1_pre_topc(X1)|~m1_pre_topc(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_41])).
+cnf(c_0_48, negated_conjecture, (r1_tsep_1(X1,k2_tsep_1(X2,X3,X4))|r1_tsep_1(X3,X4)|v2_struct_0(X2)|v2_struct_0(X4)|v2_struct_0(X3)|v2_struct_0(X1)|~r1_tsep_1(X1,X3)|~m1_pre_topc(k2_tsep_1(X2,X3,X4),esk1_0)|~m1_pre_topc(esk4_0,X1)|~m1_pre_topc(X3,esk1_0)|~m1_pre_topc(X1,esk1_0)|~m1_pre_topc(X4,X2)|~m1_pre_topc(X3,X2)|~l1_pre_topc(X2)|~v2_pre_topc(X2)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_26, c_0_42]), c_0_22])).
+cnf(c_0_49, negated_conjecture, (r1_tsep_1(esk4_0,esk2_0)|r1_tsep_1(esk3_0,esk4_0)|r1_tsep_1(esk2_0,esk4_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(spm,[status(thm)],[c_0_43, c_0_44])).
+cnf(c_0_50, negated_conjecture, (~l1_struct_0(esk4_0)|~r1_tsep_1(esk3_0,esk4_0)|~m1_pre_topc(esk4_0,esk4_0)|~l1_pre_topc(k2_tsep_1(esk1_0,esk2_0,esk3_0))), inference(spm,[status(thm)],[c_0_45, c_0_46])).
+cnf(c_0_51, plain, (l1_pre_topc(k2_tsep_1(X1,X2,X3))|v2_struct_0(X1)|v2_struct_0(X2)|v2_struct_0(X3)|~m1_pre_topc(X3,X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)), inference(spm,[status(thm)],[c_0_47, c_0_38])).
+cnf(c_0_52, negated_conjecture, (r1_tsep_1(esk3_0,esk4_0)|r1_tsep_1(esk2_0,esk4_0)|~m1_pre_topc(k2_tsep_1(esk1_0,esk2_0,esk3_0),esk1_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(csr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_34, c_0_48]), c_0_30]), c_0_12]), c_0_29]), c_0_13]), c_0_14])]), c_0_31]), c_0_15]), c_0_32]), c_0_33]), c_0_16]), c_0_49])).
+cnf(c_0_53, negated_conjecture, (r1_tsep_1(X1,k2_tsep_1(X2,X3,X4))|r1_tsep_1(X3,X4)|v2_struct_0(X2)|v2_struct_0(X4)|v2_struct_0(X3)|v2_struct_0(X1)|~r1_tsep_1(X3,X1)|~m1_pre_topc(k2_tsep_1(X2,X3,X4),esk1_0)|~m1_pre_topc(esk4_0,X1)|~m1_pre_topc(X3,esk1_0)|~m1_pre_topc(X1,esk1_0)|~m1_pre_topc(X4,X2)|~m1_pre_topc(X3,X2)|~l1_pre_topc(X2)|~v2_pre_topc(X2)), inference(csr,[status(thm)],[inference(spm,[status(thm)],[c_0_20, c_0_42]), c_0_22])).
+cnf(c_0_54, negated_conjecture, (~l1_struct_0(esk4_0)|~r1_tsep_1(esk3_0,esk4_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_50, c_0_51]), c_0_29]), c_0_30]), c_0_13])]), c_0_15]), c_0_33]), c_0_32])).
+cnf(c_0_55, negated_conjecture, (r1_tsep_1(esk2_0,esk4_0)|r1_tsep_1(esk3_0,esk4_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_52, c_0_38]), c_0_29]), c_0_30]), c_0_13])]), c_0_32]), c_0_33]), c_0_15])).
+cnf(c_0_56, negated_conjecture, (r1_tsep_1(k2_tsep_1(X1,X2,X3),X4)|r1_tsep_1(X2,X3)|v2_struct_0(X4)|v2_struct_0(X2)|v2_struct_0(X3)|v2_struct_0(X1)|~l1_struct_0(k2_tsep_1(X1,X2,X3))|~l1_struct_0(X4)|~r1_tsep_1(X2,X4)|~m1_pre_topc(k2_tsep_1(X1,X2,X3),esk1_0)|~m1_pre_topc(esk4_0,X4)|~m1_pre_topc(X2,esk1_0)|~m1_pre_topc(X4,esk1_0)|~m1_pre_topc(X3,X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)), inference(spm,[status(thm)],[c_0_24, c_0_53])).
+cnf(c_0_57, negated_conjecture, (r1_tsep_1(esk2_0,esk4_0)|~l1_struct_0(esk4_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(spm,[status(thm)],[c_0_54, c_0_55])).
+cnf(c_0_58, negated_conjecture, (~l1_struct_0(k2_tsep_1(esk1_0,esk2_0,esk3_0))|~l1_struct_0(esk4_0)|~r1_tsep_1(esk4_0,k2_tsep_1(esk1_0,esk2_0,esk3_0))|~m1_pre_topc(k2_tsep_1(esk1_0,esk2_0,esk3_0),esk1_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(csr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_27, c_0_56]), c_0_30]), c_0_12]), c_0_29]), c_0_13]), c_0_14])]), c_0_31]), c_0_16]), c_0_33]), c_0_32]), c_0_15]), c_0_57])).
+cnf(c_0_59, negated_conjecture, (~l1_struct_0(k2_tsep_1(esk1_0,esk2_0,esk3_0))|~l1_struct_0(esk4_0)|~m1_pre_topc(k2_tsep_1(esk1_0,esk2_0,esk3_0),esk1_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(csr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_58, c_0_53]), c_0_30]), c_0_12]), c_0_29]), c_0_13]), c_0_14])]), c_0_31]), c_0_15]), c_0_32]), c_0_33]), c_0_16]), c_0_57])).
+cnf(c_0_60, negated_conjecture, (~l1_struct_0(k2_tsep_1(esk1_0,esk2_0,esk3_0))|~l1_struct_0(esk4_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_59, c_0_38]), c_0_29]), c_0_30]), c_0_13])]), c_0_32]), c_0_33]), c_0_15])).
+cnf(c_0_61, negated_conjecture, (~l1_struct_0(esk4_0)|~m1_pre_topc(esk4_0,esk4_0)|~l1_pre_topc(k2_tsep_1(esk1_0,esk2_0,esk3_0))), inference(spm,[status(thm)],[c_0_60, c_0_46])).
+fof(c_0_62, plain, ![X11]:(~l1_pre_topc(X11)|m1_pre_topc(X11,X11)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t2_tsep_1])])).
+cnf(c_0_63, negated_conjecture, (~l1_struct_0(esk4_0)|~m1_pre_topc(esk4_0,esk4_0)), inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_61, c_0_51]), c_0_29]), c_0_30]), c_0_13])]), c_0_15]), c_0_33]), c_0_32])).
+cnf(c_0_64, plain, (m1_pre_topc(X1,X1)|~l1_pre_topc(X1)), inference(split_conjunct,[status(thm)],[c_0_62])).
+cnf(c_0_65, negated_conjecture, (l1_pre_topc(esk4_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_47, c_0_12]), c_0_13])])).
+cnf(c_0_66, negated_conjecture, (~l1_struct_0(esk4_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_63, c_0_64]), c_0_65])])).
+cnf(c_0_67, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_66, c_0_46]), c_0_65])]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 68
+# Proof object clause steps            : 51
+# Proof object formula steps           : 17
+# Proof object conjectures             : 43
+# Proof object clause conjectures      : 40
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 23
+# Proof object initial formulas used   : 8
+# Proof object generating inferences   : 28
+# Proof object simplifying inferences  : 131
+# Training examples: 0 positive, 0 negative
+# Parsed axioms                        : 8
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 27
+# Removed in clause preprocessing      : 0
+# Initial clauses in saturation        : 27
+# Processed clauses                    : 1608
+# ...of these trivial                  : 0
+# ...subsumed                          : 757
+# ...remaining for further processing  : 851
+# Other redundant clauses eliminated   : 0
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 404
+# Backward-rewritten                   : 0
+# Generated clauses                    : 3775
+# ...of the previous two non-trivial   : 3754
+# Contextual simplify-reflections      : 117
+# Paramodulations                      : 3775
+# Factorizations                       : 0
+# Equation resolutions                 : 0
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 420
+#    Positive orientable unit clauses  : 8
+#    Positive unorientable unit clauses: 0
+#    Negative unit clauses             : 6
+#    Non-unit-clauses                  : 406
+# Current number of unprocessed clauses: 1925
+# ...number of literals in the above   : 33331
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 431
+# Clause-clause subsumption calls (NU) : 76146
+# Rec. Clause-clause subsumption calls : 11055
+# Non-unit clause-clause subsumptions  : 1278
+# Unit Clause-clause subsumption calls : 40
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 0
+# BW rewrite match successes           : 0
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 143424
+
+# -------------------------------------------------
+# User time                : 0.190 s
+# System time              : 0.003 s
+# Total time               : 0.193 s
+# Maximum resident set size: 28644 pages

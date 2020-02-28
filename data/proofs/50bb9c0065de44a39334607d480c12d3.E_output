@@ -1,0 +1,126 @@
+# No SInE strategy applied
+# Auto-Mode selected heuristic G_E___300_C18_F1_SE_CS_SP_S0Y
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.008 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(dt_k11_lattice3, axiom, ![X1, X2, X3]:((l1_orders_2(X1)&(m1_subset_1(X2,u1_struct_0(X1))&m1_subset_1(X3,u1_struct_0(X1))))=>m1_subset_1(k11_lattice3(X1,X2,X3),u1_struct_0(X1))), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', dt_k11_lattice3)).
+fof(redefinition_k12_lattice3, axiom, ![X1, X2, X3]:(((v5_orders_2(X1)&(v2_lattice3(X1)&l1_orders_2(X1)))&(m1_subset_1(X2,u1_struct_0(X1))&m1_subset_1(X3,u1_struct_0(X1))))=>k12_lattice3(X1,X2,X3)=k11_lattice3(X1,X2,X3)), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', redefinition_k12_lattice3)).
+fof(t7_yellow_1, conjecture, ![X1]:(~(v1_xboole_0(X1))=>(v2_lattice3(k2_yellow_1(X1))=>![X2]:(m1_subset_1(X2,u1_struct_0(k2_yellow_1(X1)))=>![X3]:(m1_subset_1(X3,u1_struct_0(k2_yellow_1(X1)))=>r1_tarski(k11_lattice3(k2_yellow_1(X1),X2,X3),k3_xboole_0(X2,X3)))))), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', t7_yellow_1)).
+fof(t3_yellow_1, axiom, ![X1]:(~(v1_xboole_0(X1))=>![X2]:(m1_subset_1(X2,u1_struct_0(k2_yellow_1(X1)))=>![X3]:(m1_subset_1(X3,u1_struct_0(k2_yellow_1(X1)))=>(r3_orders_2(k2_yellow_1(X1),X2,X3)<=>r1_tarski(X2,X3))))), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', t3_yellow_1)).
+fof(redefinition_r3_orders_2, axiom, ![X1, X2, X3]:(((~(v2_struct_0(X1))&(v3_orders_2(X1)&l1_orders_2(X1)))&(m1_subset_1(X2,u1_struct_0(X1))&m1_subset_1(X3,u1_struct_0(X1))))=>(r3_orders_2(X1,X2,X3)<=>r1_orders_2(X1,X2,X3))), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', redefinition_r3_orders_2)).
+fof(dt_k2_yellow_1, axiom, ![X1]:(v1_orders_2(k2_yellow_1(X1))&l1_orders_2(k2_yellow_1(X1))), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', dt_k2_yellow_1)).
+fof(fc5_yellow_1, axiom, ![X1]:(v1_orders_2(k2_yellow_1(X1))&(v3_orders_2(k2_yellow_1(X1))&(v4_orders_2(k2_yellow_1(X1))&v5_orders_2(k2_yellow_1(X1))))), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', fc5_yellow_1)).
+fof(fc6_yellow_1, axiom, ![X1]:(~(v1_xboole_0(X1))=>(~(v2_struct_0(k2_yellow_1(X1)))&v1_orders_2(k2_yellow_1(X1)))), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', fc6_yellow_1)).
+fof(t23_yellow_0, axiom, ![X1]:((v5_orders_2(X1)&(v2_lattice3(X1)&l1_orders_2(X1)))=>![X2]:(m1_subset_1(X2,u1_struct_0(X1))=>![X3]:(m1_subset_1(X3,u1_struct_0(X1))=>![X4]:(m1_subset_1(X4,u1_struct_0(X1))=>(X4=k12_lattice3(X1,X2,X3)<=>(r1_orders_2(X1,X4,X2)&(r1_orders_2(X1,X4,X3)&![X5]:(m1_subset_1(X5,u1_struct_0(X1))=>((r1_orders_2(X1,X5,X2)&r1_orders_2(X1,X5,X3))=>r1_orders_2(X1,X5,X4)))))))))), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', t23_yellow_0)).
+fof(t19_xboole_1, axiom, ![X1, X2, X3]:((r1_tarski(X1,X2)&r1_tarski(X1,X3))=>r1_tarski(X1,k3_xboole_0(X2,X3))), file('data/MPTP/proofs/50bb9c0065de44a39334607d480c12d3.E_input', t19_xboole_1)).
+fof(c_0_10, plain, ![X10, X11, X12]:(~l1_orders_2(X10)|(~m1_subset_1(X11,u1_struct_0(X10))|~m1_subset_1(X12,u1_struct_0(X10)))|m1_subset_1(k11_lattice3(X10,X11,X12),u1_struct_0(X10))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[dt_k11_lattice3])])).
+fof(c_0_11, plain, ![X19, X20, X21]:(~v5_orders_2(X19)|(~v2_lattice3(X19)|~l1_orders_2(X19))|(~m1_subset_1(X20,u1_struct_0(X19))|~m1_subset_1(X21,u1_struct_0(X19)))|k12_lattice3(X19,X20,X21)=k11_lattice3(X19,X20,X21)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[redefinition_k12_lattice3])])).
+fof(c_0_12, negated_conjecture, ~(![X1]:(~(v1_xboole_0(X1))=>(v2_lattice3(k2_yellow_1(X1))=>![X2]:(m1_subset_1(X2,u1_struct_0(k2_yellow_1(X1)))=>![X3]:(m1_subset_1(X3,u1_struct_0(k2_yellow_1(X1)))=>r1_tarski(k11_lattice3(k2_yellow_1(X1),X2,X3),k3_xboole_0(X2,X3))))))), inference(assume_negation,[status(cth)],[t7_yellow_1])).
+fof(c_0_13, plain, ![X29, X30, X31]:((~r3_orders_2(k2_yellow_1(X29),X30,X31)|r1_tarski(X30,X31)|~m1_subset_1(X31,u1_struct_0(k2_yellow_1(X29)))|~m1_subset_1(X30,u1_struct_0(k2_yellow_1(X29)))|v1_xboole_0(X29))&(~r1_tarski(X30,X31)|r3_orders_2(k2_yellow_1(X29),X30,X31)|~m1_subset_1(X31,u1_struct_0(k2_yellow_1(X29)))|~m1_subset_1(X30,u1_struct_0(k2_yellow_1(X29)))|v1_xboole_0(X29))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[t3_yellow_1])])])])])).
+fof(c_0_14, plain, ![X13, X14, X15]:((~r3_orders_2(X13,X14,X15)|r1_orders_2(X13,X14,X15)|(v2_struct_0(X13)|(~v3_orders_2(X13)|~l1_orders_2(X13))|(~m1_subset_1(X14,u1_struct_0(X13))|~m1_subset_1(X15,u1_struct_0(X13)))))&(~r1_orders_2(X13,X14,X15)|r3_orders_2(X13,X14,X15)|(v2_struct_0(X13)|(~v3_orders_2(X13)|~l1_orders_2(X13))|(~m1_subset_1(X14,u1_struct_0(X13))|~m1_subset_1(X15,u1_struct_0(X13)))))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[redefinition_r3_orders_2])])])])).
+fof(c_0_15, plain, ![X22]:(v1_orders_2(k2_yellow_1(X22))&l1_orders_2(k2_yellow_1(X22))), inference(variable_rename,[status(thm)],[dt_k2_yellow_1])).
+fof(c_0_16, plain, ![X9]:(v1_orders_2(k2_yellow_1(X9))&(v3_orders_2(k2_yellow_1(X9))&(v4_orders_2(k2_yellow_1(X9))&v5_orders_2(k2_yellow_1(X9))))), inference(variable_rename,[status(thm)],[fc5_yellow_1])).
+fof(c_0_17, plain, ![X32]:((~v2_struct_0(k2_yellow_1(X32))|v1_xboole_0(X32))&(v1_orders_2(k2_yellow_1(X32))|v1_xboole_0(X32))), inference(distribute,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[fc6_yellow_1])])])])).
+fof(c_0_18, plain, ![X23, X24, X25, X26, X27]:(((r1_orders_2(X23,X26,X24)|X26!=k12_lattice3(X23,X24,X25)|~m1_subset_1(X26,u1_struct_0(X23))|~m1_subset_1(X25,u1_struct_0(X23))|~m1_subset_1(X24,u1_struct_0(X23))|(~v5_orders_2(X23)|(~v2_lattice3(X23)|~l1_orders_2(X23))))&((r1_orders_2(X23,X26,X25)|X26!=k12_lattice3(X23,X24,X25)|~m1_subset_1(X26,u1_struct_0(X23))|~m1_subset_1(X25,u1_struct_0(X23))|~m1_subset_1(X24,u1_struct_0(X23))|(~v5_orders_2(X23)|(~v2_lattice3(X23)|~l1_orders_2(X23))))&(~m1_subset_1(X27,u1_struct_0(X23))|(~r1_orders_2(X23,X27,X24)|~r1_orders_2(X23,X27,X25)|r1_orders_2(X23,X27,X26))|X26!=k12_lattice3(X23,X24,X25)|~m1_subset_1(X26,u1_struct_0(X23))|~m1_subset_1(X25,u1_struct_0(X23))|~m1_subset_1(X24,u1_struct_0(X23))|(~v5_orders_2(X23)|(~v2_lattice3(X23)|~l1_orders_2(X23))))))&((m1_subset_1(esk4_4(X23,X24,X25,X26),u1_struct_0(X23))|~r1_orders_2(X23,X26,X25)|~r1_orders_2(X23,X26,X24)|X26=k12_lattice3(X23,X24,X25)|~m1_subset_1(X26,u1_struct_0(X23))|~m1_subset_1(X25,u1_struct_0(X23))|~m1_subset_1(X24,u1_struct_0(X23))|(~v5_orders_2(X23)|(~v2_lattice3(X23)|~l1_orders_2(X23))))&(((r1_orders_2(X23,esk4_4(X23,X24,X25,X26),X24)|~r1_orders_2(X23,X26,X25)|~r1_orders_2(X23,X26,X24)|X26=k12_lattice3(X23,X24,X25)|~m1_subset_1(X26,u1_struct_0(X23))|~m1_subset_1(X25,u1_struct_0(X23))|~m1_subset_1(X24,u1_struct_0(X23))|(~v5_orders_2(X23)|(~v2_lattice3(X23)|~l1_orders_2(X23))))&(r1_orders_2(X23,esk4_4(X23,X24,X25,X26),X25)|~r1_orders_2(X23,X26,X25)|~r1_orders_2(X23,X26,X24)|X26=k12_lattice3(X23,X24,X25)|~m1_subset_1(X26,u1_struct_0(X23))|~m1_subset_1(X25,u1_struct_0(X23))|~m1_subset_1(X24,u1_struct_0(X23))|(~v5_orders_2(X23)|(~v2_lattice3(X23)|~l1_orders_2(X23)))))&(~r1_orders_2(X23,esk4_4(X23,X24,X25,X26),X26)|~r1_orders_2(X23,X26,X25)|~r1_orders_2(X23,X26,X24)|X26=k12_lattice3(X23,X24,X25)|~m1_subset_1(X26,u1_struct_0(X23))|~m1_subset_1(X25,u1_struct_0(X23))|~m1_subset_1(X24,u1_struct_0(X23))|(~v5_orders_2(X23)|(~v2_lattice3(X23)|~l1_orders_2(X23))))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t23_yellow_0])])])])])).
+cnf(c_0_19, plain, (m1_subset_1(k11_lattice3(X1,X2,X3),u1_struct_0(X1))|~l1_orders_2(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_20, plain, (k12_lattice3(X1,X2,X3)=k11_lattice3(X1,X2,X3)|~v5_orders_2(X1)|~v2_lattice3(X1)|~l1_orders_2(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))), inference(split_conjunct,[status(thm)],[c_0_11])).
+fof(c_0_21, negated_conjecture, (~v1_xboole_0(esk1_0)&(v2_lattice3(k2_yellow_1(esk1_0))&(m1_subset_1(esk2_0,u1_struct_0(k2_yellow_1(esk1_0)))&(m1_subset_1(esk3_0,u1_struct_0(k2_yellow_1(esk1_0)))&~r1_tarski(k11_lattice3(k2_yellow_1(esk1_0),esk2_0,esk3_0),k3_xboole_0(esk2_0,esk3_0)))))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[c_0_12])])])])).
+fof(c_0_22, plain, ![X16, X17, X18]:(~r1_tarski(X16,X17)|~r1_tarski(X16,X18)|r1_tarski(X16,k3_xboole_0(X17,X18))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t19_xboole_1])])).
+cnf(c_0_23, plain, (r1_tarski(X2,X3)|v1_xboole_0(X1)|~r3_orders_2(k2_yellow_1(X1),X2,X3)|~m1_subset_1(X3,u1_struct_0(k2_yellow_1(X1)))|~m1_subset_1(X2,u1_struct_0(k2_yellow_1(X1)))), inference(split_conjunct,[status(thm)],[c_0_13])).
+cnf(c_0_24, plain, (r3_orders_2(X1,X2,X3)|v2_struct_0(X1)|~r1_orders_2(X1,X2,X3)|~v3_orders_2(X1)|~l1_orders_2(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))), inference(split_conjunct,[status(thm)],[c_0_14])).
+cnf(c_0_25, plain, (l1_orders_2(k2_yellow_1(X1))), inference(split_conjunct,[status(thm)],[c_0_15])).
+cnf(c_0_26, plain, (v3_orders_2(k2_yellow_1(X1))), inference(split_conjunct,[status(thm)],[c_0_16])).
+cnf(c_0_27, plain, (v1_xboole_0(X1)|~v2_struct_0(k2_yellow_1(X1))), inference(split_conjunct,[status(thm)],[c_0_17])).
+cnf(c_0_28, plain, (r1_orders_2(X1,X2,X3)|X2!=k12_lattice3(X1,X4,X3)|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))|~m1_subset_1(X4,u1_struct_0(X1))|~v5_orders_2(X1)|~v2_lattice3(X1)|~l1_orders_2(X1)), inference(split_conjunct,[status(thm)],[c_0_18])).
+cnf(c_0_29, plain, (m1_subset_1(k12_lattice3(X1,X2,X3),u1_struct_0(X1))|~l1_orders_2(X1)|~v5_orders_2(X1)|~m1_subset_1(X3,u1_struct_0(X1))|~m1_subset_1(X2,u1_struct_0(X1))|~v2_lattice3(X1)), inference(spm,[status(thm)],[c_0_19, c_0_20])).
+cnf(c_0_30, negated_conjecture, (~r1_tarski(k11_lattice3(k2_yellow_1(esk1_0),esk2_0,esk3_0),k3_xboole_0(esk2_0,esk3_0))), inference(split_conjunct,[status(thm)],[c_0_21])).
+cnf(c_0_31, plain, (r1_tarski(X1,k3_xboole_0(X2,X3))|~r1_tarski(X1,X2)|~r1_tarski(X1,X3)), inference(split_conjunct,[status(thm)],[c_0_22])).
+cnf(c_0_32, plain, (r1_tarski(X1,X2)|v1_xboole_0(X3)|~r1_orders_2(k2_yellow_1(X3),X1,X2)|~m1_subset_1(X2,u1_struct_0(k2_yellow_1(X3)))|~m1_subset_1(X1,u1_struct_0(k2_yellow_1(X3)))), inference(csr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_23, c_0_24]), c_0_25]), c_0_26])]), c_0_27])).
+cnf(c_0_33, plain, (r1_orders_2(X1,k12_lattice3(X1,X2,X3),X3)|~l1_orders_2(X1)|~v5_orders_2(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))|~v2_lattice3(X1)), inference(csr,[status(thm)],[inference(er,[status(thm)],[c_0_28]), c_0_29])).
+cnf(c_0_34, plain, (v5_orders_2(k2_yellow_1(X1))), inference(split_conjunct,[status(thm)],[c_0_16])).
+cnf(c_0_35, plain, (r1_orders_2(X1,X2,X3)|X2!=k12_lattice3(X1,X3,X4)|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X4,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))|~v5_orders_2(X1)|~v2_lattice3(X1)|~l1_orders_2(X1)), inference(split_conjunct,[status(thm)],[c_0_18])).
+cnf(c_0_36, negated_conjecture, (~r1_tarski(k11_lattice3(k2_yellow_1(esk1_0),esk2_0,esk3_0),esk3_0)|~r1_tarski(k11_lattice3(k2_yellow_1(esk1_0),esk2_0,esk3_0),esk2_0)), inference(spm,[status(thm)],[c_0_30, c_0_31])).
+cnf(c_0_37, negated_conjecture, (m1_subset_1(esk3_0,u1_struct_0(k2_yellow_1(esk1_0)))), inference(split_conjunct,[status(thm)],[c_0_21])).
+cnf(c_0_38, negated_conjecture, (m1_subset_1(esk2_0,u1_struct_0(k2_yellow_1(esk1_0)))), inference(split_conjunct,[status(thm)],[c_0_21])).
+cnf(c_0_39, negated_conjecture, (v2_lattice3(k2_yellow_1(esk1_0))), inference(split_conjunct,[status(thm)],[c_0_21])).
+cnf(c_0_40, plain, (r1_tarski(k12_lattice3(k2_yellow_1(X1),X2,X3),X3)|v1_xboole_0(X1)|~m1_subset_1(k12_lattice3(k2_yellow_1(X1),X2,X3),u1_struct_0(k2_yellow_1(X1)))|~m1_subset_1(X3,u1_struct_0(k2_yellow_1(X1)))|~m1_subset_1(X2,u1_struct_0(k2_yellow_1(X1)))|~v2_lattice3(k2_yellow_1(X1))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_32, c_0_33]), c_0_25]), c_0_34])])).
+cnf(c_0_41, plain, (r1_orders_2(X1,k12_lattice3(X1,X2,X3),X2)|~l1_orders_2(X1)|~v5_orders_2(X1)|~m1_subset_1(X3,u1_struct_0(X1))|~m1_subset_1(X2,u1_struct_0(X1))|~v2_lattice3(X1)), inference(csr,[status(thm)],[inference(er,[status(thm)],[c_0_35]), c_0_29])).
+cnf(c_0_42, negated_conjecture, (~r1_tarski(k12_lattice3(k2_yellow_1(esk1_0),esk2_0,esk3_0),esk3_0)|~r1_tarski(k12_lattice3(k2_yellow_1(esk1_0),esk2_0,esk3_0),esk2_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_36, c_0_20]), c_0_25]), c_0_34]), c_0_37]), c_0_38]), c_0_39])])).
+cnf(c_0_43, plain, (r1_tarski(k12_lattice3(k2_yellow_1(X1),X2,X3),X3)|v1_xboole_0(X1)|~m1_subset_1(X3,u1_struct_0(k2_yellow_1(X1)))|~m1_subset_1(X2,u1_struct_0(k2_yellow_1(X1)))|~v2_lattice3(k2_yellow_1(X1))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_40, c_0_29]), c_0_25]), c_0_34])])).
+cnf(c_0_44, negated_conjecture, (~v1_xboole_0(esk1_0)), inference(split_conjunct,[status(thm)],[c_0_21])).
+cnf(c_0_45, plain, (r1_tarski(k12_lattice3(k2_yellow_1(X1),X2,X3),X2)|v1_xboole_0(X1)|~m1_subset_1(k12_lattice3(k2_yellow_1(X1),X2,X3),u1_struct_0(k2_yellow_1(X1)))|~m1_subset_1(X2,u1_struct_0(k2_yellow_1(X1)))|~m1_subset_1(X3,u1_struct_0(k2_yellow_1(X1)))|~v2_lattice3(k2_yellow_1(X1))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_32, c_0_41]), c_0_25]), c_0_34])])).
+cnf(c_0_46, negated_conjecture, (~r1_tarski(k12_lattice3(k2_yellow_1(esk1_0),esk2_0,esk3_0),esk2_0)), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_42, c_0_43]), c_0_37]), c_0_38]), c_0_39])]), c_0_44])).
+cnf(c_0_47, plain, (r1_tarski(k12_lattice3(k2_yellow_1(X1),X2,X3),X2)|v1_xboole_0(X1)|~m1_subset_1(X2,u1_struct_0(k2_yellow_1(X1)))|~m1_subset_1(X3,u1_struct_0(k2_yellow_1(X1)))|~v2_lattice3(k2_yellow_1(X1))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_45, c_0_29]), c_0_25]), c_0_34])])).
+cnf(c_0_48, negated_conjecture, ($false), inference(sr,[status(thm)],[inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_46, c_0_47]), c_0_38]), c_0_37]), c_0_39])]), c_0_44]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 49
+# Proof object clause steps            : 28
+# Proof object formula steps           : 21
+# Proof object conjectures             : 12
+# Proof object clause conjectures      : 9
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 16
+# Proof object initial formulas used   : 10
+# Proof object generating inferences   : 10
+# Proof object simplifying inferences  : 36
+# Training examples: 0 positive, 0 negative
+# Parsed axioms                        : 10
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 27
+# Removed in clause preprocessing      : 0
+# Initial clauses in saturation        : 27
+# Processed clauses                    : 39
+# ...of these trivial                  : 2
+# ...subsumed                          : 2
+# ...remaining for further processing  : 35
+# Other redundant clauses eliminated   : 2
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 2
+# Backward-rewritten                   : 0
+# Generated clauses                    : 22
+# ...of the previous two non-trivial   : 19
+# Contextual simplify-reflections      : 4
+# Paramodulations                      : 20
+# Factorizations                       : 0
+# Equation resolutions                 : 2
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 31
+#    Positive orientable unit clauses  : 8
+#    Positive unorientable unit clauses: 0
+#    Negative unit clauses             : 4
+#    Non-unit-clauses                  : 19
+# Current number of unprocessed clauses: 6
+# ...number of literals in the above   : 60
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 2
+# Clause-clause subsumption calls (NU) : 163
+# Rec. Clause-clause subsumption calls : 17
+# Non-unit clause-clause subsumptions  : 8
+# Unit Clause-clause subsumption calls : 6
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 0
+# BW rewrite match successes           : 0
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 3005
+
+# -------------------------------------------------
+# User time                : 0.010 s
+# System time              : 0.000 s
+# Total time               : 0.010 s
+# Maximum resident set size: 28744 pages

@@ -1,0 +1,128 @@
+# No SInE strategy applied
+# Auto-Mode selected heuristic G_E___207_C01_F1_SE_CS_SP_PI_S0Y
+# and selection function SelectMaxLComplexAvoidPosPred.
+#
+# Preprocessing time       : 0.008 s
+
+# Proof found!
+# SZS status Theorem
+# SZS output start CNFRefutation
+fof(d4_xboole_0, axiom, ![X1, X2, X3]:(X3=k3_xboole_0(X1,X2)<=>![X4]:(r2_hidden(X4,X3)<=>(r2_hidden(X4,X1)&r2_hidden(X4,X2)))), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', d4_xboole_0)).
+fof(t12_setfam_1, axiom, ![X1, X2]:k1_setfam_1(k2_tarski(X1,X2))=k3_xboole_0(X1,X2), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', t12_setfam_1)).
+fof(t11_xboole_1, axiom, ![X1, X2, X3]:(r1_tarski(k2_xboole_0(X1,X2),X3)=>r1_tarski(X1,X3)), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', t11_xboole_1)).
+fof(t12_xboole_1, axiom, ![X1, X2]:(r1_tarski(X1,X2)=>k2_xboole_0(X1,X2)=X2), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', t12_xboole_1)).
+fof(t133_relat_1, conjecture, ![X1, X2, X3]:(v1_relat_1(X3)=>![X4]:(v1_relat_1(X4)=>((r1_tarski(X3,X4)&r1_tarski(X1,X2))=>r1_tarski(k8_relat_1(X1,X3),k8_relat_1(X2,X4))))), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', t133_relat_1)).
+fof(t28_xboole_1, axiom, ![X1, X2]:(r1_tarski(X1,X2)=>k3_xboole_0(X1,X2)=X1), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', t28_xboole_1)).
+fof(t117_relat_1, axiom, ![X1, X2]:(v1_relat_1(X2)=>r1_tarski(k8_relat_1(X1,X2),X2)), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', t117_relat_1)).
+fof(t132_relat_1, axiom, ![X1, X2]:(v1_relat_1(X2)=>![X3]:(v1_relat_1(X3)=>(r1_tarski(X2,X3)=>r1_tarski(k8_relat_1(X1,X2),k8_relat_1(X1,X3))))), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', t132_relat_1)).
+fof(t129_relat_1, axiom, ![X1, X2, X3]:(v1_relat_1(X3)=>(r1_tarski(X1,X2)=>k8_relat_1(X2,k8_relat_1(X1,X3))=k8_relat_1(X1,X3))), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', t129_relat_1)).
+fof(d1_relat_1, axiom, ![X1]:(v1_relat_1(X1)<=>![X2]:~((r2_hidden(X2,X1)&![X3, X4]:~(X2=k4_tarski(X3,X4))))), file('data/MPTP/proofs/6cc2d7abb43046a4a6ea018819d9443c.E_input', d1_relat_1)).
+fof(c_0_10, plain, ![X5, X6, X7, X8, X9, X10, X11, X12]:((((r2_hidden(X8,X5)|~r2_hidden(X8,X7)|X7!=k3_xboole_0(X5,X6))&(r2_hidden(X8,X6)|~r2_hidden(X8,X7)|X7!=k3_xboole_0(X5,X6)))&(~r2_hidden(X9,X5)|~r2_hidden(X9,X6)|r2_hidden(X9,X7)|X7!=k3_xboole_0(X5,X6)))&((~r2_hidden(esk1_3(X10,X11,X12),X12)|(~r2_hidden(esk1_3(X10,X11,X12),X10)|~r2_hidden(esk1_3(X10,X11,X12),X11))|X12=k3_xboole_0(X10,X11))&((r2_hidden(esk1_3(X10,X11,X12),X10)|r2_hidden(esk1_3(X10,X11,X12),X12)|X12=k3_xboole_0(X10,X11))&(r2_hidden(esk1_3(X10,X11,X12),X11)|r2_hidden(esk1_3(X10,X11,X12),X12)|X12=k3_xboole_0(X10,X11))))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(fof_nnf,[status(thm)],[d4_xboole_0])])])])])])).
+fof(c_0_11, plain, ![X14, X15]:k1_setfam_1(k2_tarski(X14,X15))=k3_xboole_0(X14,X15), inference(variable_rename,[status(thm)],[t12_setfam_1])).
+fof(c_0_12, plain, ![X16, X17, X18]:(~r1_tarski(k2_xboole_0(X16,X17),X18)|r1_tarski(X16,X18)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t11_xboole_1])])).
+fof(c_0_13, plain, ![X19, X20]:(~r1_tarski(X19,X20)|k2_xboole_0(X19,X20)=X20), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t12_xboole_1])])).
+fof(c_0_14, negated_conjecture, ~(![X1, X2, X3]:(v1_relat_1(X3)=>![X4]:(v1_relat_1(X4)=>((r1_tarski(X3,X4)&r1_tarski(X1,X2))=>r1_tarski(k8_relat_1(X1,X3),k8_relat_1(X2,X4)))))), inference(assume_negation,[status(cth)],[t133_relat_1])).
+cnf(c_0_15, plain, (r2_hidden(X1,X2)|~r2_hidden(X1,X3)|X3!=k3_xboole_0(X4,X2)), inference(split_conjunct,[status(thm)],[c_0_10])).
+cnf(c_0_16, plain, (k1_setfam_1(k2_tarski(X1,X2))=k3_xboole_0(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_11])).
+fof(c_0_17, plain, ![X25, X26]:(~r1_tarski(X25,X26)|k3_xboole_0(X25,X26)=X25), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t28_xboole_1])])).
+cnf(c_0_18, plain, (r1_tarski(X1,X3)|~r1_tarski(k2_xboole_0(X1,X2),X3)), inference(split_conjunct,[status(thm)],[c_0_12])).
+cnf(c_0_19, plain, (k2_xboole_0(X1,X2)=X2|~r1_tarski(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_13])).
+fof(c_0_20, negated_conjecture, (v1_relat_1(esk4_0)&(v1_relat_1(esk5_0)&((r1_tarski(esk4_0,esk5_0)&r1_tarski(esk2_0,esk3_0))&~r1_tarski(k8_relat_1(esk2_0,esk4_0),k8_relat_1(esk3_0,esk5_0))))), inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[c_0_14])])])).
+cnf(c_0_21, plain, (r2_hidden(X1,X2)|X3!=k1_setfam_1(k2_tarski(X4,X2))|~r2_hidden(X1,X3)), inference(rw,[status(thm)],[c_0_15, c_0_16])).
+cnf(c_0_22, plain, (k3_xboole_0(X1,X2)=X1|~r1_tarski(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_17])).
+cnf(c_0_23, plain, (r1_tarski(X1,X2)|~r1_tarski(X3,X2)|~r1_tarski(X1,X3)), inference(spm,[status(thm)],[c_0_18, c_0_19])).
+cnf(c_0_24, negated_conjecture, (r1_tarski(esk4_0,esk5_0)), inference(split_conjunct,[status(thm)],[c_0_20])).
+fof(c_0_25, plain, ![X27, X28]:(~v1_relat_1(X28)|r1_tarski(k8_relat_1(X27,X28),X28)), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t117_relat_1])])).
+cnf(c_0_26, plain, (r2_hidden(X1,X2)|~r2_hidden(X1,k1_setfam_1(k2_tarski(X3,X2)))), inference(er,[status(thm)],[c_0_21])).
+cnf(c_0_27, plain, (k1_setfam_1(k2_tarski(X1,X2))=X1|~r1_tarski(X1,X2)), inference(rw,[status(thm)],[c_0_22, c_0_16])).
+cnf(c_0_28, negated_conjecture, (r1_tarski(X1,esk5_0)|~r1_tarski(X1,esk4_0)), inference(spm,[status(thm)],[c_0_23, c_0_24])).
+cnf(c_0_29, plain, (r1_tarski(k8_relat_1(X2,X1),X1)|~v1_relat_1(X1)), inference(split_conjunct,[status(thm)],[c_0_25])).
+cnf(c_0_30, negated_conjecture, (v1_relat_1(esk4_0)), inference(split_conjunct,[status(thm)],[c_0_20])).
+fof(c_0_31, plain, ![X29, X30, X31]:(~v1_relat_1(X30)|(~v1_relat_1(X31)|(~r1_tarski(X30,X31)|r1_tarski(k8_relat_1(X29,X30),k8_relat_1(X29,X31))))), inference(shift_quantors,[status(thm)],[inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t132_relat_1])])])).
+fof(c_0_32, plain, ![X32, X33, X34]:(~v1_relat_1(X34)|(~r1_tarski(X32,X33)|k8_relat_1(X33,k8_relat_1(X32,X34))=k8_relat_1(X32,X34))), inference(variable_rename,[status(thm)],[inference(fof_nnf,[status(thm)],[t129_relat_1])])).
+fof(c_0_33, plain, ![X35, X36, X39, X41, X42]:((~v1_relat_1(X35)|(~r2_hidden(X36,X35)|X36=k4_tarski(esk6_2(X35,X36),esk7_2(X35,X36))))&((r2_hidden(esk8_1(X39),X39)|v1_relat_1(X39))&(esk8_1(X39)!=k4_tarski(X41,X42)|v1_relat_1(X39)))), inference(distribute,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(skolemize,[status(esa)],[inference(variable_rename,[status(thm)],[inference(shift_quantors,[status(thm)],[inference(fof_nnf,[status(thm)],[inference(fof_simplification,[status(thm)],[d1_relat_1])])])])])])])).
+cnf(c_0_34, plain, (r2_hidden(X1,X2)|~r1_tarski(X3,X2)|~r2_hidden(X1,X3)), inference(spm,[status(thm)],[c_0_26, c_0_27])).
+cnf(c_0_35, negated_conjecture, (r1_tarski(k8_relat_1(X1,esk4_0),esk5_0)), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_28, c_0_29]), c_0_30])])).
+cnf(c_0_36, plain, (r1_tarski(k8_relat_1(X3,X1),k8_relat_1(X3,X2))|~v1_relat_1(X1)|~v1_relat_1(X2)|~r1_tarski(X1,X2)), inference(split_conjunct,[status(thm)],[c_0_31])).
+cnf(c_0_37, plain, (k8_relat_1(X3,k8_relat_1(X2,X1))=k8_relat_1(X2,X1)|~v1_relat_1(X1)|~r1_tarski(X2,X3)), inference(split_conjunct,[status(thm)],[c_0_32])).
+cnf(c_0_38, plain, (v1_relat_1(X1)|esk8_1(X1)!=k4_tarski(X2,X3)), inference(split_conjunct,[status(thm)],[c_0_33])).
+cnf(c_0_39, plain, (X2=k4_tarski(esk6_2(X1,X2),esk7_2(X1,X2))|~v1_relat_1(X1)|~r2_hidden(X2,X1)), inference(split_conjunct,[status(thm)],[c_0_33])).
+cnf(c_0_40, negated_conjecture, (r2_hidden(X1,esk5_0)|~r2_hidden(X1,k8_relat_1(X2,esk4_0))), inference(spm,[status(thm)],[c_0_34, c_0_35])).
+cnf(c_0_41, plain, (r2_hidden(esk8_1(X1),X1)|v1_relat_1(X1)), inference(split_conjunct,[status(thm)],[c_0_33])).
+cnf(c_0_42, negated_conjecture, (~r1_tarski(k8_relat_1(esk2_0,esk4_0),k8_relat_1(esk3_0,esk5_0))), inference(split_conjunct,[status(thm)],[c_0_20])).
+cnf(c_0_43, plain, (r1_tarski(k8_relat_1(X1,X2),k8_relat_1(X3,X4))|~v1_relat_1(k8_relat_1(X1,X2))|~v1_relat_1(X4)|~v1_relat_1(X2)|~r1_tarski(k8_relat_1(X1,X2),X4)|~r1_tarski(X1,X3)), inference(spm,[status(thm)],[c_0_36, c_0_37])).
+cnf(c_0_44, negated_conjecture, (v1_relat_1(esk5_0)), inference(split_conjunct,[status(thm)],[c_0_20])).
+cnf(c_0_45, negated_conjecture, (r1_tarski(esk2_0,esk3_0)), inference(split_conjunct,[status(thm)],[c_0_20])).
+cnf(c_0_46, plain, (v1_relat_1(X1)|~v1_relat_1(X2)|~r2_hidden(esk8_1(X1),X2)), inference(er,[status(thm)],[inference(spm,[status(thm)],[c_0_38, c_0_39])])).
+cnf(c_0_47, negated_conjecture, (v1_relat_1(k8_relat_1(X1,esk4_0))|r2_hidden(esk8_1(k8_relat_1(X1,esk4_0)),esk5_0)), inference(spm,[status(thm)],[c_0_40, c_0_41])).
+cnf(c_0_48, negated_conjecture, (~v1_relat_1(k8_relat_1(esk2_0,esk4_0))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_42, c_0_43]), c_0_44]), c_0_30]), c_0_35]), c_0_45])])).
+cnf(c_0_49, negated_conjecture, (v1_relat_1(k8_relat_1(X1,esk4_0))), inference(cn,[status(thm)],[inference(rw,[status(thm)],[inference(spm,[status(thm)],[c_0_46, c_0_47]), c_0_44])])).
+cnf(c_0_50, negated_conjecture, ($false), inference(cn,[status(thm)],[inference(rw,[status(thm)],[c_0_48, c_0_49])]), ['proof']).
+# SZS output end CNFRefutation
+# Proof object total steps             : 51
+# Proof object clause steps            : 30
+# Proof object formula steps           : 21
+# Proof object conjectures             : 15
+# Proof object clause conjectures      : 12
+# Proof object formula conjectures     : 3
+# Proof object initial clauses used    : 16
+# Proof object initial formulas used   : 10
+# Proof object generating inferences   : 10
+# Proof object simplifying inferences  : 15
+# Training examples: 0 positive, 0 negative
+# Parsed axioms                        : 10
+# Removed by relevancy pruning/SinE    : 0
+# Initial clauses                      : 21
+# Removed in clause preprocessing      : 1
+# Initial clauses in saturation        : 20
+# Processed clauses                    : 64
+# ...of these trivial                  : 0
+# ...subsumed                          : 2
+# ...remaining for further processing  : 62
+# Other redundant clauses eliminated   : 4
+# Clauses deleted for lack of memory   : 0
+# Backward-subsumed                    : 0
+# Backward-rewritten                   : 3
+# Generated clauses                    : 177
+# ...of the previous two non-trivial   : 163
+# Contextual simplify-reflections      : 1
+# Paramodulations                      : 169
+# Factorizations                       : 4
+# Equation resolutions                 : 4
+# Propositional unsat checks           : 0
+#    Propositional check models        : 0
+#    Propositional check unsatisfiable : 0
+#    Propositional clauses             : 0
+#    Propositional clauses after purity: 0
+#    Propositional unsat core size     : 0
+#    Propositional preprocessing time  : 0.000
+#    Propositional encoding time       : 0.000
+#    Propositional solver time         : 0.000
+#    Success case prop preproc time    : 0.000
+#    Success case prop encoding time   : 0.000
+#    Success case prop solver time     : 0.000
+# Current number of processed clauses  : 56
+#    Positive orientable unit clauses  : 6
+#    Positive unorientable unit clauses: 0
+#    Negative unit clauses             : 1
+#    Non-unit-clauses                  : 49
+# Current number of unprocessed clauses: 118
+# ...number of literals in the above   : 545
+# Current number of archived formulas  : 0
+# Current number of archived clauses   : 4
+# Clause-clause subsumption calls (NU) : 790
+# Rec. Clause-clause subsumption calls : 382
+# Non-unit clause-clause subsumptions  : 3
+# Unit Clause-clause subsumption calls : 17
+# Rewrite failures with RHS unbound    : 0
+# BW rewrite match attempts            : 3
+# BW rewrite match successes           : 3
+# Condensation attempts                : 0
+# Condensation successes               : 0
+# Termbank termtop insertions          : 4066
+
+# -------------------------------------------------
+# User time                : 0.011 s
+# System time              : 0.000 s
+# Total time               : 0.011 s
+# Maximum resident set size: 28480 pages
