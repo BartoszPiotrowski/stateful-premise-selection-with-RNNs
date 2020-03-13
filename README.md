@@ -7,7 +7,8 @@ submitted to LPAR23.
 ## Requirements
 1. Python 3 (version >=3.7)
 2. OpenNMT toolkit (available at: https://github.com/OpenNMT/OpenNMT-py)
-3. E prover (we used version 2.3, available at: wwwlehre.dhbw-stuttgart.de/~sschulz/WORK/E_DOWNLOAD/V_2.3/E.tgz)
+3. E prover (we used version 2.3, available at: http://dhbw-stuttgart.de/~sschulz/WORK/E_DOWNLOAD/V_2.3/E.tgz)
+	Set `EPROVER` environmental variable to `path/to/E/PROVER/eprover`.
 
 ## Initial data
 - `data/proofs` -- 24087 E-prover proofs of 1469 theorems from MPTP2078.
@@ -22,7 +23,7 @@ from its statement with `@` symbol.
 `data/theorems_from_MPTP2078` -- all 2078 theorems in MPTP2078 data set.
 
 ## Dependencies derived from proofs
-`data/dependencies_from_proofs` -- contain dependencies extracted from the
+`data/dependencies_from_proofs` -- contains dependencies extracted from the
 	proofs; this file was produced with:
 ```
 python3 scripts/data_manipulation/deps_from_proofs.py data/proofs | sort -u \
@@ -38,14 +39,14 @@ cut -d: -f1 data/dependencies_from_proofs | sort -u | shuf \
 ## Split to training and testing part
 
 We split theorems (and its dependencies) to training and testing part in
-proportions 75% and 25%, respectively:
+proportions roughly 75% and 25%, respectively:
 ```
 mkdir data/split
 head -1100 data/theorems_from_proofs > data/split/theorems_train
 tail -369 data/theorems_from_proofs  > data/split/theorems_test
 comm -12 <(sort data/split/theorems_train) <(sort data/split/theorems_test)
 ```
-Empty output of the last command means no intersection between training and
+The empty output of the last command means no intersection between training and
 testing theorems.
 
 Dependencies were split according to `theorems_test`/`theorems_train` split
@@ -145,6 +146,63 @@ python3 scripts/data_manipulation/training_data.py \
 	--output_prefix $TRAIN_DATA/train_standard
 ```
 
+### Augmenting with sublemmas; target: order_from_proof, source: standard
+
+The directory `data/sublemmas/extracted` contains files corresponding to the
+proofs in `data/proofs`. Each file contains several lines. Each of them
+contains information about an extracted intermediate lemma: its statement, its
+dependencies and height of the proof subtree rooted in the lemma. The format is:
+```
+lemma_statement#lemma_dependencies#lemma_height
+```
+
+The file `data/sublemmas/all` contains information collected from
+`data/sublemmas/extracted` and additionally names of the lemmas compatible with
+the statement files from `data/statements`. The format of each line is:
+```
+lemma_name#lemma_statement#lemma_dependencies#lemma_height#proof_file_name#theorem_name
+```
+
+Let's take only these sublemmas which come from the traininig theorems:
+```
+grep -f <(sed 's/$/\$/g' data/split/theorems_train) data/sublemmas/all \
+	> data/sublemmas/train
+```
+Now let's take only lemmas' names and its dependencies:
+```
+paste -d: <(cut -d# -f1 data/sublemmas/train) \
+	      <(cut -d# -f3 data/sublemmas/train) \
+    > data/sublemmas/dependencies_train
+```
+These sublemmas' dependencies may be used for augmentation of the main
+training data:
+```
+cat data/split/dependencies_train data/sublemmas/dependencies_train \
+	> data/split/dependencies_with_sublemmas_train
+TRAIN_DATA=data/training/augmented
+mkdir -p $TRAIN_DATA
+python3 scripts/data_manipulation/training_data.py \
+	data/split/dependencies_with_sublemmas_train \
+	data/statements/standard \
+	--output_prefix $TRAIN_DATA/train_standard
+```
+
+We can also apply oversampling on top of augmentation with subproofs:
+```
+python3 scripts/utils/counts.py \
+	data/training/augmented/train_standard.tgt \
+	--split_to_words \
+	> data/training/augmented/train_standard.tgt.counts
+
+TRAIN_DATA=data/training/augmented_oversampled
+mkdir -p $TRAIN_DATA
+python3 scripts/data_manipulation/training_data.py \
+	data/split/dependencies_with_sublemmas_train \
+	data/statements/standard \
+	--oversampling_premises data/training/augmented/train_standard.tgt.counts \
+	--output_prefix $TRAIN_DATA/train_standard
+```
+
 ## Training
 
 We assume that:
@@ -152,7 +210,7 @@ We assume that:
 	training,
 * `OPENNMT` is a path to OpenNMT,
 * `NOTATION` is either `standard` or `prefix` -- type of notation we want to
-	use as source for NMT model
+	use as source for the NMT model.
 
 Final preprocessing:
 ```
@@ -232,4 +290,5 @@ For each NMT / XGBoost model there are 3 files:
 - `*.deps.not_proved` -- predicted dependencies which did not lead to a proof,
 - `*.deps.proved.used` -- same as `*.deps.proved` but with additional information,
 	which premises from the proposed where actually used in the proof.
+
 
