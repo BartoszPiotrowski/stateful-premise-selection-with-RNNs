@@ -1,0 +1,5 @@
+r1_tarski(X1,X2)|k6_subset_1(X1,X2)!=k1_xboole_0#l32_xboole_1 redefinition_k6_subset_1#1
+r1_tarski(k6_subset_1(X1,X2),X3)|~r1_tarski(X1,X3)#redefinition_k6_subset_1 t11_xboole_1 t12_xboole_1 t36_xboole_1#3
+k2_xboole_0(k6_subset_1(X1,X2),X1)=X1#redefinition_k6_subset_1 t12_xboole_1 t36_xboole_1#2
+r1_tarski(k6_subset_1(X1,X2),X1)#redefinition_k6_subset_1 t36_xboole_1#1
+k6_subset_1(X1,X2)=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 redefinition_k6_subset_1#1

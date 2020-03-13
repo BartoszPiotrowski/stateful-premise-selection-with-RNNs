@@ -1,0 +1,11 @@
+k3_tarski(k1_zfmisc_1(X1))=X1#d10_xboole_0 d1_zfmisc_1 d3_tarski d4_tarski#6
+k3_tarski(k1_zfmisc_1(X1))=X1|~r1_tarski(k3_tarski(k1_zfmisc_1(X1)),X1)#d10_xboole_0 d1_zfmisc_1 d3_tarski d4_tarski#5
+r1_tarski(X1,k3_tarski(k1_zfmisc_1(X1)))#d10_xboole_0 d1_zfmisc_1 d3_tarski d4_tarski#4
+r1_tarski(X1,k3_tarski(k1_zfmisc_1(X2)))|~r2_hidden(esk5_2(X1,k3_tarski(k1_zfmisc_1(X2))),X2)#d10_xboole_0 d1_zfmisc_1 d3_tarski d4_tarski#3
+r2_hidden(X1,k3_tarski(k1_zfmisc_1(X2)))|~r2_hidden(X1,X2)#d10_xboole_0 d1_zfmisc_1 d4_tarski#2
+r2_hidden(X1,k3_tarski(k1_zfmisc_1(X2)))|~r1_tarski(X3,X2)|~r2_hidden(X1,X3)#d1_zfmisc_1 d4_tarski#1
+r1_tarski(k3_tarski(k1_zfmisc_1(X1)),X1)#d1_zfmisc_1 d3_tarski d4_tarski#5
+r1_tarski(k3_tarski(k1_zfmisc_1(X1)),X2)|r2_hidden(esk5_2(k3_tarski(k1_zfmisc_1(X1)),X2),X1)#d1_zfmisc_1 d3_tarski d4_tarski#4
+r2_hidden(X1,X2)|~r2_hidden(X1,k3_tarski(k1_zfmisc_1(X2)))#d1_zfmisc_1 d3_tarski d4_tarski#3
+r2_hidden(X1,X2)|~r2_hidden(X1,esk1_3(k1_zfmisc_1(X2),k3_tarski(k1_zfmisc_1(X2)),X3))|~r2_hidden(X3,k3_tarski(k1_zfmisc_1(X2)))#d1_zfmisc_1 d3_tarski d4_tarski#2
+r1_tarski(esk1_3(k1_zfmisc_1(X1),k3_tarski(k1_zfmisc_1(X1)),X2),X1)|~r2_hidden(X2,k3_tarski(k1_zfmisc_1(X1)))#d1_zfmisc_1 d4_tarski#1

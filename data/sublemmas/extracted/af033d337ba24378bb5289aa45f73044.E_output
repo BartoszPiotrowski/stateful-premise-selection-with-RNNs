@@ -1,0 +1,122 @@
+r1_tarski(k1_xboole_0,X1)|~l1_pre_topc(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))#d10_xboole_0 d1_tops_1 d4_tops_1 dt_k2_pre_topc dt_k3_subset_1 rc4_tops_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset t48_pre_topc t79_tops_1 t84_tops_1#15
+r1_tarski(k3_subset_1(X1,X2),X3)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#7
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#6
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(k3_subset_1(X1,X2),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#5
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(k3_subset_1(X1,X2),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#4
+k3_subset_1(X1,k3_subset_1(X1,X1))=X1|~m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#3
+k3_subset_1(X1,k3_subset_1(X1,X2))=X2|~m1_subset_1(k3_subset_1(X1,k3_subset_1(X1,X2)),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+r1_tarski(X1,k3_subset_1(X2,k3_subset_1(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d10_xboole_0 dt_k3_subset_1 t35_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+k3_subset_1(X1,X2)=k3_subset_1(X1,X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t36_subset_1 t3_subset#4
+k3_subset_1(X1,X2)=k3_subset_1(X1,X3)|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(k3_subset_1(X1,X2)))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))|~r1_tarski(X3,X2)#d10_xboole_0 t31_subset_1 t3_subset#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t36_subset_1 t3_subset#3
+m1_subset_1(k3_subset_1(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))#t36_subset_1 t3_subset#2
+r1_tarski(k3_subset_1(X1,X2),X3)|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))#t36_subset_1 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+k3_subset_1(u1_struct_0(X1),u1_struct_0(X1))=k1_xboole_0|~l1_pre_topc(X1)#d10_xboole_0 d1_tops_1 d4_tops_1 dt_k2_pre_topc dt_k3_subset_1 rc4_tops_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset t48_pre_topc t79_tops_1 t84_tops_1#14
+k1_tops_1(X1,k3_subset_1(u1_struct_0(X1),u1_struct_0(X1)))=k1_xboole_0|~l1_pre_topc(X1)#d10_xboole_0 d4_tops_1 dt_k3_subset_1 rc4_tops_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset t79_tops_1 t84_tops_1#13
+v2_tops_1(k3_subset_1(u1_struct_0(X1),u1_struct_0(X1)),X1)|~l1_pre_topc(X1)#d10_xboole_0 d4_tops_1 dt_k3_subset_1 rc4_tops_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset t79_tops_1#12
+k3_subset_1(X1,k3_subset_1(X1,X1))=X1#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#11
+k3_subset_1(X1,k3_subset_1(X1,X1))=X1|~m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#3
+k3_subset_1(X1,k3_subset_1(X1,X2))=X2|~m1_subset_1(k3_subset_1(X1,k3_subset_1(X1,X2)),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+r1_tarski(X1,k3_subset_1(X2,k3_subset_1(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d10_xboole_0 dt_k3_subset_1 t35_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#10
+r1_tarski(k3_subset_1(X1,X1),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#9
+r1_tarski(k3_subset_1(X1,X1),X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#8
+r1_tarski(k3_subset_1(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#7
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#6
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(k3_subset_1(X1,X2),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#5
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(k3_subset_1(X1,X2),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#4
+k3_subset_1(X1,k3_subset_1(X1,X1))=X1|~m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#3
+k3_subset_1(X1,k3_subset_1(X1,X2))=X2|~m1_subset_1(k3_subset_1(X1,k3_subset_1(X1,X2)),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+r1_tarski(X1,k3_subset_1(X2,k3_subset_1(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d10_xboole_0 dt_k3_subset_1 t35_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+k3_subset_1(X1,X2)=k3_subset_1(X1,X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t36_subset_1 t3_subset#4
+k3_subset_1(X1,X2)=k3_subset_1(X1,X3)|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(k3_subset_1(X1,X2)))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))|~r1_tarski(X3,X2)#d10_xboole_0 t31_subset_1 t3_subset#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t36_subset_1 t3_subset#3
+m1_subset_1(k3_subset_1(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))#t36_subset_1 t3_subset#2
+r1_tarski(k3_subset_1(X1,X2),X3)|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))#t36_subset_1 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#10
+r1_tarski(k3_subset_1(X1,X1),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#9
+r1_tarski(k3_subset_1(X1,X1),X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#8
+r1_tarski(k3_subset_1(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#7
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#6
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(k3_subset_1(X1,X2),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#5
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(k3_subset_1(X1,X2),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#4
+k3_subset_1(X1,k3_subset_1(X1,X1))=X1|~m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#3
+k3_subset_1(X1,k3_subset_1(X1,X2))=X2|~m1_subset_1(k3_subset_1(X1,k3_subset_1(X1,X2)),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+r1_tarski(X1,k3_subset_1(X2,k3_subset_1(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d10_xboole_0 dt_k3_subset_1 t35_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+k3_subset_1(X1,X2)=k3_subset_1(X1,X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t36_subset_1 t3_subset#4
+k3_subset_1(X1,X2)=k3_subset_1(X1,X3)|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(k3_subset_1(X1,X2)))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))|~r1_tarski(X3,X2)#d10_xboole_0 t31_subset_1 t3_subset#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t36_subset_1 t3_subset#3
+m1_subset_1(k3_subset_1(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))#t36_subset_1 t3_subset#2
+r1_tarski(k3_subset_1(X1,X2),X3)|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))#t36_subset_1 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+v1_tops_1(u1_struct_0(X1),X1)|~l1_pre_topc(X1)#d10_xboole_0 rc4_tops_1 t3_subset t79_tops_1#3
+v1_tops_1(u1_struct_0(X1),X2)|~v1_tops_1(esk1_1(X1),X2)|~l1_pre_topc(X2)|~l1_pre_topc(X1)|~m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(esk1_1(X1),k1_zfmisc_1(u1_struct_0(X2)))#rc4_tops_1 t3_subset t79_tops_1#2
+v1_tops_1(X1,X2)|~v1_tops_1(X3,X2)|~l1_pre_topc(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(X1))#t3_subset t79_tops_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#10
+r1_tarski(k3_subset_1(X1,X1),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#9
+r1_tarski(k3_subset_1(X1,X1),X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#8
+r1_tarski(k3_subset_1(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t36_subset_1 t3_subset#7
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#6
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(k3_subset_1(X1,X2),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#5
+r1_tarski(k3_subset_1(X1,X1),X2)|~m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(k3_subset_1(X1,X2),X1)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t35_subset_1 t3_subset#4
+k3_subset_1(X1,k3_subset_1(X1,X1))=X1|~m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#3
+k3_subset_1(X1,k3_subset_1(X1,X2))=X2|~m1_subset_1(k3_subset_1(X1,k3_subset_1(X1,X2)),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t3_subset#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+r1_tarski(X1,k3_subset_1(X2,k3_subset_1(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d10_xboole_0 dt_k3_subset_1 t35_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+k3_subset_1(X1,X2)=k3_subset_1(X1,X1)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 dt_k3_subset_1 t31_subset_1 t36_subset_1 t3_subset#4
+k3_subset_1(X1,X2)=k3_subset_1(X1,X3)|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(k3_subset_1(X1,X2)))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))|~r1_tarski(X3,X2)#d10_xboole_0 t31_subset_1 t3_subset#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+m1_subset_1(k3_subset_1(X1,X1),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t36_subset_1 t3_subset#3
+m1_subset_1(k3_subset_1(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))#t36_subset_1 t3_subset#2
+r1_tarski(k3_subset_1(X1,X2),X3)|~m1_subset_1(k3_subset_1(X1,X3),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))#t36_subset_1 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+k1_tops_1(X1,k3_subset_1(u1_struct_0(X1),u1_struct_0(X1)))=k3_subset_1(u1_struct_0(X1),u1_struct_0(X1))|~l1_pre_topc(X1)#d10_xboole_0 d1_tops_1 dt_k2_pre_topc dt_k3_subset_1 t35_subset_1 t36_subset_1 t3_subset t48_pre_topc#5
+k3_subset_1(u1_struct_0(X1),k2_pre_topc(X1,X2))=k1_tops_1(X1,k3_subset_1(u1_struct_0(X1),X2))|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#d10_xboole_0 d1_tops_1 dt_k3_subset_1 t35_subset_1 t36_subset_1#4
+k3_subset_1(X1,k3_subset_1(X1,X2))=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t35_subset_1 t36_subset_1#3
+k3_subset_1(X1,k3_subset_1(X1,X2))=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(k3_subset_1(X1,k3_subset_1(X1,X2)),X2)#d10_xboole_0 dt_k3_subset_1 t35_subset_1#2
+r1_tarski(X1,k3_subset_1(X2,k3_subset_1(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d10_xboole_0 dt_k3_subset_1 t35_subset_1#1
+r1_tarski(k3_subset_1(X1,k3_subset_1(X1,X2)),X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 dt_k3_subset_1 t36_subset_1#1
+k2_pre_topc(X1,u1_struct_0(X1))=u1_struct_0(X1)|~l1_pre_topc(X1)#d10_xboole_0 dt_k2_pre_topc t3_subset t48_pre_topc#3
+k2_pre_topc(X1,X2)=X2|~l1_pre_topc(X1)|~m1_subset_1(k2_pre_topc(X1,X2),k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#d10_xboole_0 t3_subset t48_pre_topc#2
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~r1_tarski(X1,X2)#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+k1_tops_1(X1,X2)=k1_xboole_0|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~r1_tarski(k1_tops_1(X1,X2),k1_xboole_0)|~r1_tarski(k1_xboole_0,X2)#d10_xboole_0 dt_k1_tops_1 projectivity_k1_tops_1 rc5_tops_1 t48_tops_1 t84_tops_1#4
+r1_tarski(k1_xboole_0,k1_tops_1(X1,X2))|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~r1_tarski(k1_xboole_0,X2)#dt_k1_tops_1 projectivity_k1_tops_1 rc5_tops_1 t48_tops_1 t84_tops_1#3
+k1_tops_1(X1,k1_xboole_0)=k1_xboole_0|~l1_pre_topc(X1)#projectivity_k1_tops_1 rc5_tops_1 t84_tops_1#2
+k1_tops_1(X1,esk2_1(X1))=k1_xboole_0|~l1_pre_topc(X1)#rc5_tops_1 t84_tops_1#1
+m1_subset_1(k1_xboole_0,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#dt_k1_tops_1 rc5_tops_1 t84_tops_1#2
+k1_tops_1(X1,esk2_1(X1))=k1_xboole_0|~l1_pre_topc(X1)#rc5_tops_1 t84_tops_1#1
+r1_tarski(k1_tops_1(X1,X2),k1_xboole_0)|~v3_tops_1(X2,X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#d5_tops_1 dt_k2_pre_topc t48_pre_topc t48_tops_1 t84_tops_1#3
+r1_tarski(k1_tops_1(X1,X2),k1_xboole_0)|~v3_tops_1(X3,X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~r1_tarski(X2,k2_pre_topc(X1,X3))#d5_tops_1 dt_k2_pre_topc t48_tops_1 t84_tops_1#2
+k1_tops_1(X1,k2_pre_topc(X1,X2))=k1_xboole_0|~v3_tops_1(X2,X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#d5_tops_1 dt_k2_pre_topc t84_tops_1#1

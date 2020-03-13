@@ -1,0 +1,16 @@
+~r2_hidden(X1,X2)|~r1_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X3),X2)#d7_xboole_0 l35_zfmisc_1 t2_boole t37_xboole_1 t42_zfmisc_1 t48_xboole_1 t54_zfmisc_1 t67_xboole_1 t73_enumset1 t75_enumset1 t77_enumset1 t81_enumset1 t83_xboole_1 t85_enumset1 t87_enumset1#6
+k4_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1),X2)!=k1_xboole_0|~r1_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X3),X2)#d7_xboole_0 l35_zfmisc_1 t2_boole t37_xboole_1 t42_zfmisc_1 t48_xboole_1 t54_zfmisc_1 t67_xboole_1 t73_enumset1 t75_enumset1 t77_enumset1 t81_enumset1 t83_xboole_1 t85_enumset1 t87_enumset1#5
+X1=k1_xboole_0|k4_xboole_0(X1,X2)!=k1_xboole_0|~r1_tarski(X1,X3)|~r1_xboole_0(X3,X2)#t37_xboole_1 t67_xboole_1#1
+r1_tarski(X1,k6_enumset1(X2,X2,X2,X2,X2,X2,X2,X3))|X1!=k6_enumset1(X2,X2,X2,X2,X2,X2,X2,X2)#t42_zfmisc_1 t73_enumset1 t75_enumset1 t77_enumset1 t81_enumset1 t85_enumset1 t87_enumset1#1
+k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1)!=k1_xboole_0#d7_xboole_0 l35_zfmisc_1 t2_boole t48_xboole_1 t54_zfmisc_1 t73_enumset1 t81_enumset1 t83_xboole_1 t87_enumset1#4
+r2_hidden(X1,X2)|k4_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1),X2)!=k1_xboole_0#l35_zfmisc_1 t73_enumset1 t81_enumset1 t87_enumset1#1
+k4_xboole_0(X1,k1_xboole_0)=X1#d7_xboole_0 t2_boole t48_xboole_1 t83_xboole_1#3
+r1_xboole_0(X1,k1_xboole_0)#d7_xboole_0 t2_boole t48_xboole_1#2
+r1_xboole_0(X1,X2)|k4_xboole_0(X1,k4_xboole_0(X1,X2))!=k1_xboole_0#d7_xboole_0 t48_xboole_1#1
+k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0))=k1_xboole_0#t2_boole t48_xboole_1#1
+~r2_hidden(X1,k1_xboole_0)#d7_xboole_0 t2_boole t48_xboole_1 t54_zfmisc_1 t73_enumset1 t81_enumset1 t87_enumset1#3
+~r2_hidden(X1,X2)|~r1_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1),X2)#t54_zfmisc_1 t73_enumset1 t81_enumset1 t87_enumset1#1
+r1_xboole_0(X1,k1_xboole_0)#d7_xboole_0 t2_boole t48_xboole_1#2
+r1_xboole_0(X1,X2)|k4_xboole_0(X1,k4_xboole_0(X1,X2))!=k1_xboole_0#d7_xboole_0 t48_xboole_1#1
+k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0))=k1_xboole_0#t2_boole t48_xboole_1#1
+k4_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1),X2)=k1_xboole_0|~r2_hidden(X1,X2)#l35_zfmisc_1 t73_enumset1 t81_enumset1 t87_enumset1#1

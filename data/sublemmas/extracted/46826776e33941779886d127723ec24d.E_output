@@ -1,0 +1,18 @@
+k4_subset_1(X1,X2,X3)=X3|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X3))#commutativity_k3_xboole_0 d1_zfmisc_1 d2_subset_1 fc1_subset_1 l51_zfmisc_1 redefinition_k4_subset_1 t100_xboole_1 t28_xboole_1 t39_xboole_1 t51_xboole_1 t70_enumset1#6
+k4_subset_1(X2,X1,X3)=k3_tarski(k1_enumset1(X1,X1,X3))|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(X2))#l51_zfmisc_1 redefinition_k4_subset_1 t70_enumset1#2
+k3_tarski(k1_enumset1(X1,X1,X2))=k2_xboole_0(X1,X2)#l51_zfmisc_1 t70_enumset1#1
+k3_tarski(k1_enumset1(X1,X1,X2))=X2|~m1_subset_1(X1,k1_zfmisc_1(X2))#commutativity_k3_xboole_0 d1_zfmisc_1 d2_subset_1 fc1_subset_1 l51_zfmisc_1 t100_xboole_1 t28_xboole_1 t39_xboole_1 t51_xboole_1 t70_enumset1#5
+k3_tarski(k1_enumset1(X1,X1,k5_xboole_0(X2,X1)))=X2|~m1_subset_1(X1,k1_zfmisc_1(X2))#commutativity_k3_xboole_0 d1_zfmisc_1 d2_subset_1 fc1_subset_1 l51_zfmisc_1 t100_xboole_1 t28_xboole_1 t51_xboole_1 t70_enumset1#4
+k3_tarski(k1_enumset1(k3_xboole_0(X1,X2),k3_xboole_0(X1,X2),k5_xboole_0(X1,k3_xboole_0(X1,X2))))=X1#l51_zfmisc_1 t100_xboole_1 t51_xboole_1 t70_enumset1#2
+k3_tarski(k1_enumset1(X1,X1,X2))=k2_xboole_0(X1,X2)#l51_zfmisc_1 t70_enumset1#1
+k3_xboole_0(X1,X2)=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))#commutativity_k3_xboole_0 d1_zfmisc_1 d2_subset_1 fc1_subset_1 t28_xboole_1#3
+k3_xboole_0(X1,X2)=X1|~m1_subset_1(X1,k1_zfmisc_1(X2))#d1_zfmisc_1 d2_subset_1 fc1_subset_1 t28_xboole_1#2
+k3_xboole_0(X1,X2)=X1|~r2_hidden(X1,k1_zfmisc_1(X2))#d1_zfmisc_1 t28_xboole_1#1
+k3_tarski(k1_enumset1(X1,X1,k5_xboole_0(X2,X1)))=k3_tarski(k1_enumset1(X1,X1,X2))|~m1_subset_1(X1,k1_zfmisc_1(X2))#commutativity_k3_xboole_0 d1_zfmisc_1 d2_subset_1 fc1_subset_1 l51_zfmisc_1 t100_xboole_1 t28_xboole_1 t39_xboole_1 t70_enumset1#4
+k3_tarski(k1_enumset1(X1,X1,k5_xboole_0(X2,k3_xboole_0(X2,X1))))=k3_tarski(k1_enumset1(X1,X1,X2))#l51_zfmisc_1 t100_xboole_1 t39_xboole_1 t70_enumset1#2
+k3_tarski(k1_enumset1(X1,X1,X2))=k2_xboole_0(X1,X2)#l51_zfmisc_1 t70_enumset1#1
+k3_tarski(k1_enumset1(X1,X1,X2))=k2_xboole_0(X1,X2)#l51_zfmisc_1 t70_enumset1#1
+k3_xboole_0(X1,X2)=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))#commutativity_k3_xboole_0 d1_zfmisc_1 d2_subset_1 fc1_subset_1 t28_xboole_1#3
+k3_xboole_0(X1,X2)=X1|~m1_subset_1(X1,k1_zfmisc_1(X2))#d1_zfmisc_1 d2_subset_1 fc1_subset_1 t28_xboole_1#2
+k3_xboole_0(X1,X2)=X1|~r2_hidden(X1,k1_zfmisc_1(X2))#d1_zfmisc_1 t28_xboole_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1#1

@@ -1,0 +1,13 @@
+v3_lattice3(X1)|~r2_lattice3(X1,X2,esk4_2(X1,esk5_2(X1,X2)))|~r2_lattice3(X1,esk3_1(X1),esk5_2(X1,X2))|~r1_yellow_0(X1,X2)|~l1_orders_2(X1)#d12_lattice3 d7_yellow_0#3
+r1_orders_2(X1,esk5_2(X1,X2),esk4_2(X1,esk5_2(X1,X3)))|v3_lattice3(X1)|~r2_lattice3(X1,X2,esk4_2(X1,esk5_2(X1,X3)))|~r2_lattice3(X1,esk3_1(X1),esk5_2(X1,X3))|~r1_yellow_0(X1,X2)|~r1_yellow_0(X1,X3)|~l1_orders_2(X1)#d12_lattice3 d7_yellow_0#2
+r1_orders_2(X1,esk5_2(X1,X2),esk4_2(X1,X3))|v3_lattice3(X1)|~r2_lattice3(X1,X2,esk4_2(X1,X3))|~r2_lattice3(X1,esk3_1(X1),X3)|~r1_yellow_0(X1,X2)|~m1_subset_1(X3,u1_struct_0(X1))|~l1_orders_2(X1)#d12_lattice3 d7_yellow_0#1
+r2_lattice3(X1,esk3_1(X1),esk4_2(X1,esk5_2(X1,X2)))|v3_lattice3(X1)|~r2_lattice3(X1,esk3_1(X1),esk5_2(X1,X2))|~r1_yellow_0(X1,X2)|~l1_orders_2(X1)#d12_lattice3 d7_yellow_0#1
+k3_xboole_0(X1,k3_xboole_0(X2,X1))=k3_xboole_0(X2,X1)#d4_xboole_0#2
+k3_xboole_0(X1,X2)=X2|~r2_hidden(esk9_3(X1,X2,X2),X1)#d4_xboole_0#1
+k3_xboole_0(X1,k3_xboole_0(X2,X3))=k3_xboole_0(X2,X3)|r2_hidden(esk9_3(X1,k3_xboole_0(X2,X3),k3_xboole_0(X2,X3)),X3)#d4_xboole_0#1
+k3_xboole_0(X1,k3_xboole_0(X2,X1))=k3_xboole_0(X2,X1)#d4_xboole_0#2
+k3_xboole_0(X1,X2)=X2|~r2_hidden(esk9_3(X1,X2,X2),X1)#d4_xboole_0#1
+k3_xboole_0(X1,k3_xboole_0(X2,X3))=k3_xboole_0(X2,X3)|r2_hidden(esk9_3(X1,k3_xboole_0(X2,X3),k3_xboole_0(X2,X3)),X3)#d4_xboole_0#1
+k3_xboole_0(X1,k3_xboole_0(X2,X1))=k3_xboole_0(X2,X1)#d4_xboole_0#2
+k3_xboole_0(X1,X2)=X2|~r2_hidden(esk9_3(X1,X2,X2),X1)#d4_xboole_0#1
+k3_xboole_0(X1,k3_xboole_0(X2,X3))=k3_xboole_0(X2,X3)|r2_hidden(esk9_3(X1,k3_xboole_0(X2,X3),k3_xboole_0(X2,X3)),X3)#d4_xboole_0#1

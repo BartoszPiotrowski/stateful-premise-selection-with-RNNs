@@ -1,0 +1,15 @@
+r1_tarski(k1_wellord2(X1),k2_zfmisc_1(X1,X1))#d10_xboole_0 d1_wellord2 d6_wellord1 dt_k1_wellord2 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t12_setfam_1 t30_wellord1 t70_enumset1 t71_enumset1#5
+r1_tarski(X1,k2_zfmisc_1(X2,X2))|k5_xboole_0(X1,k2_wellord1(X1,X2))!=k1_xboole_0|~v1_relat_1(X1)#d6_wellord1 l32_xboole_1 t100_xboole_1 t12_setfam_1 t70_enumset1 t71_enumset1#4
+r1_tarski(X1,X2)|k5_xboole_0(X1,k1_setfam_1(k2_enumset1(X1,X1,X1,X2)))!=k1_xboole_0#l32_xboole_1 t100_xboole_1 t12_setfam_1 t70_enumset1 t71_enumset1#3
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k1_enumset1(X1,X1,X2)))#t100_xboole_1 t12_setfam_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k2_wellord1(X1,X2)=k1_setfam_1(k2_enumset1(X1,X1,X1,k2_zfmisc_1(X2,X2)))|~v1_relat_1(X1)#d6_wellord1 t12_setfam_1 t70_enumset1 t71_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k2_wellord1(k1_wellord2(X1),X1)=k1_wellord2(X1)#d1_wellord2 dt_k1_wellord2 t30_wellord1#2
+k3_relat_1(k1_wellord2(X1))=X1#d1_wellord2 dt_k1_wellord2#1
+k5_xboole_0(X1,X1)=k1_xboole_0#d10_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t12_setfam_1 t70_enumset1 t71_enumset1#4
+k5_xboole_0(X1,k1_setfam_1(k2_enumset1(X1,X1,X1,X2)))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1 t12_setfam_1 t70_enumset1 t71_enumset1#3
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k1_enumset1(X1,X1,X2)))#t100_xboole_1 t12_setfam_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k2_enumset1(X1,X1,X1,X1))=X1#idempotence_k3_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1

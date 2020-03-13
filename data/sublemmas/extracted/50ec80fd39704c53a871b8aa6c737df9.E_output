@@ -1,0 +1,10 @@
+k9_subset_1(X1,X2,X3)=k9_subset_1(X4,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X4))#redefinition_k9_subset_1 t12_setfam_1#2
+k9_subset_1(X2,X3,X1)=k1_setfam_1(k2_tarski(X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#redefinition_k9_subset_1 t12_setfam_1#1
+k9_subset_1(X2,X3,X1)=k1_setfam_1(k2_tarski(X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#redefinition_k9_subset_1 t12_setfam_1#1
+k9_subset_1(X2,X3,X1)=k1_setfam_1(k2_tarski(X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#redefinition_k9_subset_1 t12_setfam_1#1
+v2_compts_1(k1_setfam_1(k2_tarski(X1,X2)),X3)|~v4_pre_topc(X2,X3)|~v4_pre_topc(X1,X3)|~v2_compts_1(X1,X3)|~m1_subset_1(k1_setfam_1(k2_tarski(X1,X2)),k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X3)|~v2_pre_topc(X3)#fc4_tops_1 t12_setfam_1 t17_xboole_1 t18_compts_1#3
+v2_compts_1(k1_setfam_1(k2_tarski(X1,X2)),X3)|~v4_pre_topc(X2,X3)|~v4_pre_topc(X1,X3)|~r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X4)|~v2_compts_1(X4,X3)|~m1_subset_1(k1_setfam_1(k2_tarski(X1,X2)),k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X3)|~v2_pre_topc(X3)#fc4_tops_1 t12_setfam_1 t18_compts_1#2
+v4_pre_topc(k1_setfam_1(k2_tarski(X2,X3)),X1)|~v2_pre_topc(X1)|~l1_pre_topc(X1)|~v4_pre_topc(X3,X1)|~v4_pre_topc(X2,X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#fc4_tops_1 t12_setfam_1#1
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+r1_tarski(X1,X2)|~r1_tarski(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))#t1_xboole_1 t3_subset#1
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1

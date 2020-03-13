@@ -1,0 +1,22 @@
+k7_subset_1(X1,X2,k2_tops_1(X3,X2))=k1_tops_1(X3,X2)|~l1_pre_topc(X3)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X2,k1_zfmisc_1(X1))#redefinition_k7_subset_1 t74_tops_1#2
+k4_xboole_0(X1,k2_tops_1(X2,X1))=k1_tops_1(X2,X1)|~l1_pre_topc(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))#redefinition_k7_subset_1 t74_tops_1#1
+k7_subset_1(X1,k3_subset_1(X1,X2),X2)=k3_subset_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#dt_k3_subset_1 idempotence_k9_subset_1 t32_subset_1 t4_subset_1#2
+k9_subset_1(X1,X2,X2)=X2#idempotence_k9_subset_1 t4_subset_1#1
+k7_subset_1(X1,X2,X3)=k3_subset_1(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d5_subset_1 redefinition_k7_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X2))|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(X3))#d5_subset_1 dt_k3_subset_1 dt_k7_subset_1 involutiveness_k3_subset_1 redefinition_k7_subset_1#3
+m1_subset_1(k3_subset_1(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d5_subset_1 dt_k7_subset_1 redefinition_k7_subset_1#2
+m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X3))#dt_k7_subset_1 redefinition_k7_subset_1#1
+k7_subset_1(X1,X2,X3)=k3_subset_1(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d5_subset_1 redefinition_k7_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(k2_pre_topc(X2,X1)))|~l1_pre_topc(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))#t3_subset t48_pre_topc#1
+k7_subset_1(X1,X2,k2_tops_1(X3,X2))=k1_tops_1(X3,X2)|~l1_pre_topc(X3)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X2,k1_zfmisc_1(X1))#redefinition_k7_subset_1 t74_tops_1#2
+k4_xboole_0(X1,k2_tops_1(X2,X1))=k1_tops_1(X2,X1)|~l1_pre_topc(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))#redefinition_k7_subset_1 t74_tops_1#1
+k7_subset_1(X1,k3_subset_1(X1,X2),X2)=k3_subset_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#dt_k3_subset_1 idempotence_k9_subset_1 t32_subset_1 t4_subset_1#2
+k9_subset_1(X1,X2,X2)=X2#idempotence_k9_subset_1 t4_subset_1#1
+k7_subset_1(X1,X2,X3)=k3_subset_1(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d5_subset_1 redefinition_k7_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X2))|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(X3))#d5_subset_1 dt_k3_subset_1 dt_k7_subset_1 involutiveness_k3_subset_1 redefinition_k7_subset_1#3
+m1_subset_1(k3_subset_1(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d5_subset_1 dt_k7_subset_1 redefinition_k7_subset_1#2
+m1_subset_1(k4_xboole_0(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X3))#dt_k7_subset_1 redefinition_k7_subset_1#1
+k7_subset_1(X1,X2,X3)=k3_subset_1(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d5_subset_1 redefinition_k7_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(k2_pre_topc(X2,X1)))|~l1_pre_topc(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))#t3_subset t48_pre_topc#1

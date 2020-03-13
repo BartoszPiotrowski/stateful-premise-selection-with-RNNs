@@ -1,0 +1,11 @@
+k11_relat_1(X1,X2)=k1_xboole_0|r2_hidden(X2,k1_relat_1(X1))|~v1_relat_1(X1)#t204_relat_1 t20_relat_1 t7_xboole_0#2
+k11_relat_1(X1,X2)=k1_xboole_0|r2_hidden(k4_tarski(X2,esk4_1(k11_relat_1(X1,X2))),X1)|~v1_relat_1(X1)#t204_relat_1 t7_xboole_0#1
+~r2_hidden(X1,k1_xboole_0)#t100_xboole_1 t12_setfam_1 t4_boole t64_zfmisc_1 t69_enumset1 t70_enumset1#4
+X1!=X2|~r2_hidden(X1,k5_xboole_0(X3,k1_setfam_1(k1_enumset1(X3,X3,k1_enumset1(X2,X2,X2)))))#t100_xboole_1 t12_setfam_1 t64_zfmisc_1 t69_enumset1 t70_enumset1#3
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k1_enumset1(X1,X1,X2)))#t100_xboole_1 t12_setfam_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k5_xboole_0(k1_xboole_0,k1_setfam_1(k1_enumset1(k1_xboole_0,k1_xboole_0,X1)))=k1_xboole_0#t100_xboole_1 t12_setfam_1 t4_boole t70_enumset1#3
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k1_enumset1(X1,X1,X2)))#t100_xboole_1 t12_setfam_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k11_relat_1(X1,X2)=k1_xboole_0|r2_hidden(X2,k1_relat_1(X1))|~v1_relat_1(X1)#t204_relat_1 t20_relat_1 t7_xboole_0#2
+k11_relat_1(X1,X2)=k1_xboole_0|r2_hidden(k4_tarski(X2,esk4_1(k11_relat_1(X1,X2))),X1)|~v1_relat_1(X1)#t204_relat_1 t7_xboole_0#1

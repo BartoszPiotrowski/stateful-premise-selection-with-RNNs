@@ -1,0 +1,9 @@
+r2_hidden(X1,k3_subset_1(X2,X3))|r2_hidden(X1,X3)|~r2_hidden(X1,X2)|~m1_subset_1(X3,k1_zfmisc_1(X2))#commutativity_k3_xboole_0 d3_subset_1 d4_subset_1 d5_subset_1 dt_k2_subset_1 involutiveness_k3_subset_1 t100_xboole_1 t1_xboole_0 t22_subset_1 t28_xboole_1 t44_subset_1 t4_subset_1 t65_xboole_1#6
+r2_hidden(X1,k3_xboole_0(X2,X3))|r2_hidden(X1,k3_subset_1(X2,X3))|~r2_hidden(X1,X2)|~m1_subset_1(X3,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t1_xboole_0#2
+k5_xboole_0(X2,k3_xboole_0(X2,X1))=k3_subset_1(X2,X1)|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1#1
+k3_xboole_0(X1,X2)=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))#commutativity_k3_xboole_0 d3_subset_1 d4_subset_1 dt_k2_subset_1 involutiveness_k3_subset_1 t22_subset_1 t28_xboole_1 t44_subset_1 t4_subset_1 t65_xboole_1#5
+k3_xboole_0(X1,X2)=X1|~m1_subset_1(X1,k1_zfmisc_1(X2))#d3_subset_1 d4_subset_1 dt_k2_subset_1 involutiveness_k3_subset_1 t22_subset_1 t28_xboole_1 t44_subset_1 t4_subset_1 t65_xboole_1#4
+r1_tarski(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))#d3_subset_1 d4_subset_1 dt_k2_subset_1 involutiveness_k3_subset_1 t22_subset_1 t44_subset_1 t4_subset_1 t65_xboole_1#3
+k3_subset_1(X1,X1)=k1_xboole_0#d3_subset_1 d4_subset_1 involutiveness_k3_subset_1 t22_subset_1 t4_subset_1#2
+X1=k3_subset_1(X1,k1_xboole_0)#d3_subset_1 d4_subset_1 t22_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1#1

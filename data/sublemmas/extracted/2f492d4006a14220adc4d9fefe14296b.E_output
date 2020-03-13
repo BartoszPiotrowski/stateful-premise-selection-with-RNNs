@@ -1,0 +1,24 @@
+k5_setfam_1(X1,k7_setfam_1(X1,X2))=k3_subset_1(X1,k8_setfam_1(X1,X2))|X2=k1_xboole_0|~m1_subset_1(X2,k1_zfmisc_1(k1_zfmisc_1(X1)))#d10_setfam_1 d10_xboole_0 d3_subset_1 d5_subset_1 dt_k5_setfam_1 dt_k7_setfam_1 dt_k8_setfam_1 involutiveness_k3_subset_1 redefinition_k4_subset_1 t100_xboole_1 t12_setfam_1 t12_xboole_1 t22_subset_1 t2_boole t2_xboole_1 t33_subset_1 t3_subset t48_setfam_1 t4_subset_1 t5_boole#7
+k5_setfam_1(X1,k7_setfam_1(X1,X2))=k3_subset_1(X1,k8_setfam_1(X1,X2))|X2=k1_xboole_0|~m1_subset_1(k5_setfam_1(X1,k7_setfam_1(X1,X2)),k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(k1_zfmisc_1(X1)))#d10_setfam_1 d10_xboole_0 d3_subset_1 d5_subset_1 dt_k8_setfam_1 involutiveness_k3_subset_1 redefinition_k4_subset_1 t100_xboole_1 t12_setfam_1 t12_xboole_1 t22_subset_1 t2_boole t2_xboole_1 t33_subset_1 t3_subset t48_setfam_1 t4_subset_1 t5_boole#6
+k7_subset_1(X1,X2,X3)=k3_subset_1(X1,X3)|~r1_tarski(k3_subset_1(X1,X2),X3)|~m1_subset_1(k7_subset_1(X1,X2,X3),k1_zfmisc_1(X1))|~m1_subset_1(k3_subset_1(X1,X2),k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))#involutiveness_k3_subset_1 redefinition_k4_subset_1 t12_xboole_1 t33_subset_1#3
+k3_subset_1(X1,k2_xboole_0(k3_subset_1(X1,X2),X3))=k7_subset_1(X1,X2,X3)|~m1_subset_1(k7_subset_1(X1,X2,X3),k1_zfmisc_1(X1))|~m1_subset_1(k3_subset_1(X1,X2),k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))#involutiveness_k3_subset_1 redefinition_k4_subset_1 t33_subset_1#2
+k3_subset_1(X1,k7_subset_1(X1,X2,X3))=k2_xboole_0(k3_subset_1(X1,X2),X3)|~m1_subset_1(k3_subset_1(X1,X2),k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))#redefinition_k4_subset_1 t33_subset_1#1
+k7_subset_1(X1,X1,k8_setfam_1(X1,X2))=k5_setfam_1(X1,k7_setfam_1(X1,X2))|X2=k1_xboole_0|~m1_subset_1(X2,k1_zfmisc_1(k1_zfmisc_1(X1)))#d10_setfam_1 d3_subset_1 d5_subset_1 t100_xboole_1 t12_setfam_1 t22_subset_1 t2_boole t48_setfam_1 t4_subset_1 t5_boole#5
+k7_subset_1(X1,X1,k6_setfam_1(X1,X2))=k5_setfam_1(X1,k7_setfam_1(X1,X2))|X2=k1_xboole_0|~m1_subset_1(X2,k1_zfmisc_1(k1_zfmisc_1(X1)))#d3_subset_1 d5_subset_1 t100_xboole_1 t12_setfam_1 t22_subset_1 t2_boole t48_setfam_1 t4_subset_1 t5_boole#4
+X1=k1_xboole_0|k5_setfam_1(X2,k7_setfam_1(X2,X1))=k7_subset_1(X2,k3_subset_1(X2,k1_xboole_0),k6_setfam_1(X2,X1))|~m1_subset_1(X1,k1_zfmisc_1(k1_zfmisc_1(X2)))#d3_subset_1 t22_subset_1 t48_setfam_1#2
+k2_subset_1(X1)=k3_subset_1(X1,k1_xboole_0)#d3_subset_1 t22_subset_1#1
+k3_subset_1(X1,k1_xboole_0)=X1#d5_subset_1 t100_xboole_1 t12_setfam_1 t2_boole t4_subset_1 t5_boole#3
+k3_subset_1(X2,X1)=k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t12_setfam_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#t12_setfam_1 t2_boole#1
+k3_subset_1(X1,X1)=k1_xboole_0#d5_subset_1 involutiveness_k3_subset_1 t100_xboole_1 t12_setfam_1 t2_boole t4_subset_1 t5_boole#4
+k3_subset_1(X1,k1_xboole_0)=X1#d5_subset_1 t100_xboole_1 t12_setfam_1 t2_boole t4_subset_1 t5_boole#3
+k3_subset_1(X2,X1)=k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t12_setfam_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#t12_setfam_1 t2_boole#1
+k3_subset_1(X1,X1)=k1_xboole_0#d5_subset_1 involutiveness_k3_subset_1 t100_xboole_1 t12_setfam_1 t2_boole t4_subset_1 t5_boole#4
+k3_subset_1(X1,k1_xboole_0)=X1#d5_subset_1 t100_xboole_1 t12_setfam_1 t2_boole t4_subset_1 t5_boole#3
+k3_subset_1(X2,X1)=k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t12_setfam_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#t12_setfam_1 t2_boole#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1

@@ -1,0 +1,18 @@
+r1_orders_2(X1,esk3_1(X1),X2)|v1_xboole_0(u1_struct_0(X1))|~v1_yellow_0(X1)|~l1_orders_2(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t8_yellow_0#7
+r1_orders_2(X1,esk3_1(X1),X2)|v1_xboole_0(u1_struct_0(X1))|~epred1_4(X1,esk3_1(X1),X3,X2)|~v1_yellow_0(X1)|~l1_orders_2(X1)#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1 t74_enumset1 t75_enumset1#6
+r1_orders_2(X1,X2,X3)|~epred1_4(X1,X2,X4,X3)|~r1_lattice3(X1,k6_enumset1(X4,X4,X4,X4,X4,X4,X4,X3),X2)#t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1 t74_enumset1 t75_enumset1#1
+r1_lattice3(X1,X2,esk3_1(X1))|v1_xboole_0(u1_struct_0(X1))|~v1_yellow_0(X1)|~l1_orders_2(X1)#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3#5
+r1_lattice3(X1,X2,esk3_1(X1))|v1_xboole_0(u1_struct_0(X1))|~v1_yellow_0(X1)|~l1_orders_2(X1)|~m1_subset_1(esk2_3(X1,X2,esk3_1(X1)),u1_struct_0(X1))#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3#4
+r1_lattice3(X1,X2,esk3_1(X1))|~v1_yellow_0(X1)|~l1_orders_2(X1)|~r2_hidden(esk2_3(X1,X2,esk3_1(X1)),u1_struct_0(X1))#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3#3
+r1_orders_2(X1,esk3_1(X1),X2)|~v1_yellow_0(X1)|~l1_orders_2(X1)|~r2_hidden(X2,u1_struct_0(X1))#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3#2
+m1_subset_1(X1,X2)|~r2_hidden(X1,X2)#d1_xboole_0 d2_subset_1#1
+![X1]:(l1_orders_2(X1)=>![X2]:(m1_subset_1(X2,u1_struct_0(X1))=>![X3]:(m1_subset_1(X3,u1_struct_0(X1))=>![X4]:(m1_subset_1(X4,u1_struct_0(X1))=>epred1_4(X1,X2,X3,X4)))))#t8_yellow_0#1
+r1_orders_2(X1,esk3_1(X1),X2)|v1_xboole_0(u1_struct_0(X1))|~v1_yellow_0(X1)|~l1_orders_2(X1)|~m1_subset_1(X2,u1_struct_0(X1))|~m1_subset_1(X3,u1_struct_0(X1))#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t8_yellow_0#7
+r1_orders_2(X1,esk3_1(X1),X2)|v1_xboole_0(u1_struct_0(X1))|~epred1_4(X1,esk3_1(X1),X3,X2)|~v1_yellow_0(X1)|~l1_orders_2(X1)#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1 t74_enumset1 t75_enumset1#6
+r1_orders_2(X1,X2,X3)|~epred1_4(X1,X2,X4,X3)|~r1_lattice3(X1,k6_enumset1(X4,X4,X4,X4,X4,X4,X4,X3),X2)#t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1 t74_enumset1 t75_enumset1#1
+r1_lattice3(X1,X2,esk3_1(X1))|v1_xboole_0(u1_struct_0(X1))|~v1_yellow_0(X1)|~l1_orders_2(X1)#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3#5
+r1_lattice3(X1,X2,esk3_1(X1))|v1_xboole_0(u1_struct_0(X1))|~v1_yellow_0(X1)|~l1_orders_2(X1)|~m1_subset_1(esk2_3(X1,X2,esk3_1(X1)),u1_struct_0(X1))#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3#4
+r1_lattice3(X1,X2,esk3_1(X1))|~v1_yellow_0(X1)|~l1_orders_2(X1)|~r2_hidden(esk2_3(X1,X2,esk3_1(X1)),u1_struct_0(X1))#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3#3
+r1_orders_2(X1,esk3_1(X1),X2)|~v1_yellow_0(X1)|~l1_orders_2(X1)|~r2_hidden(X2,u1_struct_0(X1))#d1_xboole_0 d2_subset_1 d4_yellow_0 d8_lattice3#2
+m1_subset_1(X1,X2)|~r2_hidden(X1,X2)#d1_xboole_0 d2_subset_1#1
+![X1]:(l1_orders_2(X1)=>![X2]:(m1_subset_1(X2,u1_struct_0(X1))=>![X3]:(m1_subset_1(X3,u1_struct_0(X1))=>![X4]:(m1_subset_1(X4,u1_struct_0(X1))=>epred1_4(X1,X2,X3,X4)))))#t8_yellow_0#1

@@ -1,0 +1,7 @@
+r1_tarski(k1_relat_1(k7_relat_1(X1,X2)),k10_relat_1(X3,k9_relat_1(X1,X2)))|~r1_tarski(k7_relat_1(X1,X2),X3)|~v1_relat_1(X3)|~v1_relat_1(X1)#dt_k7_relat_1 t148_relat_1 t169_relat_1 t179_relat_1#2
+k10_relat_1(k7_relat_1(X1,X2),k9_relat_1(X1,X2))=k1_relat_1(k7_relat_1(X1,X2))|~v1_relat_1(X1)#dt_k7_relat_1 t148_relat_1 t169_relat_1#1
+k1_relat_1(k7_relat_1(X1,X2))=X2|~r1_tarski(X2,k1_relat_1(k7_relat_1(X1,X2)))|~v1_relat_1(X1)#d10_xboole_0 t87_relat_1#1
+r1_tarski(k1_relat_1(k7_relat_1(X1,k1_relat_1(X2))),k1_relat_1(k7_relat_1(X2,k1_relat_1(X1))))|~v1_relat_1(X1)|~v1_relat_1(X2)#t189_relat_1 t87_relat_1#1
+k7_relat_1(X1,X2)=X1|~r1_tarski(k1_relat_1(X1),X2)|~v1_relat_1(X1)#t77_relat_1 t94_relat_1#1
+k7_relat_1(k6_relat_1(X1),X1)=k6_relat_1(X1)#dt_k6_relat_1 t71_relat_1 t98_relat_1#1
+r1_tarski(k7_relat_1(X1,X2),X1)|~v1_relat_1(X1)#t76_relat_1 t94_relat_1#1

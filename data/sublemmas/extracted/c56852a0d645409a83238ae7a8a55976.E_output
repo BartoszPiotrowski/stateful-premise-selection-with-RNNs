@@ -1,0 +1,9 @@
+v1_xboole_0(X1)|k6_domain_1(X1,X2)!=k1_xboole_0|~m1_subset_1(X2,X1)#commutativity_k2_xboole_0 redefinition_k6_domain_1 t12_xboole_1 t3_subset t49_zfmisc_1 t4_subset_1 t69_enumset1#5
+k2_tarski(X1,X1)!=k1_xboole_0#commutativity_k2_xboole_0 t12_xboole_1 t3_subset t49_zfmisc_1 t4_subset_1 t69_enumset1#4
+k2_tarski(X1,X1)!=k1_xboole_0|~m1_subset_1(X2,k1_zfmisc_1(k2_tarski(X1,X1)))#commutativity_k2_xboole_0 t12_xboole_1 t3_subset t49_zfmisc_1 t69_enumset1#3
+k2_xboole_0(X1,k2_tarski(X2,X2))!=k1_xboole_0#commutativity_k2_xboole_0 t49_zfmisc_1 t69_enumset1#2
+k2_xboole_0(k2_tarski(X1,X1),X2)!=k1_xboole_0#t49_zfmisc_1 t69_enumset1#1
+k2_xboole_0(X1,X2)=X2|~m1_subset_1(X1,k1_zfmisc_1(X2))#t12_xboole_1 t3_subset#1
+k2_tarski(X2,X2)=k6_domain_1(X1,X2)|v1_xboole_0(X1)|~m1_subset_1(X2,X1)#redefinition_k6_domain_1 t69_enumset1#1
+X1=k1_xboole_0|~v1_xboole_0(X1)#fc1_xboole_0 t8_boole#1
+v1_xboole_0(X1)|~v1_zfmisc_1(X2)|~v1_subset_1(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))#cc1_subset_1 cc2_tex_2#1

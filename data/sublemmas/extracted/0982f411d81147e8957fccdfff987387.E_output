@@ -1,0 +1,5 @@
+r1_tarski(k3_xboole_0(X1,X2),k3_xboole_0(X3,X1))|~r1_tarski(k3_xboole_0(X1,X2),X3)#t17_xboole_1 t19_xboole_1#1
+k3_xboole_0(X1,X2)=k1_xboole_0|~r1_xboole_0(X1,X2)#t4_xboole_0 t7_xboole_0#1
+~r2_hidden(X1,k1_xboole_0)#t2_boole t4_xboole_0 t65_xboole_1#1
+k1_xboole_0=X1|r2_hidden(esk6_2(k1_xboole_0,X1),X1)#t2_boole t2_tarski t4_xboole_0 t65_xboole_1#2
+~r2_hidden(X1,k1_xboole_0)#t2_boole t4_xboole_0 t65_xboole_1#1

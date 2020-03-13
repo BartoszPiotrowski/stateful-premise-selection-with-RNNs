@@ -1,0 +1,91 @@
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))=k1_setfam_1(k4_enumset1(X3,X3,X3,X3,X3,X4))|~r2_hidden(esk4_3(X3,X4,k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))),X4)|~r2_hidden(esk4_3(X3,X4,k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))),X3)|~r2_hidden(esk4_3(X3,X4,k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))),X2)|~r2_hidden(esk4_3(X3,X4,k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))),X1)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#3
+X3=k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))|~r2_hidden(esk4_3(X1,X2,X3),X3)|~r2_hidden(esk4_3(X1,X2,X3),X2)|~r2_hidden(esk4_3(X1,X2,X3),X1)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r2_hidden(X1,X4)|X4!=k1_setfam_1(k4_enumset1(X2,X2,X2,X2,X2,X3))|~r2_hidden(X1,X3)|~r2_hidden(X1,X2)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(X1,k1_setfam_1(k4_enumset1(X2,X2,X2,X2,X2,X3)))|~r1_tarski(X1,X3)|~r1_tarski(X1,X2)#t12_setfam_1 t19_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+X3=k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))|r2_hidden(esk4_3(X1,X2,X3),X3)|r2_hidden(esk4_3(X1,X2,X3),X2)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r2_hidden(X1,X2)|X3!=k1_setfam_1(k4_enumset1(X2,X2,X2,X2,X2,X4))|~r2_hidden(X1,X3)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(X1,k1_setfam_1(k4_enumset1(X2,X2,X2,X2,X2,X3)))|~r1_tarski(X1,X3)|~r1_tarski(X1,X2)#t12_setfam_1 t19_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+X3=k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))|r2_hidden(esk4_3(X1,X2,X3),X3)|r2_hidden(esk4_3(X1,X2,X3),X2)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r2_hidden(X1,X2)|X3!=k1_setfam_1(k4_enumset1(X2,X2,X2,X2,X2,X4))|~r2_hidden(X1,X3)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r2_hidden(X1,X2)|X3!=k1_setfam_1(k4_enumset1(X4,X4,X4,X4,X4,X2))|~r2_hidden(X1,X3)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(X1,k1_setfam_1(k4_enumset1(X2,X2,X2,X2,X2,X3)))|~r1_tarski(X1,X3)|~r1_tarski(X1,X2)#t12_setfam_1 t19_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+X3=k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))|r2_hidden(esk4_3(X1,X2,X3),X3)|r2_hidden(esk4_3(X1,X2,X3),X1)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r2_hidden(X1,X2)|X3!=k1_setfam_1(k4_enumset1(X4,X4,X4,X4,X4,X2))|~r2_hidden(X1,X3)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(X1,k1_setfam_1(k4_enumset1(X2,X2,X2,X2,X2,X3)))|~r1_tarski(X1,X3)|~r1_tarski(X1,X2)#t12_setfam_1 t19_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+X3=k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2))|r2_hidden(esk4_3(X1,X2,X3),X3)|r2_hidden(esk4_3(X1,X2,X3),X1)#d4_xboole_0 t12_setfam_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(X1,k1_setfam_1(k4_enumset1(X2,X2,X2,X2,X2,X3)))|~r1_tarski(X1,X3)|~r1_tarski(X1,X2)#t12_setfam_1 t19_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k5_relat_1(X1,X2),k5_relat_1(X3,X4))|~r1_tarski(X2,X4)|~r1_tarski(X1,X3)|~v1_relat_1(X4)|~v1_relat_1(X3)#cc2_relat_1 t3_subset t50_relat_1#2
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+v1_relat_1(X1)|~r1_tarski(X1,X2)|~v1_relat_1(X2)#cc2_relat_1 t3_subset#1
+r1_tarski(k1_setfam_1(k4_enumset1(X1,X1,X1,X1,X1,X2)),X1)#t12_setfam_1 t17_xboole_1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1

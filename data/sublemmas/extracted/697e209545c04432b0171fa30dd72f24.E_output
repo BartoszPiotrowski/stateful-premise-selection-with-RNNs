@@ -1,0 +1,3 @@
+r1_tarski(k4_xboole_0(X1,X2),k4_xboole_0(k2_xboole_0(X1,X3),k3_xboole_0(X4,X2)))#commutativity_k3_xboole_0 t17_xboole_1 t35_xboole_1 t7_xboole_1#3
+r1_tarski(k4_xboole_0(X1,X2),k4_xboole_0(X3,k3_xboole_0(X4,X2)))|~r1_tarski(X1,X3)#commutativity_k3_xboole_0 t17_xboole_1 t35_xboole_1#2
+r1_tarski(k3_xboole_0(X1,X2),X2)#commutativity_k3_xboole_0 t17_xboole_1#1

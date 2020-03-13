@@ -1,0 +1,10 @@
+r2_hidden(X1,X3)|X1!=X2|X3!=k1_enumset1(X2,X2,X4)#d2_tarski t70_enumset1#1
+k5_xboole_0(X1,k4_xboole_0(X2,X1))=k5_xboole_0(X2,k4_xboole_0(X1,X2))#commutativity_k2_xboole_0 t98_xboole_1#1
+k5_xboole_0(X1,k4_xboole_0(X2,X1))=X2|~r1_tarski(X1,X2)#t12_xboole_1 t98_xboole_1#1
+k1_xboole_0=X1|~r1_tarski(X1,k1_xboole_0)#t12_xboole_1 t1_boole t98_xboole_1#2
+k5_xboole_0(X1,k4_xboole_0(k1_xboole_0,X1))=X1#t1_boole t98_xboole_1#1
+k5_xboole_0(X1,k4_xboole_0(X2,X1))=X2|~r1_tarski(X1,X2)#t12_xboole_1 t98_xboole_1#1
+r1_tarski(X1,k5_xboole_0(X1,k4_xboole_0(X2,X1)))#t7_xboole_1 t98_xboole_1#1
+k5_xboole_0(X1,k4_xboole_0(X2,X1))=k5_xboole_0(X2,k4_xboole_0(X1,X2))#commutativity_k2_xboole_0 t98_xboole_1#1
+~r2_hidden(X1,k1_xboole_0)#l24_zfmisc_1 t65_xboole_1 t69_enumset1 t70_enumset1#2
+~r2_hidden(X1,X2)|~r1_xboole_0(k1_enumset1(X1,X1,X1),X2)#l24_zfmisc_1 t69_enumset1 t70_enumset1#1

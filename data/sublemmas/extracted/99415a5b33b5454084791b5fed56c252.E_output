@@ -1,0 +1,5 @@
+k1_funct_1(X1,k1_funct_1(k2_funct_1(X1),X2))=X2|~v2_funct_1(X1)|~v1_funct_1(X1)|~v1_relat_1(X1)|~r2_hidden(X2,k2_relat_1(X1))#d5_relat_1 t20_relat_1 t56_funct_1 t8_funct_1#3
+k1_funct_1(X1,esk1_3(X1,k2_relat_1(X1),X2))=X2|~v1_funct_1(X1)|~v1_relat_1(X1)|~r2_hidden(X2,k2_relat_1(X1))#d5_relat_1 t8_funct_1#1
+esk1_3(X1,k2_relat_1(X1),X2)=k1_funct_1(k2_funct_1(X1),X2)|~v2_funct_1(X1)|~v1_funct_1(X1)|~v1_relat_1(X1)|~r2_hidden(X2,k2_relat_1(X1))#d5_relat_1 t20_relat_1 t56_funct_1 t8_funct_1#2
+k1_funct_1(X1,esk1_3(X1,k2_relat_1(X1),X2))=X2|~v1_funct_1(X1)|~v1_relat_1(X1)|~r2_hidden(X2,k2_relat_1(X1))#d5_relat_1 t8_funct_1#1
+r2_hidden(esk1_3(X1,k2_relat_1(X1),X2),k1_relat_1(X1))|~v1_relat_1(X1)|~r2_hidden(X2,k2_relat_1(X1))#d5_relat_1 t20_relat_1#1

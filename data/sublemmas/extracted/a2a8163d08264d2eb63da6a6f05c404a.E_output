@@ -1,0 +1,6 @@
+X1=X3|X2!=k6_enumset1(X3,X3,X3,X3,X3,X3,X3,X3)|~r2_hidden(X1,X2)#d1_tarski t69_enumset1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1 t74_enumset1 t75_enumset1#1
+k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1)!=k1_xboole_0#d5_xboole_0 d6_enumset1 l33_zfmisc_1 t69_enumset1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t9_mcart_1#3
+k4_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1),X2)!=k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1)|~r2_hidden(X1,X2)#l33_zfmisc_1 t69_enumset1 t70_enumset1 t71_enumset1 t72_enumset1 t73_enumset1 t74_enumset1 t75_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#d5_xboole_0 t9_mcart_1#2
+k4_xboole_0(X1,X2)=k1_xboole_0|~r2_hidden(esk6_1(k4_xboole_0(X1,X2)),X2)#d5_xboole_0 t9_mcart_1#1
+k4_xboole_0(X1,X2)=k1_xboole_0|r2_hidden(esk6_1(k4_xboole_0(X1,X2)),X1)#d5_xboole_0 t9_mcart_1#1

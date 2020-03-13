@@ -1,0 +1,12 @@
+r1_tarski(k5_partfun1(X1,X2,X3),k5_partfun1(X1,X2,X4))|~r1_partfun1(X4,esk8_2(k5_partfun1(X1,X2,X3),k5_partfun1(X1,X2,X4)))|~m1_subset_1(X4,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~v1_funct_1(X4)|~v1_funct_1(X3)#d3_tarski d7_partfun1 t168_partfun1 t169_partfun1#3
+r1_tarski(X1,k5_partfun1(X2,X3,X4))|~r1_partfun1(X4,esk8_2(X1,k5_partfun1(X2,X3,X4)))|~v1_partfun1(esk8_2(X1,k5_partfun1(X2,X3,X4)),X2)|~m1_subset_1(esk8_2(X1,k5_partfun1(X2,X3,X4)),k1_zfmisc_1(k2_zfmisc_1(X2,X3)))|~m1_subset_1(X4,k1_zfmisc_1(k2_zfmisc_1(X2,X3)))|~v1_funct_1(esk8_2(X1,k5_partfun1(X2,X3,X4)))|~v1_funct_1(X4)#d3_tarski d7_partfun1#1
+r1_tarski(k5_partfun1(X1,X2,X3),X4)|m1_subset_1(esk8_2(k5_partfun1(X1,X2,X3),X4),k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~v1_funct_1(X3)#d3_tarski t168_partfun1#1
+r1_tarski(k5_partfun1(X1,X2,X3),X4)|v1_funct_1(esk8_2(k5_partfun1(X1,X2,X3),X4))|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~v1_funct_1(X3)#d3_tarski t168_partfun1#1
+r1_tarski(k5_partfun1(X1,X2,X3),X4)|v1_partfun1(esk8_2(k5_partfun1(X1,X2,X3),X4),X1)|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~v1_funct_1(X3)#d3_tarski t168_partfun1 t169_partfun1#2
+v1_partfun1(X1,X2)|~r2_hidden(X1,k5_partfun1(X2,X3,X4))|~m1_subset_1(X4,k1_zfmisc_1(k2_zfmisc_1(X2,X3)))|~v1_funct_1(X4)#t168_partfun1 t169_partfun1#1
+r1_tarski(k5_partfun1(X1,X2,X3),X4)|v1_relat_1(esk8_2(k5_partfun1(X1,X2,X3),X4))|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~v1_funct_1(X3)#cc1_relset_1 d3_tarski d7_partfun1#3
+v1_relat_1(X1)|~r2_hidden(X1,k5_partfun1(X2,X3,X4))|~m1_subset_1(X4,k1_zfmisc_1(k2_zfmisc_1(X2,X3)))|~v1_funct_1(X4)#cc1_relset_1 d7_partfun1#2
+v1_relat_1(esk1_5(X1,X2,X3,k5_partfun1(X1,X2,X3),X4))|~r2_hidden(X4,k5_partfun1(X1,X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~v1_funct_1(X3)#cc1_relset_1 d7_partfun1#1
+r1_tarski(k5_partfun1(X1,X2,X3),X4)|v1_funct_1(esk8_2(k5_partfun1(X1,X2,X3),X4))|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~v1_funct_1(X3)#d3_tarski t168_partfun1#1
+r1_tarski(k5_partfun1(X1,X2,X3),X4)|r1_partfun1(X3,esk8_2(k5_partfun1(X1,X2,X3),X4))|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))|~v1_funct_1(X3)#d3_tarski d7_partfun1#2
+r1_partfun1(X1,X2)|~r2_hidden(X2,k5_partfun1(X3,X4,X1))|~m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(X3,X4)))|~v1_funct_1(X1)#d7_partfun1#1

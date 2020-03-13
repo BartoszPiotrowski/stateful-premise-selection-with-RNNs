@@ -1,0 +1,7 @@
+k2_xboole_0(X1,k1_xboole_0)=X1#d10_xboole_0 l32_xboole_1 l98_xboole_1 t3_boole t48_xboole_1 t5_boole#4
+k4_xboole_0(k2_xboole_0(X1,k1_xboole_0),k4_xboole_0(X1,X1))=X1#l98_xboole_1 t3_boole t48_xboole_1 t5_boole#3
+k4_xboole_0(k2_xboole_0(X1,k1_xboole_0),k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0)))=X1#l98_xboole_1 t48_xboole_1 t5_boole#2
+k5_xboole_0(X1,X2)=k4_xboole_0(k2_xboole_0(X1,X2),k4_xboole_0(X1,k4_xboole_0(X1,X2)))#l98_xboole_1 t48_xboole_1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#d10_xboole_0 l32_xboole_1#1
+k5_xboole_0(X1,X2)=k4_xboole_0(k2_xboole_0(X1,X2),k4_xboole_0(X1,k4_xboole_0(X1,X2)))#l98_xboole_1 t48_xboole_1#1
+k2_xboole_0(k4_xboole_0(X1,X2),k4_xboole_0(X2,X1))=k4_xboole_0(k2_xboole_0(X1,X2),k4_xboole_0(X1,k4_xboole_0(X1,X2)))#t48_xboole_1 t55_xboole_1#1

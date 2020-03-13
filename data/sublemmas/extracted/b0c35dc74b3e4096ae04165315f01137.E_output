@@ -1,0 +1,34 @@
+r1_tarski(k1_wellord2(X1),k2_zfmisc_1(X1,X1))#d10_xboole_0 d1_wellord2 d6_relat_1 dt_k1_wellord2 fc4_funct_1 t116_relat_1 t18_wellord1 t21_relat_1 t25_relat_1 t30_wellord1 t71_relat_1 t73_relat_1 t7_xboole_1 t97_relat_1#8
+r1_tarski(k1_wellord2(X1),k2_zfmisc_1(X1,k2_relat_1(k1_wellord2(X1))))#d10_xboole_0 d1_wellord2 d6_relat_1 dt_k1_wellord2 fc4_funct_1 t21_relat_1 t25_relat_1 t71_relat_1 t73_relat_1 t7_xboole_1#6
+k1_relat_1(k1_wellord2(X1))=X1#d10_xboole_0 d1_wellord2 d6_relat_1 dt_k1_wellord2 fc4_funct_1 t25_relat_1 t71_relat_1 t73_relat_1 t7_xboole_1#5
+k1_relat_1(k1_wellord2(X1))=X1|~r1_tarski(X1,k1_relat_1(k1_wellord2(X1)))#d10_xboole_0 d1_wellord2 d6_relat_1 dt_k1_wellord2 t7_xboole_1#3
+r1_tarski(k1_relat_1(k1_wellord2(X1)),X1)#d1_wellord2 d6_relat_1 dt_k1_wellord2 t7_xboole_1#2
+r1_tarski(k1_relat_1(X1),k3_relat_1(X1))|~v1_relat_1(X1)#d6_relat_1 t7_xboole_1#1
+k3_relat_1(k1_wellord2(X1))=X1#d1_wellord2 dt_k1_wellord2#1
+r1_tarski(X1,k1_relat_1(k1_wellord2(X1)))#d10_xboole_0 d1_wellord2 dt_k1_wellord2 fc4_funct_1 t25_relat_1 t71_relat_1 t73_relat_1#4
+r1_tarski(X1,k1_relat_1(X2))|~r1_tarski(k6_relat_1(X1),X2)|~v1_relat_1(X2)#fc4_funct_1 t25_relat_1 t71_relat_1#1
+r1_tarski(k6_relat_1(X1),k1_wellord2(X1))#d10_xboole_0 d1_wellord2 dt_k1_wellord2 t73_relat_1#3
+r1_tarski(k6_relat_1(X1),k1_wellord2(X2))|~r2_hidden(esk3_2(X1,k1_wellord2(X2)),X2)#d10_xboole_0 d1_wellord2 dt_k1_wellord2 t73_relat_1#2
+r2_hidden(k4_tarski(X1,X2),k1_wellord2(X3))|~r1_tarski(X1,X2)|~r2_hidden(X2,X3)|~r2_hidden(X1,X3)#d1_wellord2 dt_k1_wellord2#1
+k2_relat_1(k1_wellord2(X1))=X1#d10_xboole_0 d1_wellord2 d6_relat_1 dt_k1_wellord2 fc4_funct_1 t116_relat_1 t18_wellord1 t25_relat_1 t30_wellord1 t71_relat_1 t73_relat_1 t7_xboole_1 t97_relat_1#7
+k2_relat_1(k1_wellord2(X1))=X1|~r1_tarski(k2_relat_1(k1_wellord2(X1)),X1)#d10_xboole_0 d1_wellord2 dt_k1_wellord2 fc4_funct_1 t25_relat_1 t71_relat_1 t73_relat_1#5
+r1_tarski(X1,k2_relat_1(k1_wellord2(X1)))#d10_xboole_0 d1_wellord2 dt_k1_wellord2 fc4_funct_1 t25_relat_1 t71_relat_1 t73_relat_1#4
+r1_tarski(X1,k2_relat_1(X2))|~r1_tarski(k6_relat_1(X1),X2)|~v1_relat_1(X2)#fc4_funct_1 t25_relat_1 t71_relat_1#1
+r1_tarski(k6_relat_1(X1),k1_wellord2(X1))#d10_xboole_0 d1_wellord2 dt_k1_wellord2 t73_relat_1#3
+r1_tarski(k6_relat_1(X1),k1_wellord2(X2))|~r2_hidden(esk3_2(X1,k1_wellord2(X2)),X2)#d10_xboole_0 d1_wellord2 dt_k1_wellord2 t73_relat_1#2
+r2_hidden(k4_tarski(X1,X2),k1_wellord2(X3))|~r1_tarski(X1,X2)|~r2_hidden(X2,X3)|~r2_hidden(X1,X3)#d1_wellord2 dt_k1_wellord2#1
+r1_tarski(k2_relat_1(k1_wellord2(X1)),X1)#d10_xboole_0 d1_wellord2 d6_relat_1 dt_k1_wellord2 fc4_funct_1 t116_relat_1 t18_wellord1 t25_relat_1 t30_wellord1 t71_relat_1 t73_relat_1 t7_xboole_1 t97_relat_1#6
+r1_tarski(k2_relat_1(k1_wellord2(X1)),X1)|~v1_relat_1(k7_relat_1(k1_wellord2(X1),X1))#d1_wellord2 dt_k1_wellord2 t116_relat_1 t18_wellord1 t30_wellord1#3
+r1_tarski(k2_relat_1(k2_wellord1(X1,X2)),X2)|~v1_relat_1(k7_relat_1(X1,X2))|~v1_relat_1(X1)#t116_relat_1 t18_wellord1#1
+k2_wellord1(k1_wellord2(X1),X1)=k1_wellord2(X1)#d1_wellord2 dt_k1_wellord2 t30_wellord1#2
+k3_relat_1(k1_wellord2(X1))=X1#d1_wellord2 dt_k1_wellord2#1
+k1_relat_1(k1_wellord2(X1))=X1#d10_xboole_0 d1_wellord2 d6_relat_1 dt_k1_wellord2 fc4_funct_1 t25_relat_1 t71_relat_1 t73_relat_1 t7_xboole_1#5
+k1_relat_1(k1_wellord2(X1))=X1|~r1_tarski(X1,k1_relat_1(k1_wellord2(X1)))#d10_xboole_0 d1_wellord2 d6_relat_1 dt_k1_wellord2 t7_xboole_1#3
+r1_tarski(k1_relat_1(k1_wellord2(X1)),X1)#d1_wellord2 d6_relat_1 dt_k1_wellord2 t7_xboole_1#2
+r1_tarski(k1_relat_1(X1),k3_relat_1(X1))|~v1_relat_1(X1)#d6_relat_1 t7_xboole_1#1
+k3_relat_1(k1_wellord2(X1))=X1#d1_wellord2 dt_k1_wellord2#1
+r1_tarski(X1,k1_relat_1(k1_wellord2(X1)))#d10_xboole_0 d1_wellord2 dt_k1_wellord2 fc4_funct_1 t25_relat_1 t71_relat_1 t73_relat_1#4
+r1_tarski(X1,k1_relat_1(X2))|~r1_tarski(k6_relat_1(X1),X2)|~v1_relat_1(X2)#fc4_funct_1 t25_relat_1 t71_relat_1#1
+r1_tarski(k6_relat_1(X1),k1_wellord2(X1))#d10_xboole_0 d1_wellord2 dt_k1_wellord2 t73_relat_1#3
+r1_tarski(k6_relat_1(X1),k1_wellord2(X2))|~r2_hidden(esk3_2(X1,k1_wellord2(X2)),X2)#d10_xboole_0 d1_wellord2 dt_k1_wellord2 t73_relat_1#2
+r2_hidden(k4_tarski(X1,X2),k1_wellord2(X3))|~r1_tarski(X1,X2)|~r2_hidden(X2,X3)|~r2_hidden(X1,X3)#d1_wellord2 dt_k1_wellord2#1

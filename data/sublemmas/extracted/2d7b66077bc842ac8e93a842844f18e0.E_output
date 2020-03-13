@@ -1,0 +1,5 @@
+k6_relat_1(k4_xboole_0(X1,k4_xboole_0(X1,X2)))=k7_relat_1(k6_relat_1(X1),X2)#dt_k6_relat_1 t43_funct_1 t48_xboole_1 t94_relat_1#2
+k5_relat_1(k6_relat_1(X1),k6_relat_1(X2))=k6_relat_1(k4_xboole_0(X2,k4_xboole_0(X2,X1)))#t43_funct_1 t48_xboole_1#1
+X1=k4_xboole_0(X2,k4_xboole_0(X2,X3))|~r1_tarski(X1,X3)|~r1_tarski(X1,X2)|~r1_tarski(esk1_3(X1,X2,X3),X1)#t20_xboole_1 t48_xboole_1#1
+k4_xboole_0(X1,k4_xboole_0(X1,X2))=X2|r1_tarski(esk1_3(X2,X1,X2),X2)|~r1_tarski(X2,X1)#d10_xboole_0 t20_xboole_1 t48_xboole_1#2
+X1=k4_xboole_0(X2,k4_xboole_0(X2,X3))|r1_tarski(esk1_3(X1,X2,X3),X3)|~r1_tarski(X1,X3)|~r1_tarski(X1,X2)#t20_xboole_1 t48_xboole_1#1

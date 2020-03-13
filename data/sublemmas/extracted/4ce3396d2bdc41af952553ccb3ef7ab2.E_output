@@ -1,0 +1,10 @@
+k3_subset_1(u1_struct_0(X1),k2_pre_topc(X1,k1_xboole_0))=k1_tops_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(X2))|~l1_pre_topc(X1)#d1_tops_1 d5_subset_1 l32_xboole_1 t3_subset#3
+k3_subset_1(X1,X2)=k1_xboole_0|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 l32_xboole_1 t3_subset#2
+k3_subset_1(X1,X2)=k1_xboole_0|~r1_tarski(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d5_subset_1 l32_xboole_1#1
+k2_pre_topc(X1,X2)=X2|~v1_xboole_0(X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v2_pre_topc(X1)#cc2_pre_topc t52_pre_topc#1
+X1=k3_subset_1(X1,k1_xboole_0)#d3_subset_1 d4_subset_1 t22_subset_1#1
+k2_struct_0(X1)=u1_struct_0(X1)|~l1_struct_0(X1)#d3_subset_1 d4_subset_1 fc1_xboole_0 fc3_struct_0 t22_subset_1 t27_pre_topc t8_boole#3
+k1_struct_0(X1)=k1_xboole_0|~l1_struct_0(X1)#fc1_xboole_0 fc3_struct_0 t8_boole#2
+X1=k1_xboole_0|~v1_xboole_0(X1)#fc1_xboole_0 t8_boole#1
+X1=k3_subset_1(X1,k1_xboole_0)#d3_subset_1 d4_subset_1 t22_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1#1

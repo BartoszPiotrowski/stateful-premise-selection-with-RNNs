@@ -1,0 +1,5 @@
+k1_setfam_1(k2_tarski(X1,k9_relat_1(X2,X3)))=k2_relat_1(k8_relat_1(X1,k7_relat_1(X2,X3)))|~v1_relat_1(k7_relat_1(X2,X3))|~v1_relat_1(X2)#commutativity_k3_xboole_0 t119_relat_1 t12_setfam_1 t148_relat_1#3
+k1_setfam_1(k2_tarski(X1,k2_relat_1(X2)))=k2_relat_1(k8_relat_1(X1,X2))|~v1_relat_1(X2)#commutativity_k3_xboole_0 t119_relat_1 t12_setfam_1#2
+k1_setfam_1(k2_tarski(X1,X2))=k1_setfam_1(k2_tarski(X2,X1))#commutativity_k3_xboole_0 t12_setfam_1#1
+k2_relat_1(k8_relat_1(X2,X1))=k1_setfam_1(k2_tarski(k2_relat_1(X1),X2))|~v1_relat_1(X1)#t119_relat_1 t12_setfam_1#1
+k2_relat_1(k8_relat_1(X1,k7_relat_1(X2,X3)))=k9_relat_1(k8_relat_1(X1,X2),X3)|~v1_relat_1(k8_relat_1(X1,X2))|~v1_relat_1(X2)#t140_relat_1 t148_relat_1#1

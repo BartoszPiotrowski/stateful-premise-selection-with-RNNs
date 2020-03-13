@@ -1,0 +1,10 @@
+k9_relat_1(X1,k1_xboole_0)=k1_xboole_0|~v1_relat_1(X1)#d2_subset_1 existence_m1_subset_1 t143_relat_1 t20_zfmisc_1 t2_boole t3_boole t48_xboole_1 t68_zfmisc_1 t69_enumset1 t6_boole t70_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t78_enumset1#7
+v1_xboole_0(k9_relat_1(X1,k1_xboole_0))|~v1_relat_1(X1)#d2_subset_1 existence_m1_subset_1 t143_relat_1 t20_zfmisc_1 t2_boole t3_boole t48_xboole_1 t68_zfmisc_1 t69_enumset1 t70_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t78_enumset1#6
+~v1_relat_1(X1)|~r2_hidden(X2,k9_relat_1(X1,k1_xboole_0))#t143_relat_1 t20_zfmisc_1 t2_boole t3_boole t48_xboole_1 t68_zfmisc_1 t69_enumset1 t70_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t78_enumset1#5
+~r2_hidden(X1,k1_xboole_0)#t20_zfmisc_1 t2_boole t3_boole t48_xboole_1 t68_zfmisc_1 t69_enumset1 t70_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t78_enumset1#4
+k4_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1),X2)=k1_xboole_0|~r2_hidden(X1,X2)#t68_zfmisc_1 t69_enumset1 t70_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t78_enumset1#1
+k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1)!=k1_xboole_0#t20_zfmisc_1 t2_boole t3_boole t48_xboole_1 t69_enumset1 t70_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t78_enumset1#3
+X1!=X2|k4_xboole_0(k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1),k6_enumset1(X2,X2,X2,X2,X2,X2,X2,X2))!=k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1)#t20_zfmisc_1 t69_enumset1 t70_enumset1 t73_enumset1 t74_enumset1 t75_enumset1 t78_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t2_boole t3_boole t48_xboole_1#2
+k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0))=k1_xboole_0#t2_boole t48_xboole_1#1
+v1_xboole_0(X1)|r2_hidden(esk2_1(X1),X1)#d2_subset_1 existence_m1_subset_1#1

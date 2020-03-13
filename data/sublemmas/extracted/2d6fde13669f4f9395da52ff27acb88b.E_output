@@ -1,0 +1,10 @@
+v2_struct_0(X1)|~v1_xboole_0(u1_struct_0(X1))|~l1_struct_0(X1)#d3_struct_0 fc5_struct_0#1
+k9_subset_1(X1,X2,X3)=k9_subset_1(X4,X3,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X4))#commutativity_k9_subset_1 redefinition_k9_subset_1#2
+k9_subset_1(X1,X2,X3)=k9_subset_1(X4,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X4))#redefinition_k9_subset_1#1
+k2_tarski(X2,X2)=k6_domain_1(X1,X2)|v1_xboole_0(X1)|~m1_subset_1(X2,X1)#redefinition_k6_domain_1 t69_enumset1#1
+k9_subset_1(u1_struct_0(X1),X2,k2_pre_topc(X1,k2_tarski(X3,X3)))=k2_tarski(X3,X3)|v2_struct_0(X1)|~r1_tarski(k2_tarski(X3,X3),X2)|~r2_hidden(X3,u1_struct_0(X1))|~v2_tex_2(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#t41_tex_2 t63_subset_1 t69_enumset1#2
+m1_subset_1(k2_tarski(X1,X1),k1_zfmisc_1(X2))|~r2_hidden(X1,X2)#t63_subset_1 t69_enumset1#1
+v2_struct_0(X1)|~v1_xboole_0(u1_struct_0(X1))|~l1_struct_0(X1)#d3_struct_0 fc5_struct_0#1
+r1_tarski(k2_tarski(X1,X1),X2)|r2_hidden(esk4_2(k2_tarski(X1,X1),X2),X3)|~r2_hidden(X1,X3)#d3_tarski l1_zfmisc_1 t69_enumset1#3
+r2_hidden(X1,X2)|~r2_hidden(X1,k2_tarski(X3,X3))|~r2_hidden(X3,X2)#d3_tarski l1_zfmisc_1 t69_enumset1#2
+r1_tarski(k2_tarski(X1,X1),X2)|~r2_hidden(X1,X2)#l1_zfmisc_1 t69_enumset1#1

@@ -1,0 +1,20 @@
+~r2_hidden(X1,X1)#d10_xboole_0 t7_ordinal1#1
+r1_tarski(k1_wellord1(X1,X2),X3)|r2_hidden(X2,k2_relat_1(X1))|~v1_relat_1(X1)#d1_wellord1 d3_tarski t20_relat_1#2
+r2_hidden(X1,k2_relat_1(X2))|~r2_hidden(X3,k1_wellord1(X2,X1))|~v1_relat_1(X2)#d1_wellord1 t20_relat_1#1
+k1_wellord1(X1,X2)=k1_xboole_0|r2_hidden(X2,k2_relat_1(X1))|~v2_wellord1(X3)|~v1_relat_1(X1)|~v1_relat_1(X3)#d1_wellord1 d3_tarski t10_wellord1 t20_relat_1#3
+r2_hidden(X1,k2_relat_1(X2))|~r2_hidden(X3,k1_wellord1(X2,X1))|~v1_relat_1(X2)#d1_wellord1 t20_relat_1#1
+r1_tarski(k1_wellord1(X1,X2),X3)|r2_hidden(X2,k2_relat_1(X1))|~v1_relat_1(X1)#d1_wellord1 d3_tarski t20_relat_1#2
+r2_hidden(X1,k2_relat_1(X2))|~r2_hidden(X3,k1_wellord1(X2,X1))|~v1_relat_1(X2)#d1_wellord1 t20_relat_1#1
+X1=X2|r2_hidden(X2,esk5_2(X3,X1))|~v4_relat_2(X3)|~r2_hidden(k4_tarski(X1,X2),X3)|~r2_hidden(X2,k3_relat_1(X3))|~v1_relat_1(X3)#l3_wellord1 s1_xboole_0__e7_18__wellord1#1
+r2_hidden(k4_tarski(X1,X2),X3)|~v8_relat_2(X3)|~r2_hidden(k4_tarski(X1,X4),X3)|~r2_hidden(X4,k1_wellord1(X3,X2))|~v1_relat_1(X3)#d1_wellord1 l2_wellord1#1
+X1=X2|r2_hidden(X2,esk5_2(X3,X1))|~v4_relat_2(X3)|~r2_hidden(k4_tarski(X1,X2),X3)|~r2_hidden(X2,k3_relat_1(X3))|~v1_relat_1(X3)#l3_wellord1 s1_xboole_0__e7_18__wellord1#1
+r2_hidden(k4_tarski(X1,X2),X3)|~v8_relat_2(X3)|~r2_hidden(k4_tarski(X1,X4),X3)|~r2_hidden(X4,k1_wellord1(X3,X2))|~v1_relat_1(X3)#d1_wellord1 l2_wellord1#1
+esk5_2(X1,X2)=k1_xboole_0|~r2_hidden(X2,esk5_2(X1,X2))|~v2_wellord1(X1)|~v1_relat_1(X1)#d3_tarski s1_xboole_0__e7_18__wellord1 t10_wellord1#3
+esk5_2(X1,X2)=k1_xboole_0|~r1_tarski(esk5_2(X1,X2),k3_relat_1(X1))|~r2_hidden(X2,esk5_2(X1,X2))|~v2_wellord1(X1)|~v1_relat_1(X1)#s1_xboole_0__e7_18__wellord1 t10_wellord1#2
+X1=k1_xboole_0|~r1_tarski(X1,k3_relat_1(X2))|~r2_hidden(esk4_2(X2,X1),esk5_2(X2,X3))|~r2_hidden(X3,X1)|~v2_wellord1(X2)|~v1_relat_1(X2)#s1_xboole_0__e7_18__wellord1 t10_wellord1#1
+r1_tarski(esk5_2(X1,X2),k3_relat_1(X1))|~v1_relat_1(X1)#d3_tarski s1_xboole_0__e7_18__wellord1#2
+r1_tarski(esk5_2(X1,X2),X3)|r2_hidden(esk14_2(esk5_2(X1,X2),X3),k3_relat_1(X1))|~v1_relat_1(X1)#d3_tarski s1_xboole_0__e7_18__wellord1#1
+X1=X2|r2_hidden(X2,esk5_2(X3,X1))|~v4_relat_2(X3)|~r2_hidden(k4_tarski(X1,X2),X3)|~r2_hidden(X2,k3_relat_1(X3))|~v1_relat_1(X3)#l3_wellord1 s1_xboole_0__e7_18__wellord1#1
+r2_hidden(k4_tarski(X1,X2),X3)|~v8_relat_2(X3)|~r2_hidden(k4_tarski(X1,X4),X3)|~r2_hidden(X4,k1_wellord1(X3,X2))|~v1_relat_1(X3)#d1_wellord1 l2_wellord1#1
+X1=X2|r2_hidden(X2,esk5_2(X3,X1))|~v4_relat_2(X3)|~r2_hidden(k4_tarski(X1,X2),X3)|~r2_hidden(X2,k3_relat_1(X3))|~v1_relat_1(X3)#l3_wellord1 s1_xboole_0__e7_18__wellord1#1
+r2_hidden(k4_tarski(X1,X2),X3)|~v8_relat_2(X3)|~r2_hidden(k4_tarski(X1,X4),X3)|~r2_hidden(X4,k1_wellord1(X3,X2))|~v1_relat_1(X3)#d1_wellord1 l2_wellord1#1

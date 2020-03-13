@@ -1,0 +1,5 @@
+r1_tarski(k1_xboole_0,X1)#d10_xboole_0 d3_tarski d8_xboole_0 t61_xboole_1 t7_ordinal1#3
+r1_tarski(X1,X2)|~r1_tarski(X1,esk5_2(X1,X2))#d3_tarski t7_ordinal1#1
+esk5_2(k1_xboole_0,X1)=k1_xboole_0|r1_tarski(k1_xboole_0,X1)#d3_tarski d8_xboole_0 t61_xboole_1 t7_ordinal1#2
+r1_tarski(X1,X2)|~r1_tarski(X1,esk5_2(X1,X2))#d3_tarski t7_ordinal1#1
+X1=k1_xboole_0|r1_tarski(k1_xboole_0,X1)#d8_xboole_0 t61_xboole_1#1

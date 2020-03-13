@@ -1,0 +1,26 @@
+v2_tex_2(X1,X2)|v2_struct_0(X2)|k3_xboole_0(X1,X3)!=k6_domain_1(u1_struct_0(X2),esk5_2(X2,X1))|~v3_pre_topc(X3,X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v2_pre_topc(X2)#redefinition_k9_subset_1 t37_tex_2#1
+k3_xboole_0(X1,X2)=k3_xboole_0(X2,X1)|~m1_subset_1(X1,k1_zfmisc_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(X3))#commutativity_k9_subset_1 redefinition_k9_subset_1#2
+k9_subset_1(X1,X2,X3)=k3_xboole_0(X3,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#commutativity_k9_subset_1 redefinition_k9_subset_1#1
+k6_domain_1(X1,esk5_2(X2,X1))=k1_tarski(esk5_2(X2,X1))|v2_tex_2(X1,X2)|v2_struct_0(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v2_pre_topc(X2)#d10_xboole_0 redefinition_k6_domain_1 t37_tex_2 t3_subset t4_subset t5_subset#4
+v2_tex_2(X1,X2)|m1_subset_1(esk5_2(X2,X1),X1)|v2_struct_0(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v2_pre_topc(X2)#d10_xboole_0 t37_tex_2 t3_subset t4_subset#3
+m1_subset_1(X1,X2)|~r2_hidden(X1,X2)#d10_xboole_0 t3_subset t4_subset#2
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+v2_tex_2(X1,X2)|v2_struct_0(X2)|~v1_xboole_0(X1)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v2_pre_topc(X2)#d10_xboole_0 t37_tex_2 t3_subset t5_subset#3
+~v1_xboole_0(X1)|~r2_hidden(X2,X1)#d10_xboole_0 t3_subset t5_subset#2
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+k9_subset_1(X1,X2,X3)=k9_subset_1(X4,X3,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X4))#commutativity_k9_subset_1 redefinition_k9_subset_1#2
+k9_subset_1(X1,X2,X3)=k9_subset_1(X4,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X4))#redefinition_k9_subset_1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+k6_domain_1(u1_struct_0(X1),esk5_2(X1,X2))=k1_tarski(esk5_2(X1,X2))|v1_xboole_0(u1_struct_0(X1))|v2_tex_2(X2,X1)|v2_struct_0(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)|~v2_pre_topc(X1)#redefinition_k6_domain_1 t37_tex_2#1
+r2_hidden(X1,X2)|~r2_hidden(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))#d3_tarski t3_subset#1
+r1_tarski(k1_tarski(X1),X2)|r2_hidden(esk4_2(k1_tarski(X1),X2),X3)|~r2_hidden(X1,X3)#d3_tarski t3_subset t63_subset_1#3
+r2_hidden(X1,X2)|~r2_hidden(X1,k1_tarski(X3))|~r2_hidden(X3,X2)#d3_tarski t3_subset t63_subset_1#2
+r2_hidden(X1,X2)|~r2_hidden(X1,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))#d3_tarski t3_subset#1
+k6_domain_1(X1,esk5_2(X2,X1))=k1_tarski(esk5_2(X2,X1))|v2_tex_2(X1,X2)|v2_struct_0(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v2_pre_topc(X2)#d10_xboole_0 redefinition_k6_domain_1 t37_tex_2 t3_subset t4_subset t5_subset#4
+v2_tex_2(X1,X2)|m1_subset_1(esk5_2(X2,X1),X1)|v2_struct_0(X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v2_pre_topc(X2)#d10_xboole_0 t37_tex_2 t3_subset t4_subset#3
+m1_subset_1(X1,X2)|~r2_hidden(X1,X2)#d10_xboole_0 t3_subset t4_subset#2
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+v2_tex_2(X1,X2)|v2_struct_0(X2)|~v1_xboole_0(X1)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~v2_pre_topc(X2)#d10_xboole_0 t37_tex_2 t3_subset t5_subset#3
+~v1_xboole_0(X1)|~r2_hidden(X2,X1)#d10_xboole_0 t3_subset t5_subset#2
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1

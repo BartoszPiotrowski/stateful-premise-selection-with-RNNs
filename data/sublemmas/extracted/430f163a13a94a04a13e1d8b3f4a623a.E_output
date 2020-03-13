@@ -1,0 +1,5 @@
+m1_subset_1(k9_subset_1(X1,X2,X3),k1_zfmisc_1(X4))|~m1_subset_1(X3,k1_zfmisc_1(X4))|~m1_subset_1(X3,k1_zfmisc_1(X1))#dt_k9_subset_1 redefinition_k9_subset_1 t12_setfam_1 t77_enumset1#3
+k9_subset_1(X1,X2,X3)=k9_subset_1(X4,X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X3,k1_zfmisc_1(X4))#redefinition_k9_subset_1 t12_setfam_1 t77_enumset1#2
+k9_subset_1(X2,X3,X1)=k1_setfam_1(k2_enumset1(X3,X3,X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#redefinition_k9_subset_1 t12_setfam_1 t77_enumset1#1
+k9_subset_1(X2,X3,X1)=k1_setfam_1(k2_enumset1(X3,X3,X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#redefinition_k9_subset_1 t12_setfam_1 t77_enumset1#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1#1

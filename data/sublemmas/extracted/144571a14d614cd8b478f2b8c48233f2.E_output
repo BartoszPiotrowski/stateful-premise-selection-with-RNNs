@@ -1,0 +1,11 @@
+r1_setfam_1(X1,X1)#d2_setfam_1 d3_tarski#3
+r1_setfam_1(X1,X2)|~r2_hidden(esk10_2(X1,X2),X2)#d2_setfam_1 d3_tarski#2
+r1_tarski(X1,X1)#d3_tarski#1
+r1_setfam_1(X1,k2_setfam_1(X2,X3))|~r2_hidden(esk10_2(X1,k2_setfam_1(X2,X3)),X3)|~r2_hidden(X4,X2)#d2_setfam_1 d3_tarski d3_xboole_0 d4_setfam_1#4
+r1_setfam_1(X1,X2)|~r2_hidden(k2_xboole_0(X3,esk10_2(X1,X2)),X2)#d2_setfam_1 d3_tarski d3_xboole_0#3
+r1_tarski(X1,k2_xboole_0(X2,X1))#d3_tarski d3_xboole_0#2
+r1_tarski(X1,k2_xboole_0(X2,X3))|~r2_hidden(esk2_2(X1,k2_xboole_0(X2,X3)),X3)#d3_tarski d3_xboole_0#1
+r1_setfam_1(X1,k2_setfam_1(X2,X3))|~r2_hidden(esk10_2(X1,k2_setfam_1(X2,X3)),X3)|~r2_hidden(X4,X2)#d2_setfam_1 d3_tarski d3_xboole_0 d4_setfam_1#4
+r1_setfam_1(X1,X2)|~r2_hidden(k2_xboole_0(X3,esk10_2(X1,X2)),X2)#d2_setfam_1 d3_tarski d3_xboole_0#3
+r1_tarski(X1,k2_xboole_0(X2,X1))#d3_tarski d3_xboole_0#2
+r1_tarski(X1,k2_xboole_0(X2,X3))|~r2_hidden(esk2_2(X1,k2_xboole_0(X2,X3)),X3)#d3_tarski d3_xboole_0#1

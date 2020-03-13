@@ -1,0 +1,13 @@
+r1_tarski(k3_tarski(k2_tarski(X1,X3)),k3_tarski(k2_tarski(X2,X4)))|~r1_tarski(X3,X4)|~r1_tarski(X1,X2)#l51_zfmisc_1 t13_xboole_1#1
+r1_tarski(X1,X3)|~r1_tarski(k3_tarski(k2_tarski(X1,X2)),X3)#l51_zfmisc_1 t11_xboole_1#1
+k3_tarski(k2_tarski(X1,X2))=X2|~r1_tarski(X1,X2)#l51_zfmisc_1 t12_xboole_1#1
+r1_tarski(X1,k3_tarski(k2_tarski(X1,X2)))#l51_zfmisc_1 t7_xboole_1#1
+k2_zfmisc_1(X1,k3_tarski(k2_tarski(X2,X3)))=k3_tarski(k2_tarski(k2_zfmisc_1(X1,X2),k2_zfmisc_1(X1,X3)))#l51_zfmisc_1 t120_zfmisc_1#1
+r1_tarski(X1,X3)|~r1_tarski(k3_tarski(k2_tarski(X1,X2)),X3)#l51_zfmisc_1 t11_xboole_1#1
+k3_tarski(k2_tarski(X1,X2))=X2|~r1_tarski(X1,X2)#l51_zfmisc_1 t12_xboole_1#1
+r1_tarski(X1,k3_tarski(k2_tarski(X2,X1)))#commutativity_k2_xboole_0 l51_zfmisc_1 t7_xboole_1#2
+r1_tarski(X1,k3_tarski(k2_tarski(X1,X2)))#l51_zfmisc_1 t7_xboole_1#1
+k3_tarski(k2_tarski(X1,X2))=k3_tarski(k2_tarski(X2,X1))#commutativity_k2_xboole_0 l51_zfmisc_1#1
+k2_zfmisc_1(X1,k3_tarski(k2_tarski(X2,X3)))=k3_tarski(k2_tarski(k2_zfmisc_1(X1,X2),k2_zfmisc_1(X1,X3)))#l51_zfmisc_1 t120_zfmisc_1#1
+k2_zfmisc_1(k3_tarski(k2_tarski(X1,X2)),X3)=k3_tarski(k2_tarski(k2_zfmisc_1(X1,X3),k2_zfmisc_1(X2,X3)))#l51_zfmisc_1 t120_zfmisc_1#1
+k3_tarski(k2_tarski(X1,X2))=k3_tarski(k2_tarski(X2,X1))#commutativity_k2_xboole_0 l51_zfmisc_1#1

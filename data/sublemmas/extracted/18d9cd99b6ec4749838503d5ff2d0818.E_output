@@ -1,0 +1,15 @@
+k4_yellow_0(k2_yellow_1(u1_pre_topc(X1)))=u1_struct_0(X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d10_xboole_0 d1_pre_topc d3_tarski d4_tarski dt_u1_pre_topc t14_yellow_1 t3_subset t5_subset t95_zfmisc_1 t99_zfmisc_1#8
+k4_yellow_0(k2_yellow_1(X1))=k3_tarski(X1)|~r2_hidden(k3_tarski(X1),X1)#d10_xboole_0 t14_yellow_1 t3_subset t5_subset#3
+~v1_xboole_0(X1)|~r2_hidden(X2,X1)#d10_xboole_0 t3_subset t5_subset#2
+~v1_xboole_0(X1)|~r1_tarski(X2,X1)|~r2_hidden(X3,X2)#t3_subset t5_subset#1
+k3_tarski(u1_pre_topc(X1))=u1_struct_0(X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d10_xboole_0 d1_pre_topc d3_tarski d4_tarski dt_u1_pre_topc t3_subset t95_zfmisc_1 t99_zfmisc_1#7
+k3_tarski(u1_pre_topc(X1))=u1_struct_0(X1)|~r1_tarski(u1_struct_0(X1),k3_tarski(u1_pre_topc(X1)))|~l1_pre_topc(X1)#d10_xboole_0 d3_tarski dt_u1_pre_topc t3_subset t95_zfmisc_1 t99_zfmisc_1#6
+r1_tarski(k3_tarski(u1_pre_topc(X1)),u1_struct_0(X1))|~l1_pre_topc(X1)#d3_tarski dt_u1_pre_topc t3_subset t95_zfmisc_1 t99_zfmisc_1#5
+r1_tarski(k3_tarski(u1_pre_topc(X1)),X2)|r2_hidden(esk8_2(k3_tarski(u1_pre_topc(X1)),X2),u1_struct_0(X1))|~l1_pre_topc(X1)#d3_tarski dt_u1_pre_topc t3_subset t95_zfmisc_1 t99_zfmisc_1#4
+r2_hidden(X1,u1_struct_0(X2))|~r2_hidden(X1,k3_tarski(u1_pre_topc(X2)))|~l1_pre_topc(X2)#d3_tarski dt_u1_pre_topc t3_subset t95_zfmisc_1 t99_zfmisc_1#3
+r2_hidden(X1,X2)|~r1_tarski(X3,k1_zfmisc_1(X2))|~r2_hidden(X1,k3_tarski(X3))#d3_tarski t95_zfmisc_1 t99_zfmisc_1#2
+r1_tarski(k3_tarski(X1),X2)|~r1_tarski(X1,k1_zfmisc_1(X2))#t95_zfmisc_1 t99_zfmisc_1#1
+r1_tarski(u1_pre_topc(X1),k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#dt_u1_pre_topc t3_subset#1
+r1_tarski(u1_struct_0(X1),k3_tarski(u1_pre_topc(X1)))|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d1_pre_topc d3_tarski d4_tarski#3
+r1_tarski(X1,k3_tarski(u1_pre_topc(X2)))|~r2_hidden(esk8_2(X1,k3_tarski(u1_pre_topc(X2))),u1_struct_0(X2))|~l1_pre_topc(X2)|~v2_pre_topc(X2)#d1_pre_topc d3_tarski d4_tarski#2
+r2_hidden(X1,k3_tarski(u1_pre_topc(X2)))|~r2_hidden(X1,u1_struct_0(X2))|~l1_pre_topc(X2)|~v2_pre_topc(X2)#d1_pre_topc d4_tarski#1

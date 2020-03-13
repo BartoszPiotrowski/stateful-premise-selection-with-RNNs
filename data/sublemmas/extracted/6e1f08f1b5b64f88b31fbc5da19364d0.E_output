@@ -1,0 +1,15 @@
+k1_struct_0(X1)=k1_xboole_0|~l1_orders_2(X1)#d2_struct_0 dt_l1_orders_2#1
+a_2_0_orders_2(X1,k1_xboole_0)=u1_struct_0(X1)|v2_struct_0(X1)|~l1_orders_2(X1)|~v5_orders_2(X1)|~v4_orders_2(X1)|~v3_orders_2(X1)#d10_xboole_0 d12_orders_2 dt_k1_orders_2 fc1_xboole_0 fraenkel_a_2_0_orders_2 t3_subset t48_subset_1 t4_subset_1 t5_subset#8
+a_2_0_orders_2(X1,X2)=u1_struct_0(X1)|v2_struct_0(X1)|~l1_orders_2(X1)|~v5_orders_2(X1)|~v4_orders_2(X1)|~v3_orders_2(X1)|~m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(a_2_0_orders_2(X1,X2)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#d10_xboole_0 d12_orders_2 dt_k1_orders_2 t3_subset#3
+X1=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d10_xboole_0 t3_subset#2
+X1=X2|~r1_tarski(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1
+v2_struct_0(X1)|m1_subset_1(a_2_0_orders_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_orders_2(X1)|~v5_orders_2(X1)|~v4_orders_2(X1)|~v3_orders_2(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#d12_orders_2 dt_k1_orders_2#1
+v2_struct_0(X1)|m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(a_2_0_orders_2(X1,k1_xboole_0)))|~l1_orders_2(X1)|~v5_orders_2(X1)|~v4_orders_2(X1)|~v3_orders_2(X1)#d10_xboole_0 d12_orders_2 dt_k1_orders_2 fc1_xboole_0 fraenkel_a_2_0_orders_2 t3_subset t48_subset_1 t4_subset_1 t5_subset#7
+r1_tarski(u1_struct_0(X1),a_2_0_orders_2(X1,k1_xboole_0))|v2_struct_0(X1)|~l1_orders_2(X1)|~v5_orders_2(X1)|~v4_orders_2(X1)|~v3_orders_2(X1)#d10_xboole_0 d12_orders_2 dt_k1_orders_2 fc1_xboole_0 fraenkel_a_2_0_orders_2 t3_subset t48_subset_1 t4_subset_1 t5_subset#6
+r1_tarski(u1_struct_0(X1),a_2_0_orders_2(X1,k1_xboole_0))|v2_struct_0(X1)|~l1_orders_2(X1)|~v5_orders_2(X1)|~v4_orders_2(X1)|~v3_orders_2(X1)|~m1_subset_1(a_2_0_orders_2(X1,k1_xboole_0),k1_zfmisc_1(X2))|~m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(X2))#fc1_xboole_0 fraenkel_a_2_0_orders_2 t48_subset_1 t4_subset_1 t5_subset#5
+r1_tarski(X1,a_2_0_orders_2(X2,k1_xboole_0))|v2_struct_0(X2)|~l1_orders_2(X2)|~v5_orders_2(X2)|~v4_orders_2(X2)|~v3_orders_2(X2)|~m1_subset_1(esk3_3(X3,X1,a_2_0_orders_2(X2,k1_xboole_0)),u1_struct_0(X2))|~m1_subset_1(a_2_0_orders_2(X2,k1_xboole_0),k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X3))#fc1_xboole_0 fraenkel_a_2_0_orders_2 t48_subset_1 t4_subset_1 t5_subset#4
+v2_struct_0(X1)|r2_hidden(X2,a_2_0_orders_2(X1,k1_xboole_0))|~l1_orders_2(X1)|~v5_orders_2(X1)|~v4_orders_2(X1)|~v3_orders_2(X1)|~m1_subset_1(X2,u1_struct_0(X1))#fc1_xboole_0 fraenkel_a_2_0_orders_2 t4_subset_1 t5_subset#3
+v2_struct_0(X1)|r2_hidden(X2,a_2_0_orders_2(X1,k1_xboole_0))|~l1_orders_2(X1)|~v5_orders_2(X1)|~v4_orders_2(X1)|~v3_orders_2(X1)|~v1_xboole_0(X3)|~m1_subset_1(X2,u1_struct_0(X1))#fraenkel_a_2_0_orders_2 t4_subset_1 t5_subset#2
+~v1_xboole_0(X1)|~r2_hidden(X2,k1_xboole_0)#t4_subset_1 t5_subset#1
+v2_struct_0(X1)|m1_subset_1(a_2_0_orders_2(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~l1_orders_2(X1)|~v5_orders_2(X1)|~v4_orders_2(X1)|~v3_orders_2(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#d12_orders_2 dt_k1_orders_2#1
+m1_subset_1(X1,k1_zfmisc_1(X1))#d10_xboole_0 t3_subset#1

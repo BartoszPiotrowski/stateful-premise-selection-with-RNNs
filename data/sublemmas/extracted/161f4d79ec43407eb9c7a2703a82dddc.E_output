@@ -1,0 +1,176 @@
+r1_tarski(X1,k3_tarski(k2_tarski(X2,X1)))#commutativity_k2_tarski l51_zfmisc_1 t7_xboole_1#2
+r1_tarski(X1,k3_tarski(k2_tarski(X1,X2)))#l51_zfmisc_1 t7_xboole_1#1
+k4_subset_1(X2,X1,X3)=k3_tarski(k2_tarski(X1,X3))|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(X2))#l51_zfmisc_1 redefinition_k4_subset_1#1
+k4_subset_1(u1_struct_0(X1),k3_subset_1(u1_struct_0(X1),X2),k2_tops_1(X1,X2))=k2_pre_topc(X1,k3_subset_1(u1_struct_0(X1),X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#dt_k3_subset_1 t62_tops_1 t65_tops_1#1
+k3_subset_1(X1,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X2,X1))))=k1_setfam_1(k2_tarski(X2,X1))|~m1_subset_1(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X2,X1))),k1_zfmisc_1(X1))#commutativity_k2_tarski d5_subset_1 t100_xboole_1 t12_setfam_1 t48_xboole_1#4
+k3_subset_1(X2,X1)=k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t12_setfam_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X2,X1))))))=k1_setfam_1(k2_tarski(X2,X1))#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t48_xboole_1#3
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))))))=k1_setfam_1(k2_tarski(X1,X2))#t100_xboole_1 t12_setfam_1 t48_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))))))=k1_setfam_1(k2_tarski(X1,X2))#t100_xboole_1 t12_setfam_1 t48_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))=k1_xboole_0|~r1_tarski(X1,k3_tarski(k2_tarski(X2,k5_xboole_0(X3,k1_setfam_1(k2_tarski(X3,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))))))))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t38_xboole_1 t43_xboole_1#3
+X1=k1_xboole_0|~r1_tarski(X1,k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1))))#t100_xboole_1 t12_setfam_1 t38_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)|~r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t43_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))|~r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t44_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,X2),X1)|~r1_tarski(X2,X1)#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t28_xboole_1 t36_xboole_1#3
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X1)#t100_xboole_1 t12_setfam_1 t36_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,X2))=X2|~r1_tarski(X2,X1)#commutativity_k2_tarski t12_setfam_1 t28_xboole_1#2
+k1_setfam_1(k2_tarski(X1,X2))=X1|~r1_tarski(X1,X2)#t12_setfam_1 t28_xboole_1#1
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_xboole_0)=X1#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t17_xboole_1 t3_boole t3_xboole_1#4
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k1_xboole_0)))=X1#t100_xboole_1 t12_setfam_1 t3_boole#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X2,X1)))=k3_subset_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#commutativity_k2_tarski d5_subset_1 t100_xboole_1 t12_setfam_1#3
+k3_subset_1(X2,X1)=k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t12_setfam_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))))))=k1_setfam_1(k2_tarski(X1,X2))#t100_xboole_1 t12_setfam_1 t48_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))=k1_xboole_0|~r1_tarski(X1,k3_tarski(k2_tarski(X2,k5_xboole_0(X3,k1_setfam_1(k2_tarski(X3,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))))))))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t38_xboole_1 t43_xboole_1#3
+X1=k1_xboole_0|~r1_tarski(X1,k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1))))#t100_xboole_1 t12_setfam_1 t38_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)|~r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t43_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))|~r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t44_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,X2),X1)|~r1_tarski(X2,X1)#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t28_xboole_1 t36_xboole_1#3
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X1)#t100_xboole_1 t12_setfam_1 t36_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,X2))=X2|~r1_tarski(X2,X1)#commutativity_k2_tarski t12_setfam_1 t28_xboole_1#2
+k1_setfam_1(k2_tarski(X1,X2))=X1|~r1_tarski(X1,X2)#t12_setfam_1 t28_xboole_1#1
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_xboole_0)=X1#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t17_xboole_1 t3_boole t3_xboole_1#4
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k1_xboole_0)))=X1#t100_xboole_1 t12_setfam_1 t3_boole#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X2,X1)))=k3_subset_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#commutativity_k2_tarski d5_subset_1 t100_xboole_1 t12_setfam_1#3
+k3_subset_1(X2,X1)=k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t12_setfam_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))))))=k1_setfam_1(k2_tarski(X1,X2))#t100_xboole_1 t12_setfam_1 t48_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))=k1_xboole_0|~r1_tarski(X1,k3_tarski(k2_tarski(X2,k5_xboole_0(X3,k1_setfam_1(k2_tarski(X3,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))))))))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t38_xboole_1 t43_xboole_1#3
+X1=k1_xboole_0|~r1_tarski(X1,k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1))))#t100_xboole_1 t12_setfam_1 t38_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)|~r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t43_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))|~r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t44_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,X2),X1)|~r1_tarski(X2,X1)#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t28_xboole_1 t36_xboole_1#3
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X1)#t100_xboole_1 t12_setfam_1 t36_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,X2))=X2|~r1_tarski(X2,X1)#commutativity_k2_tarski t12_setfam_1 t28_xboole_1#2
+k1_setfam_1(k2_tarski(X1,X2))=X1|~r1_tarski(X1,X2)#t12_setfam_1 t28_xboole_1#1
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_xboole_0)=X1#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t17_xboole_1 t3_boole t3_xboole_1#4
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k1_xboole_0)))=X1#t100_xboole_1 t12_setfam_1 t3_boole#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X2,X1)))=k3_subset_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#commutativity_k2_tarski d5_subset_1 t100_xboole_1 t12_setfam_1#3
+k3_subset_1(X2,X1)=k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t12_setfam_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))))))=k1_setfam_1(k2_tarski(X1,X2))#t100_xboole_1 t12_setfam_1 t48_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))=k1_xboole_0|~r1_tarski(X1,k3_tarski(k2_tarski(X2,k5_xboole_0(X3,k1_setfam_1(k2_tarski(X3,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))))))))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t38_xboole_1 t43_xboole_1#3
+X1=k1_xboole_0|~r1_tarski(X1,k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1))))#t100_xboole_1 t12_setfam_1 t38_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)|~r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t43_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))|~r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t44_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,X2),X1)|~r1_tarski(X2,X1)#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t28_xboole_1 t36_xboole_1#3
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X1)#t100_xboole_1 t12_setfam_1 t36_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,X2))=X2|~r1_tarski(X2,X1)#commutativity_k2_tarski t12_setfam_1 t28_xboole_1#2
+k1_setfam_1(k2_tarski(X1,X2))=X1|~r1_tarski(X1,X2)#t12_setfam_1 t28_xboole_1#1
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_xboole_0)=X1#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t17_xboole_1 t3_boole t3_xboole_1#4
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k1_xboole_0)))=X1#t100_xboole_1 t12_setfam_1 t3_boole#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X2,X1)))=k3_subset_1(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#commutativity_k2_tarski d5_subset_1 t100_xboole_1 t12_setfam_1#3
+k3_subset_1(X2,X1)=k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t12_setfam_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))))))=k1_setfam_1(k2_tarski(X1,X2))#t100_xboole_1 t12_setfam_1 t48_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))=k1_xboole_0|~r1_tarski(X1,k3_tarski(k2_tarski(X2,k5_xboole_0(X3,k1_setfam_1(k2_tarski(X3,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))))))))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t38_xboole_1 t43_xboole_1#3
+X1=k1_xboole_0|~r1_tarski(X1,k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1))))#t100_xboole_1 t12_setfam_1 t38_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)|~r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t43_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))|~r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t44_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,X2),X1)|~r1_tarski(X2,X1)#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t28_xboole_1 t36_xboole_1#3
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X1)#t100_xboole_1 t12_setfam_1 t36_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,X2))=X2|~r1_tarski(X2,X1)#commutativity_k2_tarski t12_setfam_1 t28_xboole_1#2
+k1_setfam_1(k2_tarski(X1,X2))=X1|~r1_tarski(X1,X2)#t12_setfam_1 t28_xboole_1#1
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_xboole_0)=X1#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t17_xboole_1 t3_boole t3_xboole_1#4
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k1_xboole_0)))=X1#t100_xboole_1 t12_setfam_1 t3_boole#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X2,X1))),X1)#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t36_xboole_1#3
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X1)#t100_xboole_1 t12_setfam_1 t36_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))))))=k1_setfam_1(k2_tarski(X1,X2))#t100_xboole_1 t12_setfam_1 t48_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))=k1_xboole_0|~r1_tarski(X1,k3_tarski(k2_tarski(X2,k5_xboole_0(X3,k1_setfam_1(k2_tarski(X3,k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))))))))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t38_xboole_1 t43_xboole_1#3
+X1=k1_xboole_0|~r1_tarski(X1,k5_xboole_0(X2,k1_setfam_1(k2_tarski(X2,X1))))#t100_xboole_1 t12_setfam_1 t38_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)|~r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t43_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))|~r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X3)#l51_zfmisc_1 t100_xboole_1 t12_setfam_1 t44_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+r1_tarski(k5_xboole_0(X1,X2),X1)|~r1_tarski(X2,X1)#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t28_xboole_1 t36_xboole_1#3
+r1_tarski(k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2))),X1)#t100_xboole_1 t12_setfam_1 t36_xboole_1#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,X2))=X2|~r1_tarski(X2,X1)#commutativity_k2_tarski t12_setfam_1 t28_xboole_1#2
+k1_setfam_1(k2_tarski(X1,X2))=X1|~r1_tarski(X1,X2)#t12_setfam_1 t28_xboole_1#1
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k5_xboole_0(X1,k1_xboole_0)=X1#commutativity_k2_tarski t100_xboole_1 t12_setfam_1 t17_xboole_1 t3_boole t3_xboole_1#4
+k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,k1_xboole_0)))=X1#t100_xboole_1 t12_setfam_1 t3_boole#2
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k2_tarski(X1,X2)))#t100_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#commutativity_k2_tarski t12_setfam_1 t17_xboole_1 t3_xboole_1#3
+k1_setfam_1(k2_tarski(k1_xboole_0,X1))=k1_xboole_0#t12_setfam_1 t17_xboole_1 t3_xboole_1#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1

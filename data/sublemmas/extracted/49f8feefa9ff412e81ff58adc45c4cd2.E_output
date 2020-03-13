@@ -1,0 +1,11 @@
+k2_tops_1(X1,X2)=X2|~v2_tops_1(X2,X1)|~v4_pre_topc(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#d3_subset_1 d4_subset_1 d5_subset_1 l78_tops_1 redefinition_k7_subset_1 t100_xboole_1 t12_setfam_1 t22_subset_1 t4_subset_1 t52_pre_topc t70_enumset1 t84_tops_1#6
+k2_pre_topc(X1,X2)=k2_tops_1(X1,X2)|~v2_tops_1(X2,X1)|~m1_subset_1(k2_pre_topc(X1,X2),k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#d3_subset_1 d4_subset_1 d5_subset_1 l78_tops_1 redefinition_k7_subset_1 t100_xboole_1 t12_setfam_1 t22_subset_1 t4_subset_1 t70_enumset1 t84_tops_1#5
+k7_subset_1(X1,X2,X3)=k3_subset_1(X2,X3)|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X2,k1_zfmisc_1(X1))#d5_subset_1 redefinition_k7_subset_1 t100_xboole_1 t12_setfam_1 t70_enumset1#4
+k3_subset_1(X2,X1)=k5_xboole_0(X2,k1_setfam_1(k1_enumset1(X2,X2,X1)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#d5_subset_1 t100_xboole_1 t12_setfam_1 t70_enumset1#3
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k1_enumset1(X1,X1,X2)))#t100_xboole_1 t12_setfam_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k7_subset_1(X2,X1,X3)=k5_xboole_0(X1,k1_setfam_1(k1_enumset1(X1,X1,X3)))|~m1_subset_1(X1,k1_zfmisc_1(X2))#redefinition_k7_subset_1 t100_xboole_1 t12_setfam_1 t70_enumset1#3
+k4_xboole_0(X1,X2)=k5_xboole_0(X1,k1_setfam_1(k1_enumset1(X1,X1,X2)))#t100_xboole_1 t12_setfam_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k7_subset_1(u1_struct_0(X1),k2_pre_topc(X1,X2),k1_xboole_0)=k2_tops_1(X1,X2)|~v2_tops_1(X2,X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#l78_tops_1 t84_tops_1#1
+X1=k3_subset_1(X1,k1_xboole_0)#d3_subset_1 d4_subset_1 t22_subset_1#1

@@ -1,0 +1,78 @@
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k2_mcart_1(k4_tarski(X1,X2))=X2#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k2_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X2,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)|~r2_hidden(X1,X4)#d2_zfmisc_1 t10_mcart_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k1_mcart_1(k4_tarski(X1,X2))=X1#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k1_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X1,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X1,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X4)|~r2_hidden(X1,X3)#d2_zfmisc_1 t10_mcart_1#1
+k2_mcart_1(k4_tarski(X1,X2))=X2#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k2_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X2,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)|~r2_hidden(X1,X4)#d2_zfmisc_1 t10_mcart_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k1_mcart_1(k4_tarski(X1,X2))=X1#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k1_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X1,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X1,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X4)|~r2_hidden(X1,X3)#d2_zfmisc_1 t10_mcart_1#1
+k1_mcart_1(k4_tarski(X1,X2))=X1#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k1_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X1,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X1,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X4)|~r2_hidden(X1,X3)#d2_zfmisc_1 t10_mcart_1#1
+k2_mcart_1(k4_tarski(X1,X2))=X2#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k2_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X2,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)|~r2_hidden(X1,X4)#d2_zfmisc_1 t10_mcart_1#1
+k1_mcart_1(k4_tarski(X1,X2))=X1#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k1_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X1,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X1,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X4)|~r2_hidden(X1,X3)#d2_zfmisc_1 t10_mcart_1#1
+k1_mcart_1(k4_tarski(X1,X2))=X1#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k1_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X1,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X1,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X4)|~r2_hidden(X1,X3)#d2_zfmisc_1 t10_mcart_1#1
+k1_mcart_1(k4_tarski(X1,X2))=X1#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k1_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X1,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X1,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X4)|~r2_hidden(X1,X3)#d2_zfmisc_1 t10_mcart_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k2_mcart_1(k4_tarski(X1,X2))=X2#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k2_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X2,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)|~r2_hidden(X1,X4)#d2_zfmisc_1 t10_mcart_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k1_mcart_1(k4_tarski(X1,X2))=X1#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k1_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X1,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X1,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X4)|~r2_hidden(X1,X3)#d2_zfmisc_1 t10_mcart_1#1
+k2_mcart_1(k4_tarski(X1,X2))=X2#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k2_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X2,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)|~r2_hidden(X1,X4)#d2_zfmisc_1 t10_mcart_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k1_mcart_1(k4_tarski(X1,X2))=X1#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k1_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X1,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X1,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X4)|~r2_hidden(X1,X3)#d2_zfmisc_1 t10_mcart_1#1
+k1_mcart_1(k4_tarski(X1,X2))=X1#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k1_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X1,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X1,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k1_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X4)|~r2_hidden(X1,X3)#d2_zfmisc_1 t10_mcart_1#1
+k2_mcart_1(k4_tarski(X1,X2))=X2#d1_tarski d2_zfmisc_1 t10_mcart_1#4
+k2_mcart_1(k4_tarski(X1,X2))=X3|~r2_hidden(X2,k1_tarski(X3))#d1_tarski d2_zfmisc_1 t10_mcart_1#3
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)#d1_tarski d2_zfmisc_1 t10_mcart_1#2
+r2_hidden(k2_mcart_1(k4_tarski(X1,X2)),X3)|~r2_hidden(X2,X3)|~r2_hidden(X1,X4)#d2_zfmisc_1 t10_mcart_1#1

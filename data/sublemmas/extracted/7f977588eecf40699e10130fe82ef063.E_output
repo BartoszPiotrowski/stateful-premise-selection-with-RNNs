@@ -1,0 +1,7 @@
+v2_struct_0(X1)|r2_hidden(X2,k1_tops_1(X1,X3))|~m1_connsp_2(X4,X1,X2)|~v2_pre_topc(X1)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,u1_struct_0(X1))|~l1_pre_topc(X1)|~r1_tarski(X4,X3)#d1_connsp_2 d3_tarski t48_tops_1#2
+r2_hidden(X1,k1_tops_1(X2,X3))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)|~r2_hidden(X1,k1_tops_1(X2,X4))|~r1_tarski(X4,X3)#d3_tarski t48_tops_1#1
+r1_tarski(X1,k2_xboole_0(X2,X1))#d10_xboole_0 d3_tarski t10_xboole_1#4
+r1_tarski(X1,k2_xboole_0(X2,X3))|~r2_hidden(esk1_2(X1,k2_xboole_0(X2,X3)),X3)#d10_xboole_0 d3_tarski t10_xboole_1#3
+r2_hidden(X1,k2_xboole_0(X2,X3))|~r2_hidden(X1,X3)#d10_xboole_0 d3_tarski t10_xboole_1#2
+r2_hidden(X1,k2_xboole_0(X2,X3))|~r2_hidden(X1,X4)|~r1_tarski(X4,X3)#d3_tarski t10_xboole_1#1
+m1_subset_1(k2_xboole_0(X1,X2),k1_zfmisc_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(X3))|~m1_subset_1(X1,k1_zfmisc_1(X3))#dt_k4_subset_1 redefinition_k4_subset_1#1

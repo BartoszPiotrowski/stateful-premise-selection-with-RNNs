@@ -1,0 +1,6 @@
+k2_xboole_0(X1,k1_xboole_0)=X1#l32_xboole_1 t12_xboole_1 t36_xboole_1 t39_xboole_1 t3_boole#3
+k4_xboole_0(X1,X1)=k1_xboole_0#l32_xboole_1 t36_xboole_1 t3_boole#2
+r1_tarski(X1,X1)#t36_xboole_1 t3_boole#1
+k2_xboole_0(X1,X1)=X1#t12_xboole_1 t36_xboole_1 t3_boole#2
+r1_tarski(X1,X1)#t36_xboole_1 t3_boole#1
+k2_xboole_0(k4_xboole_0(X1,X2),k4_xboole_0(X2,X1))=k4_xboole_0(k2_xboole_0(X1,X2),k3_xboole_0(X1,X2))#d6_xboole_0 l98_xboole_1#1

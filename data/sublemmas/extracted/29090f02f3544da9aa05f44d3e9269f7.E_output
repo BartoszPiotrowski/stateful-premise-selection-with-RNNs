@@ -1,0 +1,4 @@
+r1_tarski(k1_xboole_0,X1)#d10_xboole_0 t108_xboole_1 t12_setfam_1 t2_boole#3
+r1_tarski(k1_xboole_0,X1)|~r1_tarski(X2,X1)#t108_xboole_1 t12_setfam_1 t2_boole#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X3)),X2)|~r1_tarski(X1,X2)#t108_xboole_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,k1_xboole_0))=k1_xboole_0#t12_setfam_1 t2_boole#1

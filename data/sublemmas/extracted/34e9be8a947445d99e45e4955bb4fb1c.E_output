@@ -1,0 +1,5 @@
+~r1_xboole_0(X2,X3)|~r2_hidden(X1,k4_xboole_0(X2,k4_xboole_0(X2,X3)))#t48_xboole_1 t4_xboole_0#1
+k4_xboole_0(k4_xboole_0(X1,k4_xboole_0(X1,X2)),k4_xboole_0(k4_xboole_0(X1,k4_xboole_0(X1,X2)),X3))=k4_xboole_0(X1,k4_xboole_0(X1,k4_xboole_0(X2,k4_xboole_0(X2,X3))))#t16_xboole_1 t48_xboole_1#1
+k4_xboole_0(X1,k4_xboole_0(X1,X2))=X1|~r1_tarski(X1,X2)#t28_xboole_1 t48_xboole_1#1
+r1_xboole_0(X1,X2)|r2_hidden(esk4_2(X1,X2),k4_xboole_0(X1,k4_xboole_0(X1,X2)))#t48_xboole_1 t4_xboole_0#1
+k4_xboole_0(X1,k4_xboole_0(X1,X2))=k4_xboole_0(X2,k4_xboole_0(X2,X1))#commutativity_k3_xboole_0 t48_xboole_1#1

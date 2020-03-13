@@ -1,0 +1,14 @@
+k5_relat_1(X1,k1_xboole_0)=k1_xboole_0|~v1_relat_1(X1)#cc1_relat_1 d8_relat_1 dt_k5_relat_1 fc1_xboole_0 t4_boole t56_relat_1 t64_zfmisc_1 t69_enumset1 t70_enumset1#5
+k5_relat_1(X1,k1_xboole_0)=k1_xboole_0|~v1_relat_1(k1_xboole_0)|~v1_relat_1(X1)#d8_relat_1 dt_k5_relat_1 t4_boole t56_relat_1 t64_zfmisc_1 t69_enumset1 t70_enumset1#4
+~r2_hidden(k4_tarski(X1,X2),k5_relat_1(X3,k1_xboole_0))|~v1_relat_1(k1_xboole_0)|~v1_relat_1(X3)#d8_relat_1 dt_k5_relat_1 t4_boole t64_zfmisc_1 t69_enumset1 t70_enumset1#3
+~r2_hidden(X1,k1_xboole_0)#t4_boole t64_zfmisc_1 t69_enumset1 t70_enumset1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k1_enumset1(X2,X2,X2)))#t64_zfmisc_1 t69_enumset1 t70_enumset1#1
+r2_hidden(k4_tarski(esk2_5(X1,X2,k5_relat_1(X1,X2),X3,X4),X4),X2)|~r2_hidden(k4_tarski(X3,X4),k5_relat_1(X1,X2))|~v1_relat_1(X2)|~v1_relat_1(X1)#d8_relat_1 dt_k5_relat_1#1
+k5_relat_1(X1,X2)=k1_xboole_0|r2_hidden(k4_tarski(esk6_1(k5_relat_1(X1,X2)),esk7_1(k5_relat_1(X1,X2))),k5_relat_1(X1,X2))|~v1_relat_1(X2)|~v1_relat_1(X1)#dt_k5_relat_1 t56_relat_1#1
+k5_relat_1(k1_xboole_0,X1)=k1_xboole_0|~v1_relat_1(X1)#cc1_relat_1 d8_relat_1 dt_k5_relat_1 fc1_xboole_0 t4_boole t56_relat_1 t64_zfmisc_1 t69_enumset1 t70_enumset1#5
+k5_relat_1(k1_xboole_0,X1)=k1_xboole_0|~v1_relat_1(k1_xboole_0)|~v1_relat_1(X1)#d8_relat_1 dt_k5_relat_1 t4_boole t56_relat_1 t64_zfmisc_1 t69_enumset1 t70_enumset1#4
+~r2_hidden(k4_tarski(X1,X2),k5_relat_1(k1_xboole_0,X3))|~v1_relat_1(k1_xboole_0)|~v1_relat_1(X3)#d8_relat_1 dt_k5_relat_1 t4_boole t64_zfmisc_1 t69_enumset1 t70_enumset1#3
+~r2_hidden(X1,k1_xboole_0)#t4_boole t64_zfmisc_1 t69_enumset1 t70_enumset1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k1_enumset1(X2,X2,X2)))#t64_zfmisc_1 t69_enumset1 t70_enumset1#1
+r2_hidden(k4_tarski(X1,esk2_5(X2,X3,k5_relat_1(X2,X3),X1,X4)),X2)|~r2_hidden(k4_tarski(X1,X4),k5_relat_1(X2,X3))|~v1_relat_1(X3)|~v1_relat_1(X2)#d8_relat_1 dt_k5_relat_1#1
+k5_relat_1(X1,X2)=k1_xboole_0|r2_hidden(k4_tarski(esk6_1(k5_relat_1(X1,X2)),esk7_1(k5_relat_1(X1,X2))),k5_relat_1(X1,X2))|~v1_relat_1(X2)|~v1_relat_1(X1)#dt_k5_relat_1 t56_relat_1#1

@@ -1,0 +1,5 @@
+v2_tops_1(X1,X2)|~v3_tops_1(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)#d5_tops_1 dt_k2_pre_topc t1_xboole_1 t48_pre_topc t72_tops_1 t88_tops_1#5
+r1_tarski(X1,k2_tops_1(X2,X3))|~r1_tarski(X1,k2_pre_topc(X2,X3))|~v3_tops_1(X3,X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)#d5_tops_1 dt_k2_pre_topc t1_xboole_1 t72_tops_1 t88_tops_1#4
+r1_tarski(X1,k2_tops_1(X2,X3))|~r1_tarski(X1,k2_pre_topc(X2,X3))|~v2_tops_1(k2_pre_topc(X2,X3),X2)|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)#dt_k2_pre_topc t1_xboole_1 t72_tops_1 t88_tops_1#3
+r1_tarski(k2_pre_topc(X1,X2),k2_tops_1(X1,X2))|~v2_tops_1(k2_pre_topc(X1,X2),X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#dt_k2_pre_topc t1_xboole_1 t72_tops_1 t88_tops_1#2
+r1_tarski(X1,k2_tops_1(X2,X3))|~r1_tarski(X1,k2_tops_1(X2,k2_pre_topc(X2,X3)))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X2)))|~l1_pre_topc(X2)#t1_xboole_1 t72_tops_1#1

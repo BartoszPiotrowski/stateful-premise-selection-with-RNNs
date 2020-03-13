@@ -1,0 +1,10 @@
+X1=X2|r2_hidden(X1,X2)|~v1_ordinal1(X1)|~r1_tarski(X1,X2)|~v3_ordinal1(X2)#d8_xboole_0 t21_ordinal1#1
+X1=X2|r2_hidden(X1,X2)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t13_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+X1=X2|r2_hidden(X1,X2)|~v1_ordinal1(X1)|~r1_tarski(X1,X2)|~v3_ordinal1(X2)#d8_xboole_0 t21_ordinal1#1
+X1=X2|r2_hidden(X1,X2)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t13_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X1,k1_tarski(X1)))#d1_ordinal1 t10_ordinal1#1
+r1_ordinal1(X1,X1)|~v3_ordinal1(X1)#rc2_ordinal1 reflexivity_r1_ordinal1#1

@@ -1,0 +1,8 @@
+v5_funct_1(k1_xboole_0,X1)|~v1_funct_1(X1)|~v1_relat_1(X1)#cc1_funct_1 cc1_relat_1 d20_funct_1 d4_subset_1 dt_k2_subset_1 fc1_subset_1 fc1_xboole_0 t2_subset t3_xboole_0 t4_boole t60_relat_1 t83_xboole_1#5
+v1_funct_1(k1_xboole_0)#cc1_funct_1 fc1_xboole_0#1
+v1_relat_1(k1_xboole_0)#cc1_relat_1 fc1_xboole_0#1
+~r2_hidden(X1,k1_xboole_0)#d4_subset_1 dt_k2_subset_1 fc1_subset_1 t2_subset t3_xboole_0 t4_boole t83_xboole_1#4
+~r2_hidden(X1,X2)|~r1_xboole_0(X2,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1 fc1_subset_1 t2_subset t3_xboole_0#3
+r2_hidden(X1,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1 fc1_subset_1 t2_subset#2
+m1_subset_1(X1,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1#1
+r1_xboole_0(k1_xboole_0,X1)#t4_boole t83_xboole_1#1

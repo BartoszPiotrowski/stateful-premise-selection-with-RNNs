@@ -1,0 +1,8 @@
+k3_subset_1(X1,k6_setfam_1(X1,X2))=k5_setfam_1(X1,k7_setfam_1(X1,X2))|k7_setfam_1(X1,X2)=k1_xboole_0|~m1_subset_1(X2,k1_zfmisc_1(k1_zfmisc_1(X1)))#dt_k5_setfam_1 dt_k7_setfam_1 involutiveness_k3_subset_1 involutiveness_k7_setfam_1 t11_tops_2#2
+k3_subset_1(X1,k6_setfam_1(X1,k7_setfam_1(X1,X2)))=k5_setfam_1(X1,X2)|X2=k1_xboole_0|~m1_subset_1(X2,k1_zfmisc_1(k1_zfmisc_1(X1)))#dt_k5_setfam_1 involutiveness_k3_subset_1 t11_tops_2#1
+k7_setfam_1(X1,k1_xboole_0)=k1_xboole_0#d8_setfam_1 dt_k7_setfam_1 t100_xboole_1 t34_mcart_1 t4_boole t4_subset t4_subset_1 t65_zfmisc_1#4
+~r2_hidden(X1,k7_setfam_1(X2,k1_xboole_0))#d8_setfam_1 dt_k7_setfam_1 t100_xboole_1 t4_boole t4_subset t4_subset_1 t65_zfmisc_1#3
+~r2_hidden(X1,k1_xboole_0)#t100_xboole_1 t4_boole t65_zfmisc_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,k1_tarski(X2)))!=X1|~r2_hidden(X2,X1)#t100_xboole_1 t65_zfmisc_1#1
+k5_xboole_0(k1_xboole_0,k3_xboole_0(k1_xboole_0,X1))=k1_xboole_0#t100_xboole_1 t4_boole#1
+r2_hidden(k3_subset_1(X1,X2),X3)|~r2_hidden(X2,k7_setfam_1(X1,X3))|~m1_subset_1(X3,k1_zfmisc_1(k1_zfmisc_1(X1)))#d8_setfam_1 dt_k7_setfam_1 t4_subset#1

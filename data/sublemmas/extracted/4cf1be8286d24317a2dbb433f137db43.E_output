@@ -1,0 +1,60 @@
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+u1_pre_topc(k8_tmap_1(X1,X2))=k5_tmap_1(X1,u1_struct_0(X3))|v2_struct_0(X1)|v2_struct_0(X2)|u1_struct_0(X3)!=u1_struct_0(X2)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#t114_tmap_1 t1_tsep_1#1
+u1_pre_topc(k8_tmap_1(X1,X2))=k5_tmap_1(X1,u1_struct_0(X3))|v2_struct_0(X1)|v2_struct_0(X2)|u1_struct_0(X3)!=u1_struct_0(X2)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#t114_tmap_1 t1_tsep_1#1
+v3_pre_topc(u1_struct_0(X1),X2)|u1_struct_0(X1)!=u1_struct_0(X3)|~v1_tsep_1(X3,X2)|~m1_pre_topc(X3,X2)|~m1_pre_topc(X1,X2)|~l1_pre_topc(X2)#d1_tsep_1 t1_tsep_1#1
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+g1_pre_topc(u1_struct_0(X1),u1_pre_topc(k8_tmap_1(X1,X2)))=k8_tmap_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#abstractness_v1_pre_topc dt_k8_tmap_1 t114_tmap_1#1
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#3
+m1_subset_1(u1_struct_0(k8_tmap_1(X1,X2)),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X2)|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#2
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X2)))|v2_struct_0(X2)|v2_struct_0(X3)|~m1_pre_topc(X1,k8_tmap_1(X2,X3))|~m1_pre_topc(X3,X2)|~l1_pre_topc(X2)|~v2_pre_topc(X2)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1#1
+m1_pre_topc(k8_tmap_1(X1,X2),k8_tmap_1(X1,X2))|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t2_tsep_1#1
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+g1_pre_topc(u1_struct_0(X1),u1_pre_topc(k8_tmap_1(X1,X2)))=k8_tmap_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#abstractness_v1_pre_topc dt_k8_tmap_1 t114_tmap_1#1
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#3
+m1_subset_1(u1_struct_0(k8_tmap_1(X1,X2)),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X2)|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#2
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X2)))|v2_struct_0(X2)|v2_struct_0(X3)|~m1_pre_topc(X1,k8_tmap_1(X2,X3))|~m1_pre_topc(X3,X2)|~l1_pre_topc(X2)|~v2_pre_topc(X2)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1#1
+m1_pre_topc(k8_tmap_1(X1,X2),k8_tmap_1(X1,X2))|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t2_tsep_1#1
+g1_pre_topc(u1_struct_0(X1),k5_tmap_1(X1,u1_struct_0(X2)))=k8_tmap_1(X1,X2)|v2_struct_0(X2)|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#abstractness_v1_pre_topc dt_k8_tmap_1 t114_tmap_1 t1_tsep_1#2
+g1_pre_topc(u1_struct_0(X1),u1_pre_topc(k8_tmap_1(X1,X2)))=k8_tmap_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#abstractness_v1_pre_topc dt_k8_tmap_1 t114_tmap_1#1
+u1_pre_topc(k8_tmap_1(X1,X2))=k5_tmap_1(X1,u1_struct_0(X3))|v2_struct_0(X1)|v2_struct_0(X2)|u1_struct_0(X3)!=u1_struct_0(X2)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#t114_tmap_1 t1_tsep_1#1
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+u1_pre_topc(k8_tmap_1(X1,X2))=k5_tmap_1(X1,u1_struct_0(X3))|v2_struct_0(X1)|v2_struct_0(X2)|u1_struct_0(X3)!=u1_struct_0(X2)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#t114_tmap_1 t1_tsep_1#1
+u1_pre_topc(k8_tmap_1(X1,X2))=k5_tmap_1(X1,u1_struct_0(X3))|v2_struct_0(X1)|v2_struct_0(X2)|u1_struct_0(X3)!=u1_struct_0(X2)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#t114_tmap_1 t1_tsep_1#1
+v3_pre_topc(u1_struct_0(X1),X2)|u1_struct_0(X1)!=u1_struct_0(X3)|~v1_tsep_1(X3,X2)|~m1_pre_topc(X3,X2)|~m1_pre_topc(X1,X2)|~l1_pre_topc(X2)#d1_tsep_1 t1_tsep_1#1
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+g1_pre_topc(u1_struct_0(X1),u1_pre_topc(k8_tmap_1(X1,X2)))=k8_tmap_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#abstractness_v1_pre_topc dt_k8_tmap_1 t114_tmap_1#1
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#3
+m1_subset_1(u1_struct_0(k8_tmap_1(X1,X2)),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X2)|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#2
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X2)))|v2_struct_0(X2)|v2_struct_0(X3)|~m1_pre_topc(X1,k8_tmap_1(X2,X3))|~m1_pre_topc(X3,X2)|~l1_pre_topc(X2)|~v2_pre_topc(X2)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1#1
+m1_pre_topc(k8_tmap_1(X1,X2),k8_tmap_1(X1,X2))|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t2_tsep_1#1
+g1_pre_topc(u1_struct_0(X1),u1_pre_topc(k8_tmap_1(X1,X2)))=k8_tmap_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#abstractness_v1_pre_topc dt_k8_tmap_1 t114_tmap_1#1
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#3
+m1_subset_1(u1_struct_0(k8_tmap_1(X1,X2)),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X2)|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#2
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X2)))|v2_struct_0(X2)|v2_struct_0(X3)|~m1_pre_topc(X1,k8_tmap_1(X2,X3))|~m1_pre_topc(X3,X2)|~l1_pre_topc(X2)|~v2_pre_topc(X2)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1#1
+m1_pre_topc(k8_tmap_1(X1,X2),k8_tmap_1(X1,X2))|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t2_tsep_1#1
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+g1_pre_topc(u1_struct_0(X1),k5_tmap_1(X1,u1_struct_0(X2)))=k8_tmap_1(X1,X2)|v2_struct_0(X2)|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#abstractness_v1_pre_topc dt_k8_tmap_1 t114_tmap_1 t1_tsep_1#2
+g1_pre_topc(u1_struct_0(X1),u1_pre_topc(k8_tmap_1(X1,X2)))=k8_tmap_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#abstractness_v1_pre_topc dt_k8_tmap_1 t114_tmap_1#1
+u1_pre_topc(k8_tmap_1(X1,X2))=k5_tmap_1(X1,u1_struct_0(X3))|v2_struct_0(X1)|v2_struct_0(X2)|u1_struct_0(X3)!=u1_struct_0(X2)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#t114_tmap_1 t1_tsep_1#1
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+u1_pre_topc(k8_tmap_1(X1,X2))=k5_tmap_1(X1,u1_struct_0(X3))|v2_struct_0(X1)|v2_struct_0(X2)|u1_struct_0(X3)!=u1_struct_0(X2)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#t114_tmap_1 t1_tsep_1#1
+u1_pre_topc(k8_tmap_1(X1,X2))=k5_tmap_1(X1,u1_struct_0(X3))|v2_struct_0(X1)|v2_struct_0(X2)|u1_struct_0(X3)!=u1_struct_0(X2)|~m1_pre_topc(X2,X1)|~m1_pre_topc(X3,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#t114_tmap_1 t1_tsep_1#1
+v3_pre_topc(u1_struct_0(X1),X2)|u1_struct_0(X1)!=u1_struct_0(X3)|~v1_tsep_1(X3,X2)|~m1_pre_topc(X3,X2)|~m1_pre_topc(X1,X2)|~l1_pre_topc(X2)#d1_tsep_1 t1_tsep_1#1
+v3_pre_topc(k1_tops_1(X1,k2_struct_0(X2)),X1)|~l1_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#d3_struct_0 fc9_tops_1 t1_tsep_1#2
+v3_pre_topc(k1_tops_1(X1,u1_struct_0(X2)),X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#fc9_tops_1 t1_tsep_1#1
+g1_pre_topc(u1_struct_0(X1),u1_pre_topc(k8_tmap_1(X1,X2)))=k8_tmap_1(X1,X2)|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#abstractness_v1_pre_topc dt_k8_tmap_1 t114_tmap_1#1
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X1)|v2_struct_0(X2)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#3
+m1_subset_1(u1_struct_0(k8_tmap_1(X1,X2)),k1_zfmisc_1(u1_struct_0(X1)))|v2_struct_0(X2)|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1 t2_tsep_1#2
+m1_subset_1(u1_struct_0(X1),k1_zfmisc_1(u1_struct_0(X2)))|v2_struct_0(X2)|v2_struct_0(X3)|~m1_pre_topc(X1,k8_tmap_1(X2,X3))|~m1_pre_topc(X3,X2)|~l1_pre_topc(X2)|~v2_pre_topc(X2)#dt_k8_tmap_1 t114_tmap_1 t1_tsep_1#1
+m1_pre_topc(k8_tmap_1(X1,X2),k8_tmap_1(X1,X2))|v2_struct_0(X1)|~m1_pre_topc(X2,X1)|~l1_pre_topc(X1)|~v2_pre_topc(X1)#dt_k8_tmap_1 t2_tsep_1#1

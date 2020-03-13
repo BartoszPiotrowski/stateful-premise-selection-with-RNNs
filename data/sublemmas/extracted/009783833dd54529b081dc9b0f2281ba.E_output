@@ -1,0 +1,6 @@
+r1_tarski(k1_wellord2(X1),k2_zfmisc_1(X1,X1))#d3_tarski d4_xboole_0 d6_wellord1 dt_k1_wellord2 t8_wellord2#5
+r2_hidden(esk2_2(k1_wellord2(X1),X2),k2_zfmisc_1(X1,X1))|r1_tarski(k1_wellord2(X1),X2)#d3_tarski d4_xboole_0 d6_wellord1 dt_k1_wellord2 t8_wellord2#4
+r2_hidden(X1,k2_zfmisc_1(X2,X2))|X3!=k1_wellord2(X2)|~r2_hidden(X1,X3)#d3_tarski d4_xboole_0 d6_wellord1 dt_k1_wellord2 t8_wellord2#3
+r2_hidden(X1,k2_zfmisc_1(X2,X2))|X3!=k2_wellord1(X4,X2)|~v1_relat_1(X4)|~r2_hidden(X1,X3)#d4_xboole_0 d6_wellord1#1
+k2_wellord1(k1_wellord2(X1),X1)=k1_wellord2(X1)#d3_tarski t8_wellord2#2
+r1_tarski(X1,X1)#d3_tarski#1

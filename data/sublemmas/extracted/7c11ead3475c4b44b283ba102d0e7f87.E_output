@@ -1,0 +1,7 @@
+k10_relat_1(X1,k1_xboole_0)=k1_xboole_0|~v1_relat_1(X1)#t173_relat_1 t65_xboole_1#1
+~r2_hidden(X1,k1_xboole_0)#t55_zfmisc_1 t65_xboole_1#1
+r2_hidden(esk4_2(k10_relat_1(X1,X2),k10_relat_1(X1,X3)),k10_relat_1(X1,k1_setfam_1(k2_tarski(X2,X3))))|r1_xboole_0(k10_relat_1(X1,X2),k10_relat_1(X1,X3))|~v1_funct_1(X1)|~v1_relat_1(X1)#t12_setfam_1 t137_funct_1 t4_xboole_0#2
+r1_xboole_0(X1,X2)|r2_hidden(esk4_2(X1,X2),k1_setfam_1(k2_tarski(X1,X2)))#t12_setfam_1 t4_xboole_0#1
+k10_relat_1(X1,k1_setfam_1(k2_tarski(X2,X3)))=k1_setfam_1(k2_tarski(k10_relat_1(X1,X2),k10_relat_1(X1,X3)))|~v1_relat_1(X1)|~v1_funct_1(X1)#t12_setfam_1 t137_funct_1#1
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X3)|~r1_xboole_0(X1,X2)#d3_tarski t12_setfam_1 t4_xboole_0#2
+~r1_xboole_0(X2,X3)|~r2_hidden(X1,k1_setfam_1(k2_tarski(X2,X3)))#t12_setfam_1 t4_xboole_0#1

@@ -1,0 +1,24 @@
+k5_xboole_0(X1,k4_xboole_0(X2,X1))=k5_xboole_0(X2,k4_xboole_0(X1,X2))#commutativity_k2_xboole_0 t98_xboole_1#1
+k5_xboole_0(X1,k4_xboole_0(k4_xboole_0(X2,X1),X1))=k5_xboole_0(X1,k4_xboole_0(X2,X1))#t39_xboole_1 t98_xboole_1#1
+k5_xboole_0(X1,k4_xboole_0(X2,X1))=k5_xboole_0(X2,k4_xboole_0(X1,X2))#commutativity_k2_xboole_0 t98_xboole_1#1
+k4_xboole_0(k2_tarski(X1,X1),X2)=k1_xboole_0|~r2_hidden(X1,X2)#d5_xboole_0 l1_zfmisc_1 t109_xboole_1 t2_tarski t41_xboole_1 t46_xboole_1 t64_zfmisc_1 t69_enumset1 t7_tarski t85_xboole_1 t88_xboole_1 t98_xboole_1#7
+k4_xboole_0(X1,X2)=k1_xboole_0|~r1_tarski(X1,X2)#d5_xboole_0 t109_xboole_1 t2_tarski t41_xboole_1 t46_xboole_1 t64_zfmisc_1 t69_enumset1 t7_tarski t85_xboole_1 t88_xboole_1 t98_xboole_1#6
+~r1_tarski(X1,X2)|~r2_hidden(X3,k4_xboole_0(X1,X2))#d5_xboole_0 t109_xboole_1 t7_tarski t85_xboole_1 t88_xboole_1 t98_xboole_1#5
+~r1_tarski(k4_xboole_0(X1,X2),X2)|~r2_hidden(X3,k4_xboole_0(X1,X2))#d5_xboole_0 t7_tarski t85_xboole_1 t88_xboole_1 t98_xboole_1#4
+~r1_xboole_0(X1,X1)|~r2_hidden(X2,X1)#d5_xboole_0 t7_tarski t88_xboole_1 t98_xboole_1#3
+~r1_xboole_0(X1,X2)|~r2_hidden(esk5_2(X3,X1),X2)|~r2_hidden(X3,X1)#d5_xboole_0 t7_tarski t88_xboole_1 t98_xboole_1#2
+~r2_hidden(esk5_2(X1,k4_xboole_0(X2,X3)),X3)|~r2_hidden(X1,k4_xboole_0(X2,X3))#d5_xboole_0 t7_tarski#1
+k4_xboole_0(k5_xboole_0(X1,k4_xboole_0(X2,X1)),X2)=X1|~r1_xboole_0(X1,X2)#t88_xboole_1 t98_xboole_1#1
+k1_xboole_0=X1|r2_hidden(esk3_2(k1_xboole_0,X1),X1)#t2_tarski t41_xboole_1 t46_xboole_1 t64_zfmisc_1 t69_enumset1 t98_xboole_1#4
+~r2_hidden(X1,k1_xboole_0)#t41_xboole_1 t46_xboole_1 t64_zfmisc_1 t69_enumset1 t98_xboole_1#3
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k2_tarski(X2,X2)))#t64_zfmisc_1 t69_enumset1#1
+k4_xboole_0(k4_xboole_0(X1,X1),X2)=k1_xboole_0#t41_xboole_1 t46_xboole_1 t98_xboole_1#2
+k4_xboole_0(X1,k5_xboole_0(X1,k4_xboole_0(X2,X1)))=k1_xboole_0#t46_xboole_1 t98_xboole_1#1
+k4_xboole_0(k4_xboole_0(X1,X2),X3)=k4_xboole_0(X1,k5_xboole_0(X2,k4_xboole_0(X3,X2)))#t41_xboole_1 t98_xboole_1#1
+r1_tarski(k2_tarski(X1,X1),X2)|~r2_hidden(X1,X2)#l1_zfmisc_1 t69_enumset1#1
+k5_xboole_0(X1,k1_xboole_0)=X1#idempotence_k2_xboole_0 t39_xboole_1 t41_xboole_1 t46_xboole_1 t98_xboole_1#3
+k5_xboole_0(X1,k4_xboole_0(k4_xboole_0(X2,X1),X1))=k5_xboole_0(X1,k4_xboole_0(X2,X1))#t39_xboole_1 t98_xboole_1#1
+k4_xboole_0(k4_xboole_0(X1,X1),X2)=k1_xboole_0#t41_xboole_1 t46_xboole_1 t98_xboole_1#2
+k4_xboole_0(X1,k5_xboole_0(X1,k4_xboole_0(X2,X1)))=k1_xboole_0#t46_xboole_1 t98_xboole_1#1
+k4_xboole_0(k4_xboole_0(X1,X2),X3)=k4_xboole_0(X1,k5_xboole_0(X2,k4_xboole_0(X3,X2)))#t41_xboole_1 t98_xboole_1#1
+k5_xboole_0(X1,k4_xboole_0(X1,X1))=X1#idempotence_k2_xboole_0 t98_xboole_1#1

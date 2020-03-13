@@ -1,0 +1,8 @@
+k4_xboole_0(X1,X2)=X1|~r1_xboole_0(X1,X2)#commutativity_k2_xboole_0 d3_tarski t12_xboole_1 t1_boole t39_xboole_1 t41_xboole_1 t46_xboole_1 t48_xboole_1 t4_xboole_0#4
+k4_xboole_0(X1,k4_xboole_0(X1,X2))=k1_xboole_0|~r1_xboole_0(X1,X2)#d3_tarski t12_xboole_1 t1_boole t48_xboole_1 t4_xboole_0#3
+k1_xboole_0=X1|~r1_tarski(X1,k1_xboole_0)#t12_xboole_1 t1_boole#1
+r1_tarski(k4_xboole_0(X1,k4_xboole_0(X1,X2)),X3)|~r1_xboole_0(X1,X2)#d3_tarski t48_xboole_1 t4_xboole_0#2
+~r1_xboole_0(X2,X3)|~r2_hidden(X1,k4_xboole_0(X2,k4_xboole_0(X2,X3)))#t48_xboole_1 t4_xboole_0#1
+k2_xboole_0(X1,k4_xboole_0(X1,X2))=X1#commutativity_k2_xboole_0 t1_boole t39_xboole_1 t41_xboole_1 t46_xboole_1#2
+k2_xboole_0(X1,k4_xboole_0(X2,k2_xboole_0(X3,X1)))=k2_xboole_0(X1,k4_xboole_0(X2,X3))#t39_xboole_1 t41_xboole_1#1
+k4_xboole_0(X1,k2_xboole_0(X2,X1))=k1_xboole_0#commutativity_k2_xboole_0 t46_xboole_1#1

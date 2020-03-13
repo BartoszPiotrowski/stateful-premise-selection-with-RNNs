@@ -1,0 +1,11 @@
+X1=esk1_1(X2)|v1_xboole_0(X2)|~r2_hidden(X1,X2)|~v1_zfmisc_1(X2)#d1_tarski d1_tex_2 redefinition_k6_domain_1#3
+k1_tarski(esk1_1(X1))=X1|v1_xboole_0(X1)|~v1_zfmisc_1(X1)#d1_tex_2 redefinition_k6_domain_1#2
+k6_domain_1(X1,esk1_1(X1))=k1_tarski(esk1_1(X1))|v1_xboole_0(X1)|~v1_zfmisc_1(X1)#d1_tex_2 redefinition_k6_domain_1#1
+k1_tarski(esk1_1(X1))=X1|v1_xboole_0(X1)|~v1_zfmisc_1(X1)#d1_tex_2 redefinition_k6_domain_1#2
+k6_domain_1(X1,esk1_1(X1))=k1_tarski(esk1_1(X1))|v1_xboole_0(X1)|~v1_zfmisc_1(X1)#d1_tex_2 redefinition_k6_domain_1#1
+X1=k1_tarski(X2)|~r2_hidden(X2,X1)|~r1_tarski(X1,k1_tarski(X2))#d10_xboole_0 d1_tarski d3_tarski#3
+r1_tarski(k1_tarski(X1),X2)|~r2_hidden(X1,X2)#d1_tarski d3_tarski#2
+esk5_2(k1_tarski(X1),X2)=X1|r1_tarski(k1_tarski(X1),X2)#d1_tarski d3_tarski#1
+X1=esk1_1(X2)|v1_xboole_0(X2)|~r2_hidden(X1,X2)|~v1_zfmisc_1(X2)#d1_tarski d1_tex_2 redefinition_k6_domain_1#3
+k1_tarski(esk1_1(X1))=X1|v1_xboole_0(X1)|~v1_zfmisc_1(X1)#d1_tex_2 redefinition_k6_domain_1#2
+k6_domain_1(X1,esk1_1(X1))=k1_tarski(esk1_1(X1))|v1_xboole_0(X1)|~v1_zfmisc_1(X1)#d1_tex_2 redefinition_k6_domain_1#1

@@ -1,0 +1,9 @@
+X2=k2_enumset1(X1,X1,X1,X1)|esk1_2(X1,X2)!=X1|~r2_hidden(esk1_2(X1,X2),X2)#d1_tarski t82_enumset1#1
+k4_tarski(X1,X2)=X3|~r2_hidden(X3,k2_zfmisc_1(k2_enumset1(X1,X1,X1,X1),k2_enumset1(X2,X2,X2,X2)))#d1_tarski d2_zfmisc_1 t82_enumset1#4
+k4_tarski(X1,esk3_4(k2_enumset1(X1,X1,X1,X1),X2,k2_zfmisc_1(k2_enumset1(X1,X1,X1,X1),X2),X3))=X3|~r2_hidden(X3,k2_zfmisc_1(k2_enumset1(X1,X1,X1,X1),X2))#d1_tarski d2_zfmisc_1 t82_enumset1#3
+esk2_4(k2_enumset1(X1,X1,X1,X1),X2,k2_zfmisc_1(k2_enumset1(X1,X1,X1,X1),X2),X3)=X1|~r2_hidden(X3,k2_zfmisc_1(k2_enumset1(X1,X1,X1,X1),X2))#d1_tarski d2_zfmisc_1 t82_enumset1#2
+X1=X3|X2!=k2_enumset1(X3,X3,X3,X3)|~r2_hidden(X1,X2)#d1_tarski t82_enumset1#1
+esk3_4(X1,k2_enumset1(X2,X2,X2,X2),k2_zfmisc_1(X1,k2_enumset1(X2,X2,X2,X2)),X3)=X2|~r2_hidden(X3,k2_zfmisc_1(X1,k2_enumset1(X2,X2,X2,X2)))#d1_tarski d2_zfmisc_1 t82_enumset1#2
+X1=X3|X2!=k2_enumset1(X3,X3,X3,X3)|~r2_hidden(X1,X2)#d1_tarski t82_enumset1#1
+esk1_2(X1,X2)=X1|X2=k2_enumset1(X1,X1,X1,X1)|r2_hidden(esk1_2(X1,X2),X2)#d1_tarski t82_enumset1#1
+r2_hidden(k4_tarski(X1,X3),k2_zfmisc_1(k2_enumset1(X2,X2,X2,X2),k2_enumset1(X4,X4,X4,X4)))|X3!=X4|X1!=X2#t34_zfmisc_1 t82_enumset1#1

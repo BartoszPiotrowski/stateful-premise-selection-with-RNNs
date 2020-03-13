@@ -1,0 +1,15 @@
+r1_tarski(X1,X2)|k6_subset_1(X1,X2)!=k1_xboole_0#l32_xboole_1 redefinition_k6_subset_1#1
+k6_subset_1(X1,X2)=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 redefinition_k6_subset_1#1
+r1_tarski(k6_subset_1(X1,X2),X3)|~r1_tarski(X1,X3)#d10_xboole_0 redefinition_k6_subset_1 t10_xboole_1 t11_xboole_1 t12_xboole_1 t43_xboole_1#4
+k2_xboole_0(k6_subset_1(X1,X2),X1)=X1#d10_xboole_0 redefinition_k6_subset_1 t10_xboole_1 t12_xboole_1 t43_xboole_1#3
+r1_tarski(k6_subset_1(X1,X2),X1)#d10_xboole_0 redefinition_k6_subset_1 t10_xboole_1 t43_xboole_1#2
+r1_tarski(k6_subset_1(X1,X2),X3)|~r1_tarski(X1,k2_xboole_0(X2,X3))#redefinition_k6_subset_1 t43_xboole_1#1
+r1_tarski(X1,k2_xboole_0(X2,X1))#d10_xboole_0 t10_xboole_1#1
+k6_subset_1(X1,X2)=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 redefinition_k6_subset_1#1
+k6_subset_1(X1,X1)=k1_xboole_0#d10_xboole_0 l32_xboole_1 redefinition_k6_subset_1#2
+k6_subset_1(X1,X2)=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 redefinition_k6_subset_1#1
+k6_subset_1(X1,X1)=k1_xboole_0#d10_xboole_0 l32_xboole_1 redefinition_k6_subset_1#2
+k6_subset_1(X1,X2)=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 redefinition_k6_subset_1#1
+k6_subset_1(X1,k1_xboole_0)=X1#redefinition_k6_subset_1 t12_xboole_1 t2_xboole_1 t45_xboole_1#2
+X2=k2_xboole_0(X1,k6_subset_1(X2,X1))|~r1_tarski(X1,X2)#redefinition_k6_subset_1 t45_xboole_1#1
+k2_xboole_0(k1_xboole_0,X1)=X1#t12_xboole_1 t2_xboole_1#1

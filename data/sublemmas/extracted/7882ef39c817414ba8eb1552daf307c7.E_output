@@ -1,0 +1,8 @@
+v1_funct_2(X1,k1_xboole_0,X2)|k1_relat_1(X1)!=k1_xboole_0|~r1_tarski(X1,k2_zfmisc_1(k1_xboole_0,X2))#d1_funct_2 redefinition_k1_relset_1 t3_subset#2
+v1_funct_2(X1,k1_xboole_0,X2)|k1_relset_1(k1_xboole_0,X2,X1)!=k1_xboole_0|~r1_tarski(X1,k2_zfmisc_1(k1_xboole_0,X2))#d1_funct_2 t3_subset#1
+k1_relset_1(X1,X2,X3)=k1_relat_1(X3)|~r1_tarski(X3,k2_zfmisc_1(X1,X2))#redefinition_k1_relset_1 t3_subset#1
+r1_tarski(X1,k2_zfmisc_1(X2,X3))|~r1_tarski(k2_relat_1(X1),X3)|~r1_tarski(k1_relat_1(X1),X2)|~v1_relat_1(X1)#t11_relset_1 t3_subset#1
+X1=k1_xboole_0|v1_funct_2(X2,k1_relat_1(X2),X1)|~r1_tarski(X2,k2_zfmisc_1(k1_relat_1(X2),X1))#d1_funct_2 redefinition_k1_relset_1 t3_subset#2
+X1=k1_xboole_0|v1_funct_2(X2,X3,X1)|k1_relset_1(X3,X1,X2)!=X3|~r1_tarski(X2,k2_zfmisc_1(X3,X1))#d1_funct_2 t3_subset#1
+k1_relset_1(X1,X2,X3)=k1_relat_1(X3)|~r1_tarski(X3,k2_zfmisc_1(X1,X2))#redefinition_k1_relset_1 t3_subset#1
+r1_tarski(X1,k2_zfmisc_1(X2,X3))|~r1_tarski(k2_relat_1(X1),X3)|~r1_tarski(k1_relat_1(X1),X2)|~v1_relat_1(X1)#t11_relset_1 t3_subset#1

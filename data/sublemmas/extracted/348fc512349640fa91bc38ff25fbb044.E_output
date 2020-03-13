@@ -1,0 +1,13 @@
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k4_xboole_0(X1,k4_xboole_0(X1,X2))=k1_setfam_1(k1_enumset1(X1,X1,X2))#t12_setfam_1 t48_xboole_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+v1_xboole_0(k1_xboole_0)#d7_xboole_0 l32_xboole_1 t12_setfam_1 t48_xboole_1 t4_boole t69_xboole_1 t70_enumset1#5
+r1_xboole_0(k1_xboole_0,X1)#d7_xboole_0 t12_setfam_1 t48_xboole_1 t4_boole t70_enumset1#4
+r1_xboole_0(X1,X2)|k4_xboole_0(X1,k4_xboole_0(X1,X2))!=k1_xboole_0#d7_xboole_0 t12_setfam_1 t48_xboole_1 t70_enumset1#3
+r1_xboole_0(X1,X2)|k1_setfam_1(k1_enumset1(X1,X1,X2))!=k1_xboole_0#d7_xboole_0 t12_setfam_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k4_xboole_0(X1,k4_xboole_0(X1,X2))=k1_setfam_1(k1_enumset1(X1,X1,X2))#t12_setfam_1 t48_xboole_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+r1_tarski(k1_xboole_0,X1)#l32_xboole_1 t4_boole#1
+r1_tarski(X1,X2)|~v1_xboole_0(X1)#d1_xboole_0 d3_tarski#1
+k4_xboole_0(X1,X2)=X1|v1_xboole_0(k4_xboole_0(X1,X2))|v1_xboole_0(X1)|~v1_zfmisc_1(X1)#t1_tex_2 t36_xboole_1#1

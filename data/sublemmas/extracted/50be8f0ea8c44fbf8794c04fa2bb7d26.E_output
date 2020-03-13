@@ -1,0 +1,11 @@
+k4_xboole_0(k4_xboole_0(X1,X2),X1)=k1_xboole_0#l32_xboole_1 t36_xboole_1#1
+k4_xboole_0(k3_tarski(k2_enumset1(X1,X1,X1,X2)),X2)=k4_xboole_0(X1,X2)#l51_zfmisc_1 t40_xboole_1 t77_enumset1#1
+k3_tarski(k2_enumset1(X1,X1,X1,k4_xboole_0(X2,X1)))=k3_tarski(k2_enumset1(X1,X1,X1,X2))#l51_zfmisc_1 t39_xboole_1 t77_enumset1#1
+k4_xboole_0(X1,k4_xboole_0(X1,X2))=k4_xboole_0(X2,k4_xboole_0(X2,X1))#commutativity_k3_xboole_0 t48_xboole_1#1
+k4_xboole_0(X1,k4_xboole_0(X1,k4_xboole_0(X2,X3)))=k4_xboole_0(k4_xboole_0(X1,k4_xboole_0(X1,X2)),X3)#t48_xboole_1 t49_xboole_1#1
+r1_tarski(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))#d1_zfmisc_1 d2_subset_1 fc1_subset_1#1
+k3_tarski(k2_enumset1(X1,X1,X1,k4_xboole_0(X2,X1)))=k3_tarski(k2_enumset1(X1,X1,X1,X2))#l51_zfmisc_1 t39_xboole_1 t77_enumset1#1
+k2_enumset1(X1,X1,X1,X2)=k2_enumset1(X2,X2,X2,X1)#commutativity_k2_tarski t77_enumset1#1
+k3_tarski(k2_enumset1(X1,X1,X1,k4_xboole_0(X2,X1)))=k3_tarski(k2_enumset1(X1,X1,X1,X2))#l51_zfmisc_1 t39_xboole_1 t77_enumset1#1
+r1_tarski(X1,X2)|~m1_subset_1(X1,k1_zfmisc_1(X2))#d1_zfmisc_1 d2_subset_1 fc1_subset_1#1
+k3_tarski(k2_enumset1(X1,X1,X1,k1_xboole_0))=X1#l51_zfmisc_1 t1_boole t77_enumset1#1

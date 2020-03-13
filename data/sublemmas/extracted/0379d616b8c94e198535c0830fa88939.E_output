@@ -1,0 +1,4 @@
+k7_relat_1(k7_relat_1(X1,X2),X3)=k7_relat_1(X1,X2)|~v1_relat_1(X1)|~r1_tarski(X2,X3)#d10_xboole_0 t100_relat_1 t18_xboole_1 t19_xboole_1#4
+k3_xboole_0(X1,X2)=X1|~r1_tarski(X1,X2)#d10_xboole_0 t18_xboole_1 t19_xboole_1#3
+k3_xboole_0(X1,X2)=X1|~r1_tarski(X1,k3_xboole_0(X1,X2))#d10_xboole_0 t18_xboole_1#2
+r1_tarski(k3_xboole_0(X1,X2),X1)#d10_xboole_0 t18_xboole_1#1

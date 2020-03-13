@@ -1,0 +1,6 @@
+X2=k2_tarski(X1,X1)|esk3_2(X1,X2)!=X1|~r2_hidden(esk3_2(X1,X2),X2)#d1_tarski t69_enumset1#1
+r2_hidden(X1,X2)|X3!=k4_xboole_0(X4,k4_xboole_0(X4,X2))|~r2_hidden(X1,X3)#d4_xboole_0 t48_xboole_1#1
+X2=k2_tarski(X1,X1)|esk3_2(X1,X2)=X1|r2_hidden(esk3_2(X1,X2),X2)#d1_tarski t69_enumset1#1
+X1=X3|X2!=k2_tarski(X3,X3)|~r2_hidden(X1,X2)#d1_tarski t69_enumset1#1
+r2_hidden(X1,X4)|X4!=k4_xboole_0(X2,k4_xboole_0(X2,X3))|~r2_hidden(X1,X3)|~r2_hidden(X1,X2)#d4_xboole_0 t48_xboole_1#1
+r2_hidden(X1,X3)|X1!=X2|X3!=k2_tarski(X2,X2)#d1_tarski t69_enumset1#1

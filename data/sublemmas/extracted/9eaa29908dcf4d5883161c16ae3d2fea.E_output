@@ -1,0 +1,5 @@
+~r1_xboole_0(X1,X2)|~r2_hidden(X3,k1_xboole_0)#t4_xboole_0 t7_xboole_0#2
+k3_xboole_0(X1,X2)=k1_xboole_0|~r1_xboole_0(X1,X2)#t4_xboole_0 t7_xboole_0#1
+k11_relat_1(X1,X2)=k1_xboole_0|r2_hidden(k4_tarski(X2,esk7_1(k11_relat_1(X1,X2))),X1)|~v1_relat_1(X1)#t204_relat_1 t7_xboole_0#1
+~r1_xboole_0(X1,X2)|~r2_hidden(X3,k1_xboole_0)#t4_xboole_0 t7_xboole_0#2
+k3_xboole_0(X1,X2)=k1_xboole_0|~r1_xboole_0(X1,X2)#t4_xboole_0 t7_xboole_0#1

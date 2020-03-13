@@ -1,0 +1,3 @@
+r1_tarski(k2_zfmisc_1(X1,X2),k2_zfmisc_1(X3,X4))|~r1_tarski(X1,X3)|~r1_tarski(X2,X4)#t118_zfmisc_1 t11_xboole_1 t12_xboole_1#3
+r1_tarski(X1,k2_zfmisc_1(X2,X3))|~r1_tarski(X1,k2_zfmisc_1(X4,X3))|~r1_tarski(X4,X2)#t118_zfmisc_1 t11_xboole_1 t12_xboole_1#2
+r1_tarski(X1,X2)|~r1_tarski(X3,X2)|~r1_tarski(X1,X3)#t11_xboole_1 t12_xboole_1#1

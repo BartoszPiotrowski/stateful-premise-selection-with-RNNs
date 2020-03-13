@@ -1,0 +1,141 @@
+k5_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X2,X1))))=k3_xboole_0(X2,X1)#commutativity_k3_xboole_0 t100_xboole_1 t48_xboole_1#4
+k5_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#3
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2)))=k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2)))#t100_xboole_1 t48_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#3
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2)))=k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2)))#t100_xboole_1 t48_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X2,X1))=k1_xboole_0|~r1_xboole_0(k5_xboole_0(X1,X2),X1)#idempotence_k3_xboole_0 t112_xboole_1 t4_xboole_0 t7_xboole_0#3
+~r2_hidden(X1,k5_xboole_0(X2,k3_xboole_0(X3,X2)))|~r1_xboole_0(k5_xboole_0(X2,X3),X2)#idempotence_k3_xboole_0 t112_xboole_1 t4_xboole_0#2
+~r2_hidden(X1,k5_xboole_0(k3_xboole_0(X2,X3),k3_xboole_0(X4,X3)))|~r1_xboole_0(k5_xboole_0(X2,X4),X3)#t112_xboole_1 t4_xboole_0#1
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+X1=k1_xboole_0|r2_hidden(k4_tarski(esk3_2(X2,X3),esk6_1(X1)),k2_zfmisc_1(X2,X1))|r1_tarski(X2,X3)#d3_tarski l54_zfmisc_1 t7_xboole_0#2
+X1=k1_xboole_0|r2_hidden(k4_tarski(X2,esk6_1(X1)),k2_zfmisc_1(X3,X1))|~r2_hidden(X2,X3)#l54_zfmisc_1 t7_xboole_0#1
+r1_xboole_0(k1_xboole_0,X1)#d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#4
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#3
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#3
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2)))=k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2)))#t100_xboole_1 t48_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X2,X1))=k1_xboole_0|~r1_xboole_0(k5_xboole_0(X1,X2),X1)#idempotence_k3_xboole_0 t112_xboole_1 t4_xboole_0 t7_xboole_0#3
+~r2_hidden(X1,k5_xboole_0(X2,k3_xboole_0(X3,X2)))|~r1_xboole_0(k5_xboole_0(X2,X3),X2)#idempotence_k3_xboole_0 t112_xboole_1 t4_xboole_0#2
+~r2_hidden(X1,k5_xboole_0(k3_xboole_0(X2,X3),k3_xboole_0(X4,X3)))|~r1_xboole_0(k5_xboole_0(X2,X4),X3)#t112_xboole_1 t4_xboole_0#1
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+X1=k1_xboole_0|r2_hidden(k4_tarski(esk3_2(X2,X3),esk6_1(X1)),k2_zfmisc_1(X2,X1))|r1_tarski(X2,X3)#d3_tarski l54_zfmisc_1 t7_xboole_0#2
+X1=k1_xboole_0|r2_hidden(k4_tarski(X2,esk6_1(X1)),k2_zfmisc_1(X3,X1))|~r2_hidden(X2,X3)#l54_zfmisc_1 t7_xboole_0#1
+r1_xboole_0(k1_xboole_0,X1)#d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#4
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#3
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+k5_xboole_0(k1_xboole_0,X1)=k1_xboole_0|r2_hidden(k4_tarski(esk6_1(k5_xboole_0(k1_xboole_0,X1)),esk3_2(X2,X3)),k2_zfmisc_1(X1,X2))|r1_tarski(X2,X3)#d3_tarski d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 l54_zfmisc_1 t100_xboole_1 t112_xboole_1 t17_xboole_1 t1_xboole_0 t4_xboole_0 t7_xboole_0#7
+r2_hidden(k4_tarski(X1,esk3_2(X2,X3)),k2_zfmisc_1(X4,X2))|r1_tarski(X2,X3)|~r2_hidden(X1,X4)#d3_tarski l54_zfmisc_1#1
+k5_xboole_0(k1_xboole_0,X1)=k1_xboole_0|r2_hidden(esk6_1(k5_xboole_0(k1_xboole_0,X1)),X1)#d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1 t1_xboole_0 t4_xboole_0 t7_xboole_0#6
+~r2_hidden(X1,k1_xboole_0)#d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1 t4_xboole_0#5
+~r2_hidden(X1,k1_xboole_0)|~r1_xboole_0(k1_xboole_0,X2)#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1 t4_xboole_0#4
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#3
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+r1_xboole_0(k1_xboole_0,X1)#d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#4
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#3
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X2)=k1_xboole_0|r2_hidden(esk6_1(k5_xboole_0(X1,X2)),X2)|r2_hidden(esk6_1(k5_xboole_0(X1,X2)),X1)#t1_xboole_0 t7_xboole_0#1
+r1_xboole_0(k5_xboole_0(k1_xboole_0,k3_xboole_0(X1,X2)),k5_xboole_0(k1_xboole_0,X1))|k5_xboole_0(k1_xboole_0,k3_xboole_0(X1,X2))!=k1_xboole_0#commutativity_k3_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1 t83_xboole_1#5
+r1_xboole_0(k5_xboole_0(k3_xboole_0(X1,X2),k3_xboole_0(X3,X2)),k5_xboole_0(X1,X3))|k5_xboole_0(k3_xboole_0(X1,X2),k3_xboole_0(X3,X2))!=k1_xboole_0#commutativity_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1 t83_xboole_1#4
+r1_xboole_0(k3_xboole_0(X1,X2),X1)|k3_xboole_0(X1,X2)!=k1_xboole_0#commutativity_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1 t83_xboole_1#3
+r1_xboole_0(X1,X2)|k5_xboole_0(X1,k3_xboole_0(X2,X1))!=X1#commutativity_k3_xboole_0 t100_xboole_1 t83_xboole_1#2
+r1_xboole_0(X1,X2)|k5_xboole_0(X1,k3_xboole_0(X1,X2))!=X1#t100_xboole_1 t83_xboole_1#1
+k5_xboole_0(k3_xboole_0(X1,X2),k3_xboole_0(X1,k3_xboole_0(X1,X2)))=k1_xboole_0#commutativity_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#3
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#3
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2)))=k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2)))#t100_xboole_1 t48_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X2,X1))=k1_xboole_0|~r1_xboole_0(k5_xboole_0(X1,X2),X1)#idempotence_k3_xboole_0 t112_xboole_1 t4_xboole_0 t7_xboole_0#3
+~r2_hidden(X1,k5_xboole_0(X2,k3_xboole_0(X3,X2)))|~r1_xboole_0(k5_xboole_0(X2,X3),X2)#idempotence_k3_xboole_0 t112_xboole_1 t4_xboole_0#2
+~r2_hidden(X1,k5_xboole_0(k3_xboole_0(X2,X3),k3_xboole_0(X4,X3)))|~r1_xboole_0(k5_xboole_0(X2,X4),X3)#t112_xboole_1 t4_xboole_0#1
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+X1=k1_xboole_0|r2_hidden(k4_tarski(esk3_2(X2,X3),esk6_1(X1)),k2_zfmisc_1(X2,X1))|r1_tarski(X2,X3)#d3_tarski l54_zfmisc_1 t7_xboole_0#2
+X1=k1_xboole_0|r2_hidden(k4_tarski(X2,esk6_1(X1)),k2_zfmisc_1(X3,X1))|~r2_hidden(X2,X3)#l54_zfmisc_1 t7_xboole_0#1
+r1_xboole_0(k1_xboole_0,X1)#d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#4
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#3
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+~r2_hidden(X1,X2)|~r1_xboole_0(X2,X2)#idempotence_k3_xboole_0 t4_xboole_0#1
+X1=k1_xboole_0|X2=k1_xboole_0|r2_hidden(k4_tarski(esk6_1(X1),esk6_1(X2)),k2_zfmisc_1(X1,X2))#l54_zfmisc_1 t7_xboole_0#2
+X1=k1_xboole_0|r2_hidden(k4_tarski(X2,esk6_1(X1)),k2_zfmisc_1(X3,X1))|~r2_hidden(X2,X3)#l54_zfmisc_1 t7_xboole_0#1
+r1_tarski(X1,k5_xboole_0(k1_xboole_0,X1))#d3_tarski d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1 t1_xboole_0 t4_xboole_0#6
+~r2_hidden(X1,k1_xboole_0)#d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1 t4_xboole_0#5
+~r2_hidden(X1,k1_xboole_0)|~r1_xboole_0(k1_xboole_0,X2)#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1 t4_xboole_0#4
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#3
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+r1_xboole_0(k1_xboole_0,X1)#d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#4
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#3
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+r2_hidden(esk3_2(X1,k5_xboole_0(X2,X1)),X2)|r1_tarski(X1,k5_xboole_0(X2,X1))#d3_tarski t1_xboole_0#2
+r2_hidden(esk3_2(X1,X2),k5_xboole_0(X3,X1))|r2_hidden(esk3_2(X1,X2),X3)|r1_tarski(X1,X2)#d3_tarski t1_xboole_0#1
+k5_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#3
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2)))=k5_xboole_0(X1,k3_xboole_0(X1,k3_xboole_0(X1,X2)))#t100_xboole_1 t48_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k3_xboole_0(X1,X2))))=k3_xboole_0(X1,X2)#t100_xboole_1 t48_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X2,X1))=k1_xboole_0|~r1_xboole_0(k5_xboole_0(X1,X2),X1)#idempotence_k3_xboole_0 t112_xboole_1 t4_xboole_0 t7_xboole_0#3
+~r2_hidden(X1,k5_xboole_0(X2,k3_xboole_0(X3,X2)))|~r1_xboole_0(k5_xboole_0(X2,X3),X2)#idempotence_k3_xboole_0 t112_xboole_1 t4_xboole_0#2
+~r2_hidden(X1,k5_xboole_0(k3_xboole_0(X2,X3),k3_xboole_0(X4,X3)))|~r1_xboole_0(k5_xboole_0(X2,X4),X3)#t112_xboole_1 t4_xboole_0#1
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+X1=k1_xboole_0|r2_hidden(k4_tarski(esk3_2(X2,X3),esk6_1(X1)),k2_zfmisc_1(X2,X1))|r1_tarski(X2,X3)#d3_tarski l54_zfmisc_1 t7_xboole_0#2
+X1=k1_xboole_0|r2_hidden(k4_tarski(X2,esk6_1(X1)),k2_zfmisc_1(X3,X1))|~r2_hidden(X2,X3)#l54_zfmisc_1 t7_xboole_0#1
+r1_xboole_0(k1_xboole_0,X1)#d7_xboole_0 idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#4
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t112_xboole_1 t17_xboole_1#3
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 l32_xboole_1 t100_xboole_1 t17_xboole_1#2
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+r1_tarski(X1,X1)#idempotence_k3_xboole_0 t17_xboole_1#1

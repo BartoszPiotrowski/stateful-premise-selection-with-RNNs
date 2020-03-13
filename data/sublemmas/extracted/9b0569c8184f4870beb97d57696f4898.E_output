@@ -1,0 +1,11 @@
+k5_xboole_0(k1_enumset1(X1,X1,X1),k4_xboole_0(k1_enumset1(X2,X2,X3),k1_enumset1(X1,X1,X1)))=k1_enumset1(X1,X2,X3)#symmetry_r1_xboole_0 t2_boole t39_xboole_1 t3_boole t42_enumset1 t48_xboole_1 t5_boole t69_enumset1 t70_enumset1 t79_xboole_1 t83_xboole_1 t94_xboole_1#4
+k1_enumset1(X1,X2,X3)=k5_xboole_0(k5_xboole_0(k1_enumset1(X1,X1,X1),k1_enumset1(X2,X2,X3)),k4_xboole_0(k1_enumset1(X1,X1,X1),k4_xboole_0(k1_enumset1(X1,X1,X1),k1_enumset1(X2,X2,X3))))#t42_enumset1 t48_xboole_1 t69_enumset1 t70_enumset1 t94_xboole_1#2
+k2_xboole_0(X1,X2)=k5_xboole_0(k5_xboole_0(X1,X2),k4_xboole_0(X1,k4_xboole_0(X1,X2)))#t48_xboole_1 t94_xboole_1#1
+k5_xboole_0(k5_xboole_0(X1,X2),k4_xboole_0(X1,k4_xboole_0(X1,X2)))=k5_xboole_0(X1,k4_xboole_0(X2,X1))#symmetry_r1_xboole_0 t2_boole t39_xboole_1 t3_boole t48_xboole_1 t5_boole t79_xboole_1 t83_xboole_1 t94_xboole_1#3
+k5_xboole_0(k5_xboole_0(X1,k4_xboole_0(X2,X1)),k4_xboole_0(X1,k4_xboole_0(X1,k4_xboole_0(X2,X1))))=k5_xboole_0(k5_xboole_0(X1,X2),k4_xboole_0(X1,k4_xboole_0(X1,X2)))#t39_xboole_1 t48_xboole_1 t94_xboole_1#2
+k2_xboole_0(X1,X2)=k5_xboole_0(k5_xboole_0(X1,X2),k4_xboole_0(X1,k4_xboole_0(X1,X2)))#t48_xboole_1 t94_xboole_1#1
+k2_xboole_0(X1,X2)=k5_xboole_0(k5_xboole_0(X1,X2),k4_xboole_0(X1,k4_xboole_0(X1,X2)))#t48_xboole_1 t94_xboole_1#1
+k4_xboole_0(X1,k4_xboole_0(X2,X1))=X1#symmetry_r1_xboole_0 t79_xboole_1 t83_xboole_1#2
+r1_xboole_0(X1,k4_xboole_0(X2,X1))#symmetry_r1_xboole_0 t79_xboole_1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t2_boole t3_boole t48_xboole_1#2
+k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0))=k1_xboole_0#t2_boole t48_xboole_1#1

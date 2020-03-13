@@ -1,0 +1,16 @@
+r2_hidden(X1,X2)|~r2_lattice3(X3,X4,X1)|~r1_yellow_0(X3,X4)|~r2_hidden(k1_yellow_0(X3,X4),X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,u1_struct_0(X3))|~v13_waybel_0(X2,X3)|~l1_orders_2(X3)#d20_waybel_0 d9_yellow_0 dt_k1_yellow_0 t4_subset#2
+r2_hidden(X1,X2)|~r1_orders_2(X3,X4,X1)|~r2_hidden(X4,X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,u1_struct_0(X3))|~v13_waybel_0(X2,X3)|~l1_orders_2(X3)#d20_waybel_0 t4_subset#1
+r1_orders_2(X1,k1_yellow_0(X1,X2),X3)|~r2_lattice3(X1,X2,X3)|~r1_yellow_0(X1,X2)|~m1_subset_1(X3,u1_struct_0(X1))|~l1_orders_2(X1)#d9_yellow_0 dt_k1_yellow_0#1
+r2_lattice3(X1,k1_xboole_0,X2)|~m1_subset_1(X2,u1_struct_0(X1))|~l1_orders_2(X1)#d9_lattice3 t3_subset t4_subset_1 t7_ordinal1#3
+~r2_hidden(X1,k1_xboole_0)#t3_subset t4_subset_1 t7_ordinal1#2
+~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#t3_subset t7_ordinal1#1
+r1_tarski(X1,X2)|m1_subset_1(esk7_2(X1,X2),X1)#d3_tarski t1_subset#1
+r2_hidden(X1,X2)|~r2_lattice3(X3,X4,X1)|~r1_yellow_0(X3,X4)|~r2_hidden(k1_yellow_0(X3,X4),X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,u1_struct_0(X3))|~v13_waybel_0(X2,X3)|~l1_orders_2(X3)#d20_waybel_0 d9_yellow_0 dt_k1_yellow_0 t4_subset#2
+r2_hidden(X1,X2)|~r1_orders_2(X3,X4,X1)|~r2_hidden(X4,X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_subset_1(X1,u1_struct_0(X3))|~v13_waybel_0(X2,X3)|~l1_orders_2(X3)#d20_waybel_0 t4_subset#1
+r1_orders_2(X1,k1_yellow_0(X1,X2),X3)|~r2_lattice3(X1,X2,X3)|~r1_yellow_0(X1,X2)|~m1_subset_1(X3,u1_struct_0(X1))|~l1_orders_2(X1)#d9_yellow_0 dt_k1_yellow_0#1
+r2_lattice3(X1,k1_xboole_0,X2)|~m1_subset_1(X2,u1_struct_0(X1))|~l1_orders_2(X1)#d9_lattice3 t3_subset t4_subset_1 t7_ordinal1#3
+~r2_hidden(X1,k1_xboole_0)#t3_subset t4_subset_1 t7_ordinal1#2
+~r2_hidden(X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(X1))#t3_subset t7_ordinal1#1
+r1_tarski(X1,X2)|m1_subset_1(esk7_2(X1,X2),X1)#d3_tarski t1_subset#1
+~v1_subset_1(X1,X1)#d4_subset_1 d7_subset_1 dt_k2_subset_1#2
+m1_subset_1(X1,k1_zfmisc_1(X1))#d4_subset_1 dt_k2_subset_1#1

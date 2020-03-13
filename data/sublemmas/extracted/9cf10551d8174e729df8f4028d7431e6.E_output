@@ -1,0 +1,10 @@
+k1_relat_1(k1_xboole_0)=k1_xboole_0#d4_relat_1 d4_tarski t2_boole t2_zfmisc_1 t4_xboole_0 t65_xboole_1#3
+X1!=k1_relat_1(k1_xboole_0)|~r2_hidden(X2,X1)#d4_relat_1 t2_boole t4_xboole_0 t65_xboole_1#2
+~r2_hidden(X1,k1_xboole_0)#t2_boole t4_xboole_0 t65_xboole_1#1
+X1=k1_xboole_0|r2_hidden(esk9_2(k1_xboole_0,X1),X1)#d4_tarski t2_boole t2_zfmisc_1 t4_xboole_0 t65_xboole_1#2
+~r2_hidden(X1,k1_xboole_0)#t2_boole t4_xboole_0 t65_xboole_1#1
+k2_relat_1(k1_xboole_0)=k1_xboole_0#d4_tarski d5_relat_1 t2_boole t2_zfmisc_1 t4_xboole_0 t65_xboole_1#3
+X1!=k2_relat_1(k1_xboole_0)|~r2_hidden(X2,X1)#d5_relat_1 t2_boole t4_xboole_0 t65_xboole_1#2
+~r2_hidden(X1,k1_xboole_0)#t2_boole t4_xboole_0 t65_xboole_1#1
+X1=k1_xboole_0|r2_hidden(esk9_2(k1_xboole_0,X1),X1)#d4_tarski t2_boole t2_zfmisc_1 t4_xboole_0 t65_xboole_1#2
+~r2_hidden(X1,k1_xboole_0)#t2_boole t4_xboole_0 t65_xboole_1#1

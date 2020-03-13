@@ -1,0 +1,9 @@
+k10_relat_1(k1_xboole_0,X1)=k1_xboole_0#cc1_relat_1 fc1_xboole_0 t12_setfam_1 t168_relat_1 t171_relat_1 t48_xboole_1 t4_boole t60_relat_1 t70_enumset1#4
+k10_relat_1(X1,k4_xboole_0(k2_relat_1(X1),k4_xboole_0(k2_relat_1(X1),X2)))=k10_relat_1(X1,X2)|~v1_relat_1(X1)#t12_setfam_1 t168_relat_1 t48_xboole_1 t70_enumset1#3
+k10_relat_1(X1,X2)=k10_relat_1(X1,k1_setfam_1(k1_enumset1(k2_relat_1(X1),k2_relat_1(X1),X2)))|~v1_relat_1(X1)#t12_setfam_1 t168_relat_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k4_xboole_0(X1,k4_xboole_0(X1,X2))=k1_setfam_1(k1_enumset1(X1,X1,X2))#t12_setfam_1 t48_xboole_1 t70_enumset1#2
+k1_setfam_1(k1_enumset1(X1,X1,X2))=k3_xboole_0(X1,X2)#t12_setfam_1 t70_enumset1#1
+k10_relat_1(k1_xboole_0,k1_xboole_0)=k1_xboole_0#cc1_relat_1 fc1_xboole_0 t171_relat_1#2
+v1_relat_1(k1_xboole_0)#cc1_relat_1 fc1_xboole_0#1
+v1_relat_1(k1_xboole_0)#cc1_relat_1 fc1_xboole_0#1

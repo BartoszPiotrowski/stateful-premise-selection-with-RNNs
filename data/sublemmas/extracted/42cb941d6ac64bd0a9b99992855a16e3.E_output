@@ -1,0 +1,7 @@
+r1_tarski(k1_enumset1(X1,X1,X1),k1_zfmisc_1(X1))#d1_zfmisc_1 d3_tarski t38_zfmisc_1 t70_enumset1#4
+r1_tarski(k1_enumset1(X1,X1,X2),k1_zfmisc_1(X2))|~r2_hidden(X1,k1_zfmisc_1(X2))#d1_zfmisc_1 d3_tarski t38_zfmisc_1 t70_enumset1#3
+r1_tarski(k1_enumset1(X1,X1,X3),X2)|~r2_hidden(X3,X2)|~r2_hidden(X1,X2)#t38_zfmisc_1 t70_enumset1#1
+r2_hidden(X1,k1_zfmisc_1(X1))#d1_zfmisc_1 d3_tarski#2
+r1_tarski(X1,X1)#d3_tarski#1
+r2_hidden(X1,k1_zfmisc_1(X1))#d1_zfmisc_1 d3_tarski#2
+r1_tarski(X1,X1)#d3_tarski#1

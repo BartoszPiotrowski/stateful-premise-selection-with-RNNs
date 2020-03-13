@@ -1,0 +1,10 @@
+v1_xboole_0(k1_xboole_0)#l13_xboole_0 rc1_xboole_0#2
+esk4_0=k1_xboole_0#l13_xboole_0 rc1_xboole_0#1
+k8_relset_1(k1_xboole_0,X1,k1_xboole_0,X2)=k8_relset_1(X3,X4,k1_xboole_0,X2)#redefinition_k8_relset_1 t113_zfmisc_1 t4_subset_1#2
+k8_relset_1(k1_xboole_0,X1,X2,X3)=k10_relat_1(X2,X3)|~m1_subset_1(X2,k1_zfmisc_1(k1_xboole_0))#redefinition_k8_relset_1 t113_zfmisc_1#1
+k8_relset_1(X1,X2,k1_xboole_0,X3)=k10_relat_1(k1_xboole_0,X3)#redefinition_k8_relset_1 t4_subset_1#1
+k8_relset_1(X1,X2,k1_xboole_0,X3)=k10_relat_1(k1_xboole_0,X3)#redefinition_k8_relset_1 t4_subset_1#1
+k10_relat_1(k1_xboole_0,X1)=k1_xboole_0#redefinition_k1_relset_1 redefinition_k8_relset_1 t113_zfmisc_1 t38_relset_1 t4_subset_1 t60_relat_1#2
+k8_relset_1(X1,X2,k1_xboole_0,X3)=k10_relat_1(k1_xboole_0,X3)#redefinition_k8_relset_1 t4_subset_1#1
+k8_relset_1(k1_xboole_0,X1,X2,X1)=k1_relset_1(k1_xboole_0,X1,X2)|~m1_subset_1(X2,k1_zfmisc_1(k1_xboole_0))#t113_zfmisc_1 t38_relset_1#1
+k1_relset_1(X1,X2,k1_xboole_0)=k1_xboole_0#redefinition_k1_relset_1 t4_subset_1 t60_relat_1#1

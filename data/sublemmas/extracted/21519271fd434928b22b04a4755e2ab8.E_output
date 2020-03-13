@@ -1,0 +1,11 @@
+r1_tarski(X1,X2)|k5_xboole_0(X1,k3_xboole_0(X1,X2))!=k1_xboole_0#l32_xboole_1 t100_xboole_1#1
+k5_xboole_0(X1,k3_xboole_0(X1,X2))=k1_xboole_0|~r1_tarski(X1,X2)#l32_xboole_1 t100_xboole_1#1
+k3_xboole_0(X1,k5_xboole_0(X2,k3_xboole_0(X2,X3)))=k3_xboole_0(X2,k5_xboole_0(X1,k3_xboole_0(X1,X3)))#commutativity_k3_xboole_0 t100_xboole_1 t49_xboole_1#2
+k3_xboole_0(X1,k5_xboole_0(X2,k3_xboole_0(X2,X3)))=k5_xboole_0(k3_xboole_0(X1,X2),k3_xboole_0(k3_xboole_0(X1,X2),X3))#t100_xboole_1 t49_xboole_1#1
+k3_xboole_0(X1,k5_xboole_0(X2,k3_xboole_0(X2,X3)))=k5_xboole_0(k3_xboole_0(X1,X2),k3_xboole_0(k3_xboole_0(X1,X2),X3))#t100_xboole_1 t49_xboole_1#1
+r1_xboole_0(k5_xboole_0(X1,k3_xboole_0(X1,X2)),X2)#t100_xboole_1 t79_xboole_1#1
+k5_xboole_0(X1,k1_xboole_0)=X1#t100_xboole_1 t1_boole t4_boole t98_xboole_1#3
+k5_xboole_0(X1,k5_xboole_0(k1_xboole_0,k3_xboole_0(k1_xboole_0,X1)))=X1#t100_xboole_1 t1_boole t98_xboole_1#2
+k2_xboole_0(X1,X2)=k5_xboole_0(X1,k5_xboole_0(X2,k3_xboole_0(X2,X1)))#t100_xboole_1 t98_xboole_1#1
+k5_xboole_0(k1_xboole_0,k3_xboole_0(k1_xboole_0,X1))=k1_xboole_0#t100_xboole_1 t4_boole#1
+r1_xboole_0(k5_xboole_0(X1,k3_xboole_0(X1,X2)),X2)#t100_xboole_1 t79_xboole_1#1

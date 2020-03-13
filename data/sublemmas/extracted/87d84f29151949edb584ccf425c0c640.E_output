@@ -1,0 +1,5 @@
+r4_wellord1(X1,X2)|~r4_wellord1(X3,X2)|~r4_wellord1(X1,X3)|~v1_relat_1(X2)|~v1_relat_1(X1)|~v1_relat_1(X3)#d8_wellord1 fc2_funct_1 t51_wellord1#5
+r4_wellord1(X1,X2)|~r4_wellord1(X3,X2)|~r3_wellord1(X1,X3,X4)|~v1_funct_1(X4)|~v1_relat_1(X2)|~v1_relat_1(X1)|~v1_relat_1(X4)|~v1_relat_1(X3)#d8_wellord1 fc2_funct_1 t51_wellord1#4
+r4_wellord1(X1,X2)|~r4_wellord1(X3,X2)|~r3_wellord1(X1,X3,X4)|~v1_funct_1(X4)|~v1_relat_1(k5_relat_1(X4,esk1_2(X3,X2)))|~v1_relat_1(X2)|~v1_relat_1(X1)|~v1_relat_1(X4)|~v1_relat_1(X3)#d8_wellord1 fc2_funct_1 t51_wellord1#3
+r4_wellord1(X1,X2)|~r4_wellord1(X3,X2)|~r3_wellord1(X1,X3,X4)|~v1_funct_1(k5_relat_1(X4,esk1_2(X3,X2)))|~v1_funct_1(X4)|~v1_relat_1(k5_relat_1(X4,esk1_2(X3,X2)))|~v1_relat_1(X2)|~v1_relat_1(X1)|~v1_relat_1(X4)|~v1_relat_1(X3)#d8_wellord1 t51_wellord1#2
+r3_wellord1(X1,X2,k5_relat_1(X3,esk1_2(X4,X2)))|~r4_wellord1(X4,X2)|~r3_wellord1(X1,X4,X3)|~v1_funct_1(X3)|~v1_relat_1(X3)|~v1_relat_1(X2)|~v1_relat_1(X4)|~v1_relat_1(X1)#d8_wellord1 t51_wellord1#1

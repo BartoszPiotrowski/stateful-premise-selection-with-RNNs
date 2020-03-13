@@ -1,0 +1,5 @@
+k3_xboole_0(k1_enumset1(X1,X1,X1),k1_enumset1(X1,X1,X2))=k1_enumset1(X1,X1,X1)#t19_zfmisc_1 t69_enumset1 t70_enumset1#1
+k5_xboole_0(X1,X1)=k1_xboole_0#idempotence_k3_xboole_0 t100_xboole_1 t17_xboole_1 t3_xboole_1 t46_xboole_1 t5_boole t98_xboole_1#3
+k5_xboole_0(X1,k3_xboole_0(X1,k5_xboole_0(X1,k5_xboole_0(X2,k3_xboole_0(X2,X1)))))=k1_xboole_0#t100_xboole_1 t46_xboole_1 t98_xboole_1#2
+k2_xboole_0(X1,X2)=k5_xboole_0(X1,k5_xboole_0(X2,k3_xboole_0(X2,X1)))#t100_xboole_1 t98_xboole_1#1
+k3_xboole_0(k1_xboole_0,X1)=k1_xboole_0#t17_xboole_1 t3_xboole_1#1

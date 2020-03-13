@@ -1,0 +1,9 @@
+k4_xboole_0(X1,X1)=k1_xboole_0#d5_xboole_0 t4_boole#5
+k4_xboole_0(X1,X2)=k1_xboole_0|~r2_hidden(esk1_3(k1_xboole_0,X3,k4_xboole_0(X1,X2)),X2)#d5_xboole_0 t4_boole#4
+X1=k1_xboole_0|r2_hidden(esk1_3(k1_xboole_0,X2,X1),X1)#d5_xboole_0 t4_boole#3
+X1=k1_xboole_0|r2_hidden(esk1_3(k1_xboole_0,X2,X1),X1)|~r2_hidden(esk1_3(k1_xboole_0,X2,X1),X3)#d5_xboole_0 t4_boole#2
+~r2_hidden(X1,k1_xboole_0)|~r2_hidden(X1,X2)#d5_xboole_0 t4_boole#1
+k4_xboole_0(X1,X2)=k1_xboole_0|r2_hidden(esk1_3(k1_xboole_0,X3,k4_xboole_0(X1,X2)),X1)#d5_xboole_0 t4_boole#4
+X1=k1_xboole_0|r2_hidden(esk1_3(k1_xboole_0,X2,X1),X1)#d5_xboole_0 t4_boole#3
+X1=k1_xboole_0|r2_hidden(esk1_3(k1_xboole_0,X2,X1),X1)|~r2_hidden(esk1_3(k1_xboole_0,X2,X1),X3)#d5_xboole_0 t4_boole#2
+~r2_hidden(X1,k1_xboole_0)|~r2_hidden(X1,X2)#d5_xboole_0 t4_boole#1

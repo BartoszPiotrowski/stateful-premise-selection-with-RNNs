@@ -1,0 +1,22 @@
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+X5=k1_xboole_0|X4=k1_xboole_0|X3=k1_xboole_0|X2=k1_xboole_0|X1=k4_tarski(k4_tarski(k4_tarski(esk7_5(X2,X3,X4,X5,X1),esk8_5(X2,X3,X4,X5,X1)),esk9_5(X2,X3,X4,X5,X1)),esk10_5(X2,X3,X4,X5,X1))|~m1_subset_1(X1,k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X2,X3),X4),X5))#d3_mcart_1 d3_zfmisc_1 d4_mcart_1 d4_zfmisc_1 l68_mcart_1#2
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+X4=k1_xboole_0|X3=k1_xboole_0|X2=k1_xboole_0|X1=k1_xboole_0|m1_subset_1(esk10_5(X1,X2,X3,X4,X5),X4)|~m1_subset_1(X5,k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4))#d3_zfmisc_1 d4_zfmisc_1 l68_mcart_1#2
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+X4=k1_xboole_0|X3=k1_xboole_0|X2=k1_xboole_0|X1=k1_xboole_0|m1_subset_1(esk9_5(X1,X2,X3,X4,X5),X3)|~m1_subset_1(X5,k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4))#d3_zfmisc_1 d4_zfmisc_1 l68_mcart_1#2
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+X4=k1_xboole_0|X3=k1_xboole_0|X2=k1_xboole_0|X1=k1_xboole_0|m1_subset_1(esk8_5(X1,X2,X3,X4,X5),X2)|~m1_subset_1(X5,k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4))#d3_zfmisc_1 d4_zfmisc_1 l68_mcart_1#2
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+X4=k1_xboole_0|X3=k1_xboole_0|X2=k1_xboole_0|X1=k1_xboole_0|m1_subset_1(esk7_5(X1,X2,X3,X4,X5),X1)|~m1_subset_1(X5,k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4))#d3_zfmisc_1 d4_zfmisc_1 l68_mcart_1#2
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k10_mcart_1(X1,X2,X3,X4,X5)=esk9_5(X6,X7,X8,X9,X5)|X6=k1_xboole_0|X7=k1_xboole_0|X8=k1_xboole_0|X9=k1_xboole_0|X4=k1_xboole_0|X3=k1_xboole_0|X2=k1_xboole_0|X1=k1_xboole_0|~m1_subset_1(X5,k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4))|~m1_subset_1(X5,k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X6,X7),X8),X9))#d3_mcart_1 d3_zfmisc_1 d4_mcart_1 d4_zfmisc_1 l68_mcart_1 t59_mcart_1#3
+X4=k1_xboole_0|X3=k1_xboole_0|X2=k1_xboole_0|X1=k1_xboole_0|k10_mcart_1(X1,X2,X3,X4,X5)=X6|X5!=k4_tarski(k4_tarski(k4_tarski(X7,X8),X6),X9)|~m1_subset_1(X5,k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4))#d3_mcart_1 d3_zfmisc_1 d4_mcart_1 d4_zfmisc_1 t59_mcart_1#2
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+X5=k1_xboole_0|X4=k1_xboole_0|X3=k1_xboole_0|X2=k1_xboole_0|X1=k4_tarski(k4_tarski(k4_tarski(esk7_5(X2,X3,X4,X5,X1),esk8_5(X2,X3,X4,X5,X1)),esk9_5(X2,X3,X4,X5,X1)),esk10_5(X2,X3,X4,X5,X1))|~m1_subset_1(X1,k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X2,X3),X4),X5))#d3_mcart_1 d3_zfmisc_1 d4_mcart_1 d4_zfmisc_1 l68_mcart_1#2
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k4_mcart_1(X1,X2,X3,X4)=k4_tarski(k4_tarski(k4_tarski(X1,X2),X3),X4)#d3_mcart_1 d4_mcart_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1
+k4_zfmisc_1(X1,X2,X3,X4)=k2_zfmisc_1(k2_zfmisc_1(k2_zfmisc_1(X1,X2),X3),X4)#d3_zfmisc_1 d4_zfmisc_1#1

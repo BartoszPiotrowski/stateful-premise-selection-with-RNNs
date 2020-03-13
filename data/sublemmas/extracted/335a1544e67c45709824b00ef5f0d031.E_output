@@ -1,0 +1,9 @@
+r2_hidden(k1_funct_1(X1,X2),k1_relat_1(X3))|~v1_funct_1(X1)|~v1_relat_1(X3)|~v1_relat_1(X1)|~r2_hidden(k4_tarski(X2,X4),k5_relat_1(X1,X3))#d4_funct_1 d4_relat_1 d8_relat_1 dt_k5_relat_1#4
+r2_hidden(k4_tarski(k1_funct_1(X1,X2),X3),X4)|~v1_funct_1(X1)|~v1_relat_1(X4)|~v1_relat_1(X1)|~r2_hidden(k4_tarski(X2,X3),k5_relat_1(X1,X4))#d4_funct_1 d4_relat_1 d8_relat_1 dt_k5_relat_1#3
+r2_hidden(k4_tarski(esk4_5(X1,X2,k5_relat_1(X1,X2),X3,X4),X4),X2)|~v1_relat_1(X2)|~v1_relat_1(X1)|~r2_hidden(k4_tarski(X3,X4),k5_relat_1(X1,X2))#d8_relat_1 dt_k5_relat_1#1
+esk4_5(X1,X2,k5_relat_1(X1,X2),X3,X4)=k1_funct_1(X1,X3)|~v1_funct_1(X1)|~v1_relat_1(X1)|~v1_relat_1(X2)|~r2_hidden(k4_tarski(X3,X4),k5_relat_1(X1,X2))#d4_funct_1 d4_relat_1 d8_relat_1 dt_k5_relat_1#2
+X1=k1_funct_1(X2,X3)|~v1_funct_1(X2)|~v1_relat_1(X2)|~r2_hidden(k4_tarski(X3,X1),X2)#d4_funct_1 d4_relat_1#1
+r2_hidden(k4_tarski(X1,esk4_5(X2,X3,k5_relat_1(X2,X3),X1,X4)),X2)|~v1_relat_1(X3)|~v1_relat_1(X2)|~r2_hidden(k4_tarski(X1,X4),k5_relat_1(X2,X3))#d8_relat_1 dt_k5_relat_1#1
+k1_funct_1(X1,esk10_3(X1,k2_relat_1(X1),X2))=X2|~v1_funct_1(X1)|~v1_relat_1(X1)|~r2_hidden(X2,k2_relat_1(X1))#d4_funct_1 d4_relat_1 d5_relat_1#2
+X1=k1_funct_1(X2,X3)|~v1_funct_1(X2)|~v1_relat_1(X2)|~r2_hidden(k4_tarski(X3,X1),X2)#d4_funct_1 d4_relat_1#1
+r2_hidden(esk10_3(X1,k2_relat_1(X1),X2),k1_relat_1(X1))|~r2_hidden(X2,k2_relat_1(X1))#d4_relat_1 d5_relat_1#1

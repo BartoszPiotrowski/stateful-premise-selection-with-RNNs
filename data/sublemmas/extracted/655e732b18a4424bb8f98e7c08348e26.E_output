@@ -1,0 +1,6 @@
+r1_tarski(k6_subset_1(X1,X2),X3)|~r1_tarski(X1,k3_tarski(k2_tarski(X2,X3)))#l51_zfmisc_1 redefinition_k6_subset_1 t43_xboole_1#1
+k9_relat_1(X1,k3_tarski(k2_tarski(X2,X3)))=k3_tarski(k2_tarski(k9_relat_1(X1,X2),k9_relat_1(X1,X3)))|~v1_relat_1(X1)#l51_zfmisc_1 t153_relat_1#1
+k3_tarski(k2_tarski(X1,k6_subset_1(X2,X1)))=k3_tarski(k2_tarski(X1,X2))#l51_zfmisc_1 redefinition_k6_subset_1 t39_xboole_1#1
+r1_tarski(k9_relat_1(X1,X2),k9_relat_1(X1,k3_tarski(k2_tarski(X2,X3))))|~v1_relat_1(X1)#l51_zfmisc_1 t153_relat_1 t7_xboole_1#2
+r1_tarski(X1,k3_tarski(k2_tarski(X1,X2)))#l51_zfmisc_1 t7_xboole_1#1
+k9_relat_1(X1,k3_tarski(k2_tarski(X2,X3)))=k3_tarski(k2_tarski(k9_relat_1(X1,X2),k9_relat_1(X1,X3)))|~v1_relat_1(X1)#l51_zfmisc_1 t153_relat_1#1

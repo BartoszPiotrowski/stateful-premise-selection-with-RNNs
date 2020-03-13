@@ -1,0 +1,123 @@
+~v1_xboole_0(k1_zfmisc_1(X1))#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t4_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#11
+~v1_xboole_0(X1)|~r2_hidden(X2,X1)#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t4_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#10
+~v1_xboole_0(k1_xboole_0)|~v1_xboole_0(X1)|~r2_hidden(X2,X1)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#3
+~v1_xboole_0(k4_xboole_0(X1,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))|~v1_xboole_0(X3)|~r2_hidden(X2,X3)#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1 t8_boole#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+v1_xboole_0(k1_xboole_0)#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t4_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#9
+o_0_0_xboole_0=k1_xboole_0#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t4_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#8
+r2_hidden(k1_xboole_0,k1_zfmisc_1(k1_xboole_0))#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t66_xboole_1 t8_boole#6
+r1_tarski(k1_xboole_0,k1_xboole_0)#dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t66_xboole_1 t8_boole#5
+r1_tarski(k2_zfmisc_1(o_0_0_xboole_0,X1),k2_zfmisc_1(k3_subset_1(X2,o_0_0_xboole_0),X1))#dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t118_zfmisc_1 t38_subset_1 t8_boole#4
+r1_tarski(o_0_0_xboole_0,k3_subset_1(X1,o_0_0_xboole_0))#dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t38_subset_1 t8_boole#3
+r1_tarski(k1_subset_1(X1),k3_subset_1(X1,k1_subset_1(X1)))#dt_k1_subset_1 t38_subset_1#1
+k1_subset_1(X1)=o_0_0_xboole_0#dt_o_0_0_xboole_0 fc13_subset_1 t8_boole#2
+o_0_0_xboole_0=X1|~v1_xboole_0(X1)#dt_o_0_0_xboole_0 t8_boole#1
+k1_subset_1(X1)=o_0_0_xboole_0#dt_o_0_0_xboole_0 fc13_subset_1 t8_boole#2
+o_0_0_xboole_0=X1|~v1_xboole_0(X1)#dt_o_0_0_xboole_0 t8_boole#1
+k2_zfmisc_1(X1,k1_xboole_0)=k1_xboole_0#t127_zfmisc_1 t66_xboole_1#2
+r1_xboole_0(k2_zfmisc_1(X1,k1_xboole_0),k2_zfmisc_1(X2,k1_xboole_0))#t127_zfmisc_1 t66_xboole_1#1
+k2_zfmisc_1(X1,k1_xboole_0)=k1_xboole_0#t127_zfmisc_1 t66_xboole_1#2
+r1_xboole_0(k2_zfmisc_1(X1,k1_xboole_0),k2_zfmisc_1(X2,k1_xboole_0))#t127_zfmisc_1 t66_xboole_1#1
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|o_0_0_xboole_0=k1_xboole_0#d1_zfmisc_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t38_subset_1 t4_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#7
+o_0_0_xboole_0=k1_xboole_0|~r1_tarski(k1_xboole_0,k3_subset_1(X1,k1_xboole_0))#dt_o_0_0_xboole_0 fc13_subset_1 t38_subset_1 t4_subset_1 t8_boole#4
+X1=o_0_0_xboole_0|~r1_tarski(X1,k3_subset_1(X2,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#dt_o_0_0_xboole_0 fc13_subset_1 t38_subset_1 t8_boole#3
+k1_subset_1(X1)=o_0_0_xboole_0#dt_o_0_0_xboole_0 fc13_subset_1 t8_boole#2
+o_0_0_xboole_0=X1|~v1_xboole_0(X1)#dt_o_0_0_xboole_0 t8_boole#1
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|r1_tarski(k1_xboole_0,X1)#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#6
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|r1_tarski(esk1_2(k1_xboole_0,k1_xboole_0),X1)#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#4
+r1_tarski(X1,X2)|~r1_tarski(X1,k1_xboole_0)#t106_xboole_1 t66_xboole_1 t82_xboole_1#2
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+k1_zfmisc_1(X1)=k1_xboole_0|r1_tarski(esk1_2(X1,k1_xboole_0),X1)#d1_zfmisc_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#3
+~r2_hidden(X1,k1_xboole_0)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+esk1_2(k1_xboole_0,k1_xboole_0)=k1_xboole_0|k1_zfmisc_1(k1_xboole_0)=k1_xboole_0#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#5
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|r1_xboole_0(esk1_2(k1_xboole_0,k1_xboole_0),X1)#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#4
+r1_xboole_0(X1,X2)|~r1_tarski(X1,k1_xboole_0)#t106_xboole_1 t66_xboole_1 t82_xboole_1#2
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+k1_zfmisc_1(X1)=k1_xboole_0|r1_tarski(esk1_2(X1,k1_xboole_0),X1)#d1_zfmisc_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#3
+~r2_hidden(X1,k1_xboole_0)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+~r2_hidden(X1,k1_xboole_0)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+r2_hidden(k1_xboole_0,k1_zfmisc_1(X1))#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#8
+r1_tarski(k1_xboole_0,X1)#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#7
+r2_hidden(k1_xboole_0,k1_zfmisc_1(k1_xboole_0))#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t66_xboole_1 t8_boole#6
+r1_tarski(k1_xboole_0,k1_xboole_0)#dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t66_xboole_1 t8_boole#5
+r1_tarski(k2_zfmisc_1(o_0_0_xboole_0,X1),k2_zfmisc_1(k3_subset_1(X2,o_0_0_xboole_0),X1))#dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t118_zfmisc_1 t38_subset_1 t8_boole#4
+r1_tarski(o_0_0_xboole_0,k3_subset_1(X1,o_0_0_xboole_0))#dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t38_subset_1 t8_boole#3
+r1_tarski(k1_subset_1(X1),k3_subset_1(X1,k1_subset_1(X1)))#dt_k1_subset_1 t38_subset_1#1
+k1_subset_1(X1)=o_0_0_xboole_0#dt_o_0_0_xboole_0 fc13_subset_1 t8_boole#2
+o_0_0_xboole_0=X1|~v1_xboole_0(X1)#dt_o_0_0_xboole_0 t8_boole#1
+k1_subset_1(X1)=o_0_0_xboole_0#dt_o_0_0_xboole_0 fc13_subset_1 t8_boole#2
+o_0_0_xboole_0=X1|~v1_xboole_0(X1)#dt_o_0_0_xboole_0 t8_boole#1
+k2_zfmisc_1(X1,k1_xboole_0)=k1_xboole_0#t127_zfmisc_1 t66_xboole_1#2
+r1_xboole_0(k2_zfmisc_1(X1,k1_xboole_0),k2_zfmisc_1(X2,k1_xboole_0))#t127_zfmisc_1 t66_xboole_1#1
+k2_zfmisc_1(X1,k1_xboole_0)=k1_xboole_0#t127_zfmisc_1 t66_xboole_1#2
+r1_xboole_0(k2_zfmisc_1(X1,k1_xboole_0),k2_zfmisc_1(X2,k1_xboole_0))#t127_zfmisc_1 t66_xboole_1#1
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|r1_tarski(k1_xboole_0,X1)#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#6
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|r1_tarski(esk1_2(k1_xboole_0,k1_xboole_0),X1)#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#4
+r1_tarski(X1,X2)|~r1_tarski(X1,k1_xboole_0)#t106_xboole_1 t66_xboole_1 t82_xboole_1#2
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+k1_zfmisc_1(X1)=k1_xboole_0|r1_tarski(esk1_2(X1,k1_xboole_0),X1)#d1_zfmisc_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#3
+~r2_hidden(X1,k1_xboole_0)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+esk1_2(k1_xboole_0,k1_xboole_0)=k1_xboole_0|k1_zfmisc_1(k1_xboole_0)=k1_xboole_0#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#5
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|r1_xboole_0(esk1_2(k1_xboole_0,k1_xboole_0),X1)#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#4
+r1_xboole_0(X1,X2)|~r1_tarski(X1,k1_xboole_0)#t106_xboole_1 t66_xboole_1 t82_xboole_1#2
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+k1_zfmisc_1(X1)=k1_xboole_0|r1_tarski(esk1_2(X1,k1_xboole_0),X1)#d1_zfmisc_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#3
+~r2_hidden(X1,k1_xboole_0)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+~r2_hidden(X1,k1_xboole_0)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+k1_zfmisc_1(X1)=k1_xboole_0|m1_subset_1(k5_enumset1(k1_xboole_0,k1_xboole_0,k1_xboole_0,k1_xboole_0,k1_xboole_0,k1_xboole_0,k1_xboole_0),k1_zfmisc_1(k1_zfmisc_1(X1)))#t4_subset_1 t57_subset_1 t72_enumset1 t80_enumset1 t81_enumset1 t82_enumset1 t91_enumset1 t93_enumset1#4
+k1_zfmisc_1(X1)=k1_xboole_0|m1_subset_1(k6_enumset1(X2,X2,X2,X2,X2,X2,k1_xboole_0,k1_xboole_0),k1_zfmisc_1(k1_zfmisc_1(X1)))|~m1_subset_1(X2,k1_zfmisc_1(X1))#t4_subset_1 t57_subset_1 t93_enumset1#3
+k1_zfmisc_1(X1)=k1_xboole_0|m1_subset_1(k6_enumset1(X2,X2,X2,X2,X2,X2,X3,k1_xboole_0),k1_zfmisc_1(k1_zfmisc_1(X1)))|~m1_subset_1(X3,k1_zfmisc_1(X1))|~m1_subset_1(X2,k1_zfmisc_1(X1))#t4_subset_1 t57_subset_1 t93_enumset1#2
+X2=k1_xboole_0|m1_subset_1(k6_enumset1(X1,X1,X1,X1,X1,X1,X3,X4),k1_zfmisc_1(X2))|~m1_subset_1(X4,X2)|~m1_subset_1(X3,X2)|~m1_subset_1(X1,X2)#t57_subset_1 t93_enumset1#1
+k6_enumset1(X1,X1,X1,X1,X1,X1,X1,X1)=k5_enumset1(X1,X1,X1,X1,X1,X1,X1)#t72_enumset1 t80_enumset1 t81_enumset1 t82_enumset1 t91_enumset1#1
+v1_xboole_0(k1_xboole_0)#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t4_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#9
+o_0_0_xboole_0=k1_xboole_0#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t4_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#8
+r2_hidden(k1_xboole_0,k1_zfmisc_1(k1_xboole_0))#d1_zfmisc_1 dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t66_xboole_1 t8_boole#6
+r1_tarski(k1_xboole_0,k1_xboole_0)#dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t118_zfmisc_1 t127_zfmisc_1 t38_subset_1 t66_xboole_1 t8_boole#5
+r1_tarski(k2_zfmisc_1(o_0_0_xboole_0,X1),k2_zfmisc_1(k3_subset_1(X2,o_0_0_xboole_0),X1))#dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t118_zfmisc_1 t38_subset_1 t8_boole#4
+r1_tarski(o_0_0_xboole_0,k3_subset_1(X1,o_0_0_xboole_0))#dt_k1_subset_1 dt_o_0_0_xboole_0 fc13_subset_1 t38_subset_1 t8_boole#3
+r1_tarski(k1_subset_1(X1),k3_subset_1(X1,k1_subset_1(X1)))#dt_k1_subset_1 t38_subset_1#1
+k1_subset_1(X1)=o_0_0_xboole_0#dt_o_0_0_xboole_0 fc13_subset_1 t8_boole#2
+o_0_0_xboole_0=X1|~v1_xboole_0(X1)#dt_o_0_0_xboole_0 t8_boole#1
+k1_subset_1(X1)=o_0_0_xboole_0#dt_o_0_0_xboole_0 fc13_subset_1 t8_boole#2
+o_0_0_xboole_0=X1|~v1_xboole_0(X1)#dt_o_0_0_xboole_0 t8_boole#1
+k2_zfmisc_1(X1,k1_xboole_0)=k1_xboole_0#t127_zfmisc_1 t66_xboole_1#2
+r1_xboole_0(k2_zfmisc_1(X1,k1_xboole_0),k2_zfmisc_1(X2,k1_xboole_0))#t127_zfmisc_1 t66_xboole_1#1
+k2_zfmisc_1(X1,k1_xboole_0)=k1_xboole_0#t127_zfmisc_1 t66_xboole_1#2
+r1_xboole_0(k2_zfmisc_1(X1,k1_xboole_0),k2_zfmisc_1(X2,k1_xboole_0))#t127_zfmisc_1 t66_xboole_1#1
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|o_0_0_xboole_0=k1_xboole_0#d1_zfmisc_1 dt_o_0_0_xboole_0 fc13_subset_1 t106_xboole_1 t38_subset_1 t4_subset_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1 t8_boole#7
+o_0_0_xboole_0=k1_xboole_0|~r1_tarski(k1_xboole_0,k3_subset_1(X1,k1_xboole_0))#dt_o_0_0_xboole_0 fc13_subset_1 t38_subset_1 t4_subset_1 t8_boole#4
+X1=o_0_0_xboole_0|~r1_tarski(X1,k3_subset_1(X2,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#dt_o_0_0_xboole_0 fc13_subset_1 t38_subset_1 t8_boole#3
+k1_subset_1(X1)=o_0_0_xboole_0#dt_o_0_0_xboole_0 fc13_subset_1 t8_boole#2
+o_0_0_xboole_0=X1|~v1_xboole_0(X1)#dt_o_0_0_xboole_0 t8_boole#1
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|r1_tarski(k1_xboole_0,X1)#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#6
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|r1_tarski(esk1_2(k1_xboole_0,k1_xboole_0),X1)#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#4
+r1_tarski(X1,X2)|~r1_tarski(X1,k1_xboole_0)#t106_xboole_1 t66_xboole_1 t82_xboole_1#2
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+k1_zfmisc_1(X1)=k1_xboole_0|r1_tarski(esk1_2(X1,k1_xboole_0),X1)#d1_zfmisc_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#3
+~r2_hidden(X1,k1_xboole_0)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+esk1_2(k1_xboole_0,k1_xboole_0)=k1_xboole_0|k1_zfmisc_1(k1_xboole_0)=k1_xboole_0#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#5
+k1_zfmisc_1(k1_xboole_0)=k1_xboole_0|r1_xboole_0(esk1_2(k1_xboole_0,k1_xboole_0),X1)#d1_zfmisc_1 t106_xboole_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#4
+r1_xboole_0(X1,X2)|~r1_tarski(X1,k1_xboole_0)#t106_xboole_1 t66_xboole_1 t82_xboole_1#2
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+k1_zfmisc_1(X1)=k1_xboole_0|r1_tarski(esk1_2(X1,k1_xboole_0),X1)#d1_zfmisc_1 t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#3
+~r2_hidden(X1,k1_xboole_0)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1
+~r2_hidden(X1,k1_xboole_0)#t64_zfmisc_1 t66_xboole_1 t72_enumset1 t80_enumset1 t82_enumset1 t82_xboole_1#2
+X1!=X2|~r2_hidden(X1,k4_xboole_0(X3,k5_enumset1(X2,X2,X2,X2,X2,X2,X2)))#t64_zfmisc_1 t72_enumset1 t80_enumset1 t82_enumset1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t66_xboole_1 t82_xboole_1#1

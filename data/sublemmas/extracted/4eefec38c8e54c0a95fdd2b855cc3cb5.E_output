@@ -1,0 +1,7 @@
+r1_setfam_1(X1,k2_setfam_1(X2,X3))|~r2_hidden(esk3_2(X1,k2_setfam_1(X2,X3)),X3)|~r2_hidden(esk3_2(X1,k2_setfam_1(X2,X3)),X2)#d2_setfam_1 d3_xboole_0 d4_setfam_1 reflexivity_r1_setfam_1#4
+r1_setfam_1(X1,X2)|~r2_hidden(esk3_2(X1,X2),X2)#d2_setfam_1 reflexivity_r1_setfam_1#3
+r1_setfam_1(X1,X2)|~r2_hidden(esk2_3(X3,X3,esk3_2(X1,X2)),X2)|~r2_hidden(esk3_2(X1,X2),X3)#d2_setfam_1 reflexivity_r1_setfam_1#2
+r1_tarski(X1,esk2_3(X2,X2,X1))|~r2_hidden(X1,X2)#d2_setfam_1 reflexivity_r1_setfam_1#1
+r2_hidden(esk2_3(X1,X1,X2),X1)|~r2_hidden(X2,X1)#d2_setfam_1 reflexivity_r1_setfam_1#1
+r2_hidden(X1,k2_setfam_1(X2,X3))|~r2_hidden(X1,X3)|~r2_hidden(X1,X2)#d3_xboole_0 d4_setfam_1#2
+k2_xboole_0(X1,X1)=X1#d3_xboole_0#1

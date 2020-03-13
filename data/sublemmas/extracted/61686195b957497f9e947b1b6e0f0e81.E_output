@@ -1,0 +1,44 @@
+k1_relat_1(k6_relat_1(X1))=X1#d10_relat_1 d4_relat_1 dt_k6_relat_1#4
+k1_relat_1(k6_relat_1(X1))=X1|r2_hidden(k4_tarski(esk4_2(k6_relat_1(X1),X1),esk4_2(k6_relat_1(X1),X1)),k6_relat_1(X1))#d10_relat_1 d4_relat_1 dt_k6_relat_1#3
+r2_hidden(k4_tarski(X1,X1),k6_relat_1(X2))|~r2_hidden(X1,X2)#d10_relat_1 dt_k6_relat_1#1
+X1=k1_relat_1(k6_relat_1(X2))|r2_hidden(esk4_2(k6_relat_1(X2),X1),X1)|r2_hidden(esk4_2(k6_relat_1(X2),X1),X2)#d10_relat_1 d4_relat_1 dt_k6_relat_1#2
+r2_hidden(X1,X2)|~r2_hidden(k4_tarski(X1,X3),k6_relat_1(X2))#d10_relat_1 dt_k6_relat_1#1
+X1=k1_relat_1(k6_relat_1(X2))|r2_hidden(esk4_2(k6_relat_1(X2),X1),X1)|r2_hidden(esk4_2(k6_relat_1(X2),X1),X2)#d10_relat_1 d4_relat_1 dt_k6_relat_1#2
+r2_hidden(X1,X2)|~r2_hidden(k4_tarski(X1,X3),k6_relat_1(X2))#d10_relat_1 dt_k6_relat_1#1
+k2_relat_1(k6_relat_1(X1))=X1#d10_relat_1 d4_relat_1 d5_relat_1 dt_k6_relat_1#7
+k2_relat_1(k6_relat_1(X1))=X1|r2_hidden(k4_tarski(esk7_2(k6_relat_1(X1),X1),esk7_2(k6_relat_1(X1),X1)),k6_relat_1(X1))#d10_relat_1 d4_relat_1 d5_relat_1 dt_k6_relat_1#6
+r2_hidden(k4_tarski(X1,X1),k6_relat_1(X2))|~r2_hidden(X1,X2)#d10_relat_1 dt_k6_relat_1#1
+k2_relat_1(k6_relat_1(X1))=X1|r2_hidden(esk7_2(k6_relat_1(X1),X1),X1)#d10_relat_1 d4_relat_1 d5_relat_1 dt_k6_relat_1#5
+X1=k2_relat_1(X2)|r2_hidden(esk8_2(X2,X1),k1_relat_1(X2))|r2_hidden(esk7_2(X2,X1),X1)#d4_relat_1 d5_relat_1#1
+esk8_2(k6_relat_1(X1),X1)=esk7_2(k6_relat_1(X1),X1)|k2_relat_1(k6_relat_1(X1))=X1#d10_relat_1 d5_relat_1 dt_k6_relat_1#4
+esk8_2(k6_relat_1(X1),X2)=esk7_2(k6_relat_1(X1),X2)|X2=k2_relat_1(k6_relat_1(X1))|~r2_hidden(k4_tarski(X3,esk7_2(k6_relat_1(X1),X2)),k6_relat_1(X1))#d10_relat_1 d5_relat_1 dt_k6_relat_1#3
+esk8_2(k6_relat_1(X1),X2)=esk7_2(k6_relat_1(X1),X2)|X2=k2_relat_1(k6_relat_1(X1))|r2_hidden(esk7_2(k6_relat_1(X1),X2),X2)#d10_relat_1 d5_relat_1 dt_k6_relat_1#2
+X1=X2|~r2_hidden(k4_tarski(X1,X2),k6_relat_1(X3))#d10_relat_1 dt_k6_relat_1#1
+esk8_2(k6_relat_1(X1),X2)=esk7_2(k6_relat_1(X1),X2)|X2=k2_relat_1(k6_relat_1(X1))|r2_hidden(k4_tarski(esk7_2(k6_relat_1(X1),X2),esk7_2(k6_relat_1(X1),X2)),k6_relat_1(X2))#d10_relat_1 d5_relat_1 dt_k6_relat_1#3
+r2_hidden(k4_tarski(X1,X1),k6_relat_1(X2))|~r2_hidden(X1,X2)#d10_relat_1 dt_k6_relat_1#1
+esk8_2(k6_relat_1(X1),X2)=esk7_2(k6_relat_1(X1),X2)|X2=k2_relat_1(k6_relat_1(X1))|r2_hidden(esk7_2(k6_relat_1(X1),X2),X2)#d10_relat_1 d5_relat_1 dt_k6_relat_1#2
+X1=X2|~r2_hidden(k4_tarski(X1,X2),k6_relat_1(X3))#d10_relat_1 dt_k6_relat_1#1
+k1_relat_1(k6_relat_1(X1))=X1#d10_relat_1 d4_relat_1 dt_k6_relat_1#4
+k1_relat_1(k6_relat_1(X1))=X1|r2_hidden(k4_tarski(esk4_2(k6_relat_1(X1),X1),esk4_2(k6_relat_1(X1),X1)),k6_relat_1(X1))#d10_relat_1 d4_relat_1 dt_k6_relat_1#3
+r2_hidden(k4_tarski(X1,X1),k6_relat_1(X2))|~r2_hidden(X1,X2)#d10_relat_1 dt_k6_relat_1#1
+X1=k1_relat_1(k6_relat_1(X2))|r2_hidden(esk4_2(k6_relat_1(X2),X1),X1)|r2_hidden(esk4_2(k6_relat_1(X2),X1),X2)#d10_relat_1 d4_relat_1 dt_k6_relat_1#2
+r2_hidden(X1,X2)|~r2_hidden(k4_tarski(X1,X3),k6_relat_1(X2))#d10_relat_1 dt_k6_relat_1#1
+X1=k1_relat_1(k6_relat_1(X2))|r2_hidden(esk4_2(k6_relat_1(X2),X1),X1)|r2_hidden(esk4_2(k6_relat_1(X2),X1),X2)#d10_relat_1 d4_relat_1 dt_k6_relat_1#2
+r2_hidden(X1,X2)|~r2_hidden(k4_tarski(X1,X3),k6_relat_1(X2))#d10_relat_1 dt_k6_relat_1#1
+k2_relat_1(k6_relat_1(X1))=X1|r2_hidden(esk7_2(k6_relat_1(X1),X1),X1)#d10_relat_1 d4_relat_1 d5_relat_1 dt_k6_relat_1#5
+X1=k2_relat_1(X2)|r2_hidden(esk8_2(X2,X1),k1_relat_1(X2))|r2_hidden(esk7_2(X2,X1),X1)#d4_relat_1 d5_relat_1#1
+esk8_2(k6_relat_1(X1),X1)=esk7_2(k6_relat_1(X1),X1)|k2_relat_1(k6_relat_1(X1))=X1#d10_relat_1 d5_relat_1 dt_k6_relat_1#4
+esk8_2(k6_relat_1(X1),X2)=esk7_2(k6_relat_1(X1),X2)|X2=k2_relat_1(k6_relat_1(X1))|~r2_hidden(k4_tarski(X3,esk7_2(k6_relat_1(X1),X2)),k6_relat_1(X1))#d10_relat_1 d5_relat_1 dt_k6_relat_1#3
+esk8_2(k6_relat_1(X1),X2)=esk7_2(k6_relat_1(X1),X2)|X2=k2_relat_1(k6_relat_1(X1))|r2_hidden(esk7_2(k6_relat_1(X1),X2),X2)#d10_relat_1 d5_relat_1 dt_k6_relat_1#2
+X1=X2|~r2_hidden(k4_tarski(X1,X2),k6_relat_1(X3))#d10_relat_1 dt_k6_relat_1#1
+esk8_2(k6_relat_1(X1),X2)=esk7_2(k6_relat_1(X1),X2)|X2=k2_relat_1(k6_relat_1(X1))|r2_hidden(k4_tarski(esk7_2(k6_relat_1(X1),X2),esk7_2(k6_relat_1(X1),X2)),k6_relat_1(X2))#d10_relat_1 d5_relat_1 dt_k6_relat_1#3
+r2_hidden(k4_tarski(X1,X1),k6_relat_1(X2))|~r2_hidden(X1,X2)#d10_relat_1 dt_k6_relat_1#1
+esk8_2(k6_relat_1(X1),X2)=esk7_2(k6_relat_1(X1),X2)|X2=k2_relat_1(k6_relat_1(X1))|r2_hidden(esk7_2(k6_relat_1(X1),X2),X2)#d10_relat_1 d5_relat_1 dt_k6_relat_1#2
+X1=X2|~r2_hidden(k4_tarski(X1,X2),k6_relat_1(X3))#d10_relat_1 dt_k6_relat_1#1
+k1_relat_1(k6_relat_1(X1))=X1#d10_relat_1 d4_relat_1 dt_k6_relat_1#4
+k1_relat_1(k6_relat_1(X1))=X1|r2_hidden(k4_tarski(esk4_2(k6_relat_1(X1),X1),esk4_2(k6_relat_1(X1),X1)),k6_relat_1(X1))#d10_relat_1 d4_relat_1 dt_k6_relat_1#3
+r2_hidden(k4_tarski(X1,X1),k6_relat_1(X2))|~r2_hidden(X1,X2)#d10_relat_1 dt_k6_relat_1#1
+X1=k1_relat_1(k6_relat_1(X2))|r2_hidden(esk4_2(k6_relat_1(X2),X1),X1)|r2_hidden(esk4_2(k6_relat_1(X2),X1),X2)#d10_relat_1 d4_relat_1 dt_k6_relat_1#2
+r2_hidden(X1,X2)|~r2_hidden(k4_tarski(X1,X3),k6_relat_1(X2))#d10_relat_1 dt_k6_relat_1#1
+X1=k1_relat_1(k6_relat_1(X2))|r2_hidden(esk4_2(k6_relat_1(X2),X1),X1)|r2_hidden(esk4_2(k6_relat_1(X2),X1),X2)#d10_relat_1 d4_relat_1 dt_k6_relat_1#2
+r2_hidden(X1,X2)|~r2_hidden(k4_tarski(X1,X3),k6_relat_1(X2))#d10_relat_1 dt_k6_relat_1#1

@@ -1,0 +1,10 @@
+u1_orders_2(g1_orders_2(X1,k1_yellow_1(X1)))=k1_yellow_1(X1)#abstractness_v1_orders_2 d1_yellow_1 dt_k2_yellow_1 dt_u1_orders_2 free_g1_orders_2#3
+u1_orders_2(g1_orders_2(X1,X2))=X2|~v1_orders_2(g1_orders_2(X1,X2))|~l1_orders_2(g1_orders_2(X1,X2))#abstractness_v1_orders_2 dt_u1_orders_2 free_g1_orders_2#2
+u1_orders_2(X1)=X2|g1_orders_2(u1_struct_0(X1),u1_orders_2(X1))!=g1_orders_2(X3,X2)|~l1_orders_2(X1)#dt_u1_orders_2 free_g1_orders_2#1
+v1_orders_2(g1_orders_2(X1,k1_yellow_1(X1)))#d1_yellow_1 dt_k2_yellow_1#1
+l1_orders_2(g1_orders_2(X1,k1_yellow_1(X1)))#d1_yellow_1 dt_k2_yellow_1#1
+u1_struct_0(g1_orders_2(X1,k1_yellow_1(X1)))=X1#abstractness_v1_orders_2 d1_yellow_1 dt_k2_yellow_1 dt_u1_orders_2 free_g1_orders_2#3
+u1_struct_0(g1_orders_2(X1,X2))=X1|~v1_orders_2(g1_orders_2(X1,X2))|~l1_orders_2(g1_orders_2(X1,X2))#abstractness_v1_orders_2 dt_u1_orders_2 free_g1_orders_2#2
+u1_struct_0(X1)=X2|g1_orders_2(u1_struct_0(X1),u1_orders_2(X1))!=g1_orders_2(X2,X3)|~l1_orders_2(X1)#dt_u1_orders_2 free_g1_orders_2#1
+v1_orders_2(g1_orders_2(X1,k1_yellow_1(X1)))#d1_yellow_1 dt_k2_yellow_1#1
+l1_orders_2(g1_orders_2(X1,k1_yellow_1(X1)))#d1_yellow_1 dt_k2_yellow_1#1

@@ -1,0 +1,14 @@
+m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k1_relat_1(X1),k2_relat_1(X1))))|~v1_relat_1(X1)#t21_relat_1 t3_subset#1
+m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k1_relat_1(X1),k2_relat_1(X1))))|~v1_relat_1(X1)#t21_relat_1 t3_subset#1
+k2_relat_1(X1)=k1_xboole_0|v1_funct_2(X1,k1_relat_1(X1),k2_relat_1(X1))|~v1_relat_1(X1)#d1_funct_2 redefinition_k1_relset_1 t21_relat_1 t3_subset#3
+m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k1_relat_1(X1),k2_relat_1(X1))))|~v1_relat_1(X1)#t21_relat_1 t3_subset#1
+k1_relset_1(k1_relat_1(X1),k2_relat_1(X1),X1)=k1_relat_1(X1)|~v1_relat_1(X1)#redefinition_k1_relset_1 t21_relat_1 t3_subset#2
+m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(k1_relat_1(X1),k2_relat_1(X1))))|~v1_relat_1(X1)#t21_relat_1 t3_subset#1
+k1_relat_1(X1)=k1_xboole_0|~m1_subset_1(X1,k1_zfmisc_1(k1_xboole_0))#dt_k1_relset_1 redefinition_k1_relset_1 t113_zfmisc_1 t3_subset t3_xboole_1#3
+k1_relset_1(k1_xboole_0,X1,X2)=k1_xboole_0|~m1_subset_1(X2,k1_zfmisc_1(k1_xboole_0))#dt_k1_relset_1 t113_zfmisc_1 t3_subset t3_xboole_1#2
+X1=k1_xboole_0|~m1_subset_1(X1,k1_zfmisc_1(k1_xboole_0))#t3_subset t3_xboole_1#1
+k1_relset_1(k1_xboole_0,X1,X2)=k1_relat_1(X2)|~m1_subset_1(X2,k1_zfmisc_1(k1_xboole_0))#redefinition_k1_relset_1 t113_zfmisc_1#1
+v1_funct_2(X1,k1_xboole_0,X2)|~m1_subset_1(X1,k1_zfmisc_1(k1_xboole_0))#d1_funct_2 dt_k1_relset_1 t113_zfmisc_1 t3_subset t3_xboole_1#3
+v1_funct_2(X1,k1_xboole_0,X2)|k1_relset_1(k1_xboole_0,X2,X1)!=k1_xboole_0|~m1_subset_1(X1,k1_zfmisc_1(k1_xboole_0))#d1_funct_2 t113_zfmisc_1#1
+k1_relset_1(k1_xboole_0,X1,X2)=k1_xboole_0|~m1_subset_1(X2,k1_zfmisc_1(k1_xboole_0))#dt_k1_relset_1 t113_zfmisc_1 t3_subset t3_xboole_1#2
+X1=k1_xboole_0|~m1_subset_1(X1,k1_zfmisc_1(k1_xboole_0))#t3_subset t3_xboole_1#1

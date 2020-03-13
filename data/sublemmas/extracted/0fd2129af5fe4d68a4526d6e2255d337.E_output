@@ -1,0 +1,6 @@
+r2_hidden(k9_subset_1(u1_struct_0(X1),X2,X3),k1_tops_2(X1,X3,X4))|~r2_hidden(X2,X4)|~m1_subset_1(k9_subset_1(u1_struct_0(X1),X2,X3),k1_zfmisc_1(u1_struct_0(k1_pre_topc(X1,X3))))|~m1_subset_1(X4,k1_zfmisc_1(k1_zfmisc_1(u1_struct_0(X1))))|~m1_subset_1(X3,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#d3_tops_2 dt_k1_tops_2 t4_subset#1
+m1_subset_1(k9_subset_1(X1,X2,X3),k1_zfmisc_1(X3))|~m1_subset_1(X2,k1_zfmisc_1(X1))#commutativity_k9_subset_1 redefinition_k9_subset_1 t12_setfam_1 t17_xboole_1 t3_subset#4
+m1_subset_1(k9_subset_1(X1,X2,X3),k1_zfmisc_1(X2))|~m1_subset_1(X3,k1_zfmisc_1(X1))#redefinition_k9_subset_1 t12_setfam_1 t17_xboole_1 t3_subset#3
+m1_subset_1(k1_setfam_1(k2_tarski(X1,X2)),k1_zfmisc_1(X1))#t12_setfam_1 t17_xboole_1 t3_subset#2
+r1_tarski(k1_setfam_1(k2_tarski(X1,X2)),X1)#t12_setfam_1 t17_xboole_1#1
+k9_subset_1(X2,X3,X1)=k1_setfam_1(k2_tarski(X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))#redefinition_k9_subset_1 t12_setfam_1#1

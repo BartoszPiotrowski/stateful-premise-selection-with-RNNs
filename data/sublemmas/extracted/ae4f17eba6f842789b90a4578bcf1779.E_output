@@ -1,0 +1,6 @@
+k1_relat_1(k4_xboole_0(X1,k7_relat_1(X1,X2)))=k4_xboole_0(k1_relat_1(X1),X2)|~v1_relat_1(X1)#l32_xboole_1 redefinition_k6_subset_1 t191_relat_1 t211_relat_1 t2_boole t3_boole t48_xboole_1#3
+k1_relat_1(k7_relat_1(X1,k4_xboole_0(k1_relat_1(X1),X2)))=k4_xboole_0(k1_relat_1(X1),X2)|~v1_relat_1(X1)#redefinition_k6_subset_1 t191_relat_1#1
+k7_relat_1(X1,k4_xboole_0(X2,X3))=k4_xboole_0(X1,k7_relat_1(X1,X3))|k4_xboole_0(k1_relat_1(X1),X2)!=k1_xboole_0|~v1_relat_1(X1)#l32_xboole_1 redefinition_k6_subset_1 t211_relat_1#2
+k7_relat_1(X1,k4_xboole_0(X2,X3))=k4_xboole_0(X1,k7_relat_1(X1,X3))|~v1_relat_1(X1)|~r1_tarski(k1_relat_1(X1),X2)#redefinition_k6_subset_1 t211_relat_1#1
+k4_xboole_0(X1,X1)=k1_xboole_0#t2_boole t3_boole t48_xboole_1#2
+k4_xboole_0(X1,k4_xboole_0(X1,k1_xboole_0))=k1_xboole_0#t2_boole t48_xboole_1#1

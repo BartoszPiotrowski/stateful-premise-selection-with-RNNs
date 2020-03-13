@@ -1,0 +1,4 @@
+k2_relat_1(k8_relat_1(X1,X2))=X1|~v1_relat_1(X2)|~r1_tarski(X1,k2_relat_1(X2))#commutativity_k2_tarski t119_relat_1 t12_setfam_1 t28_xboole_1#3
+k2_relat_1(k8_relat_1(X2,X1))=k1_setfam_1(k2_tarski(k2_relat_1(X1),X2))|~v1_relat_1(X1)#t119_relat_1 t12_setfam_1#1
+k1_setfam_1(k2_tarski(X1,X2))=X2|~r1_tarski(X2,X1)#commutativity_k2_tarski t12_setfam_1 t28_xboole_1#2
+k1_setfam_1(k2_tarski(X1,X2))=X1|~r1_tarski(X1,X2)#t12_setfam_1 t28_xboole_1#1

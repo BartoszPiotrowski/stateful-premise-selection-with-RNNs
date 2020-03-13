@@ -1,0 +1,6 @@
+l1_pre_topc(k1_pre_topc(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#dt_k1_pre_topc dt_m1_pre_topc#1
+k1_pre_topc(X1,X2)=k1_pre_topc(X3,X2)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X3)))|~m1_pre_topc(k1_pre_topc(X3,X2),X1)|~l1_pre_topc(X1)|~l1_pre_topc(X3)#d10_pre_topc dt_k1_pre_topc#2
+k2_struct_0(k1_pre_topc(X1,X2))=X2|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#d10_pre_topc dt_k1_pre_topc#1
+m1_pre_topc(X1,X2)|g1_pre_topc(u1_struct_0(k1_pre_topc(X3,X4)),u1_pre_topc(k1_pre_topc(X3,X4)))!=g1_pre_topc(u1_struct_0(X1),u1_pre_topc(X1))|g1_pre_topc(u1_struct_0(X3),u1_pre_topc(X3))!=g1_pre_topc(u1_struct_0(X2),u1_pre_topc(X2))|~m1_subset_1(X4,k1_zfmisc_1(u1_struct_0(X3)))|~l1_pre_topc(X1)|~l1_pre_topc(X2)|~l1_pre_topc(X3)#dt_k1_pre_topc dt_m1_pre_topc t31_pre_topc#2
+m1_pre_topc(X1,X2)|g1_pre_topc(u1_struct_0(X3),u1_pre_topc(X3))!=g1_pre_topc(u1_struct_0(X1),u1_pre_topc(X1))|g1_pre_topc(u1_struct_0(X4),u1_pre_topc(X4))!=g1_pre_topc(u1_struct_0(X2),u1_pre_topc(X2))|~m1_pre_topc(X3,X4)|~l1_pre_topc(X1)|~l1_pre_topc(X2)|~l1_pre_topc(X4)#dt_m1_pre_topc t31_pre_topc#1
+l1_pre_topc(k1_pre_topc(X1,X2))|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))|~l1_pre_topc(X1)#dt_k1_pre_topc dt_m1_pre_topc#1

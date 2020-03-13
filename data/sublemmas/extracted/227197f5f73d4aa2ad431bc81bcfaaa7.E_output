@@ -1,0 +1,6 @@
+r1_tarski(k2_tops_1(X1,X2),k2_pre_topc(X1,k1_tops_1(X1,X2)))|~v5_tops_1(X2,X1)|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#commutativity_k2_tarski dt_k1_tops_1 dt_k2_tops_1 l51_zfmisc_1 redefinition_k4_subset_1 t102_tops_1 t65_tops_1 t7_xboole_1#5
+r1_tarski(k2_tops_1(X1,X2),k2_pre_topc(X1,X2))|~l1_pre_topc(X1)|~m1_subset_1(X2,k1_zfmisc_1(u1_struct_0(X1)))#commutativity_k2_tarski dt_k2_tops_1 l51_zfmisc_1 redefinition_k4_subset_1 t65_tops_1 t7_xboole_1#4
+r1_tarski(X1,k4_subset_1(X2,X3,X1))|~m1_subset_1(X1,k1_zfmisc_1(X2))|~m1_subset_1(X3,k1_zfmisc_1(X2))#commutativity_k2_tarski l51_zfmisc_1 redefinition_k4_subset_1 t7_xboole_1#3
+r1_tarski(X1,k3_tarski(k2_tarski(X2,X1)))#commutativity_k2_tarski l51_zfmisc_1 t7_xboole_1#2
+r1_tarski(X1,k3_tarski(k2_tarski(X1,X2)))#l51_zfmisc_1 t7_xboole_1#1
+k4_subset_1(X2,X1,X3)=k3_tarski(k2_tarski(X1,X3))|~m1_subset_1(X3,k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(X2))#l51_zfmisc_1 redefinition_k4_subset_1#1

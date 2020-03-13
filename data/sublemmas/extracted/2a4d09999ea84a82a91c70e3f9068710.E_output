@@ -1,0 +1,7 @@
+k1_relat_1(k5_relat_1(X1,X2))=k10_relat_1(X1,k1_relat_1(X2))|~v1_relat_1(X2)|~v1_relat_1(X1)#commutativity_k3_xboole_0 dt_k5_relat_1 t168_relat_1 t169_relat_1 t181_relat_1#5
+k10_relat_1(X1,k10_relat_1(X2,k2_relat_1(X2)))=k1_relat_1(k5_relat_1(X1,X2))|~v1_relat_1(X2)|~v1_relat_1(X1)#commutativity_k3_xboole_0 dt_k5_relat_1 t168_relat_1 t169_relat_1 t181_relat_1#4
+k10_relat_1(k5_relat_1(X1,X2),k2_relat_1(X2))=k1_relat_1(k5_relat_1(X1,X2))|~v1_relat_1(X2)|~v1_relat_1(X1)#commutativity_k3_xboole_0 dt_k5_relat_1 t168_relat_1 t169_relat_1 t181_relat_1#3
+k10_relat_1(X1,k10_relat_1(X2,k2_relat_1(k5_relat_1(X1,X2))))=k1_relat_1(k5_relat_1(X1,X2))|~v1_relat_1(X2)|~v1_relat_1(X1)#dt_k5_relat_1 t169_relat_1 t181_relat_1#1
+k10_relat_1(X1,k10_relat_1(X2,k2_relat_1(k5_relat_1(X1,X2))))=k10_relat_1(k5_relat_1(X1,X2),k2_relat_1(X2))|~v1_relat_1(X2)|~v1_relat_1(X1)#commutativity_k3_xboole_0 dt_k5_relat_1 t168_relat_1 t181_relat_1#2
+k10_relat_1(X1,k10_relat_1(X2,k3_xboole_0(k2_relat_1(k5_relat_1(X1,X2)),X3)))=k10_relat_1(k5_relat_1(X1,X2),X3)|~v1_relat_1(X2)|~v1_relat_1(X1)#dt_k5_relat_1 t168_relat_1 t181_relat_1#1
+k10_relat_1(X1,k3_xboole_0(X2,k2_relat_1(X1)))=k10_relat_1(X1,X2)|~v1_relat_1(X1)#commutativity_k3_xboole_0 t168_relat_1#1

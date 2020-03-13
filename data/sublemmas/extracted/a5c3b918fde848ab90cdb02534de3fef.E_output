@@ -1,0 +1,15 @@
+k6_domain_1(X1,X2)=X1|v1_xboole_0(X1)|~v1_zfmisc_1(X1)|~m1_subset_1(X2,X1)#dt_k6_domain_1 fc1_xboole_0 idempotence_k2_xboole_0 l51_zfmisc_1 redefinition_k6_domain_1 t1_tex_2 t3_subset t49_zfmisc_1 t69_enumset1 t70_enumset1 t8_boole#5
+X1=k1_xboole_0|~v1_xboole_0(X1)#fc1_xboole_0 t8_boole#1
+k6_domain_1(X1,X2)=X1|v1_xboole_0(k6_domain_1(X1,X2))|v1_xboole_0(X1)|~v1_zfmisc_1(X1)|~m1_subset_1(X2,X1)#dt_k6_domain_1 t1_tex_2 t3_subset#2
+r1_tarski(k6_domain_1(X1,X2),X1)|v1_xboole_0(X1)|~m1_subset_1(X2,X1)#dt_k6_domain_1 t3_subset#1
+v1_xboole_0(X1)|k6_domain_1(X1,X2)!=k1_xboole_0|~m1_subset_1(X2,X1)#idempotence_k2_xboole_0 l51_zfmisc_1 redefinition_k6_domain_1 t49_zfmisc_1 t69_enumset1 t70_enumset1#4
+k1_enumset1(X1,X1,X1)!=k1_xboole_0#idempotence_k2_xboole_0 l51_zfmisc_1 t49_zfmisc_1 t69_enumset1 t70_enumset1#3
+k3_tarski(k1_enumset1(k1_enumset1(X1,X1,X1),k1_enumset1(X1,X1,X1),X2))!=k1_xboole_0#l51_zfmisc_1 t49_zfmisc_1 t69_enumset1 t70_enumset1#2
+k3_tarski(k1_enumset1(X1,X1,X2))=k2_xboole_0(X1,X2)#l51_zfmisc_1 t70_enumset1#1
+k3_tarski(k1_enumset1(X1,X1,X1))=X1#idempotence_k2_xboole_0 l51_zfmisc_1 t70_enumset1#2
+k3_tarski(k1_enumset1(X1,X1,X2))=k2_xboole_0(X1,X2)#l51_zfmisc_1 t70_enumset1#1
+k6_domain_1(X1,X2)=k1_enumset1(X2,X2,X2)|v1_xboole_0(X1)|~m1_subset_1(X2,X1)#redefinition_k6_domain_1 t69_enumset1 t70_enumset1#1
+~v1_subset_1(X1,X1)#d3_struct_0 dt_k2_yellow_1 dt_l1_orders_2 fc12_struct_0 t1_yellow_1#3
+~v1_subset_1(k2_struct_0(k2_yellow_1(X1)),X1)#dt_k2_yellow_1 dt_l1_orders_2 fc12_struct_0 t1_yellow_1#2
+l1_struct_0(k2_yellow_1(X1))#dt_k2_yellow_1 dt_l1_orders_2#1
+l1_struct_0(k2_yellow_1(X1))#dt_k2_yellow_1 dt_l1_orders_2#1

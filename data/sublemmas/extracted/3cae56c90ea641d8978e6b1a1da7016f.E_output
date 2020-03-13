@@ -1,0 +1,19 @@
+k10_relat_1(k7_relat_1(X1,X2),k9_relat_1(X1,X2))=k1_relat_1(k7_relat_1(X1,X2))|~v1_relat_1(k7_relat_1(X1,X2))|~v1_relat_1(X1)#t148_relat_1 t169_relat_1#1
+k10_relat_1(X1,k2_relat_1(X1))=k10_relat_1(X1,X2)|~v1_relat_1(X1)|~m1_subset_1(k2_relat_1(X1),k1_zfmisc_1(X2))#commutativity_k3_xboole_0 dt_k6_relat_1 t160_relat_1 t162_funct_1 t168_relat_1 t43_funct_1 t71_relat_1#4
+k3_xboole_0(X1,X2)=X1|~m1_subset_1(X1,k1_zfmisc_1(X2))#commutativity_k3_xboole_0 dt_k6_relat_1 t160_relat_1 t162_funct_1 t43_funct_1 t71_relat_1#3
+k3_xboole_0(X1,X2)=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))#dt_k6_relat_1 t160_relat_1 t162_funct_1 t43_funct_1 t71_relat_1#2
+k9_relat_1(k6_relat_1(X1),X2)=k3_xboole_0(X1,X2)#dt_k6_relat_1 t160_relat_1 t43_funct_1 t71_relat_1#1
+k10_relat_1(k7_relat_1(X1,X2),k9_relat_1(X1,X2))=k1_relat_1(k7_relat_1(X1,X2))|~v1_relat_1(k7_relat_1(X1,X2))|~v1_relat_1(X1)#t148_relat_1 t169_relat_1#1
+k10_relat_1(X1,k2_relat_1(X1))=k10_relat_1(X1,X2)|~v1_relat_1(X1)|~m1_subset_1(k2_relat_1(X1),k1_zfmisc_1(X2))#commutativity_k3_xboole_0 dt_k6_relat_1 t160_relat_1 t162_funct_1 t168_relat_1 t43_funct_1 t71_relat_1#4
+k3_xboole_0(X1,X2)=X1|~m1_subset_1(X1,k1_zfmisc_1(X2))#commutativity_k3_xboole_0 dt_k6_relat_1 t160_relat_1 t162_funct_1 t43_funct_1 t71_relat_1#3
+k3_xboole_0(X1,X2)=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))#dt_k6_relat_1 t160_relat_1 t162_funct_1 t43_funct_1 t71_relat_1#2
+k9_relat_1(k6_relat_1(X1),X2)=k3_xboole_0(X1,X2)#dt_k6_relat_1 t160_relat_1 t43_funct_1 t71_relat_1#1
+m1_subset_1(k2_relat_1(X1),k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(X3,X2)))#dt_k1_relset_1 dt_k3_relset_1 redefinition_k2_relset_1 t24_relset_1#2
+m1_subset_1(k2_relset_1(X1,X2,X3),k1_zfmisc_1(X2))|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))#dt_k1_relset_1 dt_k3_relset_1 t24_relset_1#1
+k10_relat_1(X1,k2_relat_1(X1))=k10_relat_1(X1,X2)|~v1_relat_1(X1)|~m1_subset_1(k2_relat_1(X1),k1_zfmisc_1(X2))#commutativity_k3_xboole_0 dt_k6_relat_1 t160_relat_1 t162_funct_1 t168_relat_1 t43_funct_1 t71_relat_1#4
+k3_xboole_0(X1,X2)=X1|~m1_subset_1(X1,k1_zfmisc_1(X2))#commutativity_k3_xboole_0 dt_k6_relat_1 t160_relat_1 t162_funct_1 t43_funct_1 t71_relat_1#3
+k3_xboole_0(X1,X2)=X2|~m1_subset_1(X2,k1_zfmisc_1(X1))#dt_k6_relat_1 t160_relat_1 t162_funct_1 t43_funct_1 t71_relat_1#2
+k9_relat_1(k6_relat_1(X1),X2)=k3_xboole_0(X1,X2)#dt_k6_relat_1 t160_relat_1 t43_funct_1 t71_relat_1#1
+k10_relat_1(k7_relat_1(X1,X2),k9_relat_1(X1,X2))=k1_relat_1(k7_relat_1(X1,X2))|~v1_relat_1(k7_relat_1(X1,X2))|~v1_relat_1(X1)#t148_relat_1 t169_relat_1#1
+m1_subset_1(k2_relat_1(X1),k1_zfmisc_1(X2))|~m1_subset_1(X1,k1_zfmisc_1(k2_zfmisc_1(X3,X2)))#dt_k1_relset_1 dt_k3_relset_1 redefinition_k2_relset_1 t24_relset_1#2
+m1_subset_1(k2_relset_1(X1,X2,X3),k1_zfmisc_1(X2))|~m1_subset_1(X3,k1_zfmisc_1(k2_zfmisc_1(X1,X2)))#dt_k1_relset_1 dt_k3_relset_1 t24_relset_1#1

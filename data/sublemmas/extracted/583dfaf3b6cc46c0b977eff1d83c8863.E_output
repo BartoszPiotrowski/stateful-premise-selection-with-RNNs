@@ -1,0 +1,73 @@
+k2_xboole_0(esk3_1(X1),k1_tarski(esk3_1(X1)))=X1|v4_ordinal1(X1)|~v3_ordinal1(X1)#d1_ordinal1 fc2_ordinal1 t13_ordinal1 t23_ordinal1 t33_ordinal1 t34_ordinal1 t41_ordinal1#5
+k2_xboole_0(esk3_1(X1),k1_tarski(esk3_1(X1)))=X1|v4_ordinal1(X1)|~v3_ordinal1(k2_xboole_0(esk3_1(X1),k1_tarski(esk3_1(X1))))|~v3_ordinal1(X1)#d1_ordinal1 t13_ordinal1 t23_ordinal1 t33_ordinal1 t34_ordinal1 t41_ordinal1#4
+v4_ordinal1(X1)|~v3_ordinal1(X1)|~r2_hidden(k2_xboole_0(esk3_1(X1),k1_tarski(esk3_1(X1))),X1)#d1_ordinal1 t41_ordinal1#1
+k2_xboole_0(X1,k1_tarski(X1))=X2|r2_hidden(k2_xboole_0(X1,k1_tarski(X1)),X2)|~r2_hidden(X1,X2)|~v3_ordinal1(k2_xboole_0(X1,k1_tarski(X1)))|~v3_ordinal1(X2)#d1_ordinal1 t13_ordinal1 t23_ordinal1 t33_ordinal1 t34_ordinal1#3
+X1=X2|r2_hidden(X1,X2)|~r1_ordinal1(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)#d1_ordinal1 t13_ordinal1 t34_ordinal1#2
+X1=X2|r2_hidden(X1,X2)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t13_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_ordinal1(X1,X2)#d1_ordinal1 t34_ordinal1#1
+r1_ordinal1(k2_xboole_0(X1,k1_tarski(X1)),X2)|~r2_hidden(X1,X2)|~v3_ordinal1(X2)#d1_ordinal1 t23_ordinal1 t33_ordinal1#2
+r1_ordinal1(k2_xboole_0(X1,k1_tarski(X1)),X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r2_hidden(X1,X2)#d1_ordinal1 t33_ordinal1#1
+v3_ordinal1(k2_xboole_0(X1,k1_tarski(X1)))|~v3_ordinal1(X1)#d1_ordinal1 fc2_ordinal1#1
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#5
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1|~r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1),k2_xboole_0(X1,k1_tarski(X1)))#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#4
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1),X1)#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#3
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2)=X1|k2_xboole_0(X1,k1_tarski(X1))=X2|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X2)|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X1)#d1_ordinal1 t13_ordinal1 t2_tarski#2
+X1=X2|r2_hidden(X1,X2)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t13_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1),X1)#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#3
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2)=X1|k2_xboole_0(X1,k1_tarski(X1))=X2|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X2)|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X1)#d1_ordinal1 t13_ordinal1 t2_tarski#2
+X1=X2|r2_hidden(X1,X2)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t13_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+r2_hidden(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_ordinal1(k2_xboole_0(X1,k1_tarski(X1)),X2)#d1_ordinal1 t33_ordinal1#1
+r1_ordinal1(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t34_ordinal1#1
+v3_ordinal1(X1)|~v3_ordinal1(k2_xboole_0(X1,k1_tarski(X1)))#d1_ordinal1 t13_ordinal1 t23_ordinal1#2
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|X1!=X2#d1_ordinal1 t13_ordinal1#1
+r2_hidden(k2_xboole_0(X1,k1_tarski(X1)),X2)|~r2_hidden(X1,X2)|~v4_ordinal1(X2)|~v3_ordinal1(X2)#d1_ordinal1 t23_ordinal1 t41_ordinal1#2
+r2_hidden(k2_xboole_0(X2,k1_tarski(X2)),X1)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~v4_ordinal1(X1)|~r2_hidden(X2,X1)#d1_ordinal1 t41_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|X1!=X2#d1_ordinal1 t13_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#5
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1|~r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1),k2_xboole_0(X1,k1_tarski(X1)))#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#4
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1),X1)#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#3
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2)=X1|k2_xboole_0(X1,k1_tarski(X1))=X2|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X2)|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X1)#d1_ordinal1 t13_ordinal1 t2_tarski#2
+X1=X2|r2_hidden(X1,X2)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t13_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1),X1)#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#3
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2)=X1|k2_xboole_0(X1,k1_tarski(X1))=X2|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X2)|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X1)#d1_ordinal1 t13_ordinal1 t2_tarski#2
+X1=X2|r2_hidden(X1,X2)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t13_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+r2_hidden(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_ordinal1(k2_xboole_0(X1,k1_tarski(X1)),X2)#d1_ordinal1 t33_ordinal1#1
+r1_ordinal1(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t34_ordinal1#1
+v3_ordinal1(X1)|~v3_ordinal1(k2_xboole_0(X1,k1_tarski(X1)))#d1_ordinal1 t13_ordinal1 t23_ordinal1#2
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|X1!=X2#d1_ordinal1 t13_ordinal1#1
+r2_hidden(k2_xboole_0(X1,k1_tarski(X1)),X2)|~r2_hidden(X1,X2)|~v4_ordinal1(X2)|~v3_ordinal1(X2)#d1_ordinal1 t23_ordinal1 t41_ordinal1#2
+r2_hidden(k2_xboole_0(X2,k1_tarski(X2)),X1)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~v4_ordinal1(X1)|~r2_hidden(X2,X1)#d1_ordinal1 t41_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|X1!=X2#d1_ordinal1 t13_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#5
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1|~r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1),k2_xboole_0(X1,k1_tarski(X1)))#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#4
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1),X1)#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#3
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2)=X1|k2_xboole_0(X1,k1_tarski(X1))=X2|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X2)|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X1)#d1_ordinal1 t13_ordinal1 t2_tarski#2
+X1=X2|r2_hidden(X1,X2)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t13_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1)=X1|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X1),X1)#d1_ordinal1 t13_ordinal1 t14_ordinal1 t2_tarski#3
+esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2)=X1|k2_xboole_0(X1,k1_tarski(X1))=X2|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X2)|r2_hidden(esk4_2(k2_xboole_0(X1,k1_tarski(X1)),X2),X1)#d1_ordinal1 t13_ordinal1 t2_tarski#2
+X1=X2|r2_hidden(X1,X2)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t13_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|~r2_hidden(X1,X2)#d1_ordinal1 t13_ordinal1#1
+r2_hidden(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r1_ordinal1(k2_xboole_0(X1,k1_tarski(X1)),X2)#d1_ordinal1 t33_ordinal1#1
+r1_ordinal1(X1,X2)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))#d1_ordinal1 t34_ordinal1#1
+v3_ordinal1(X1)|~v3_ordinal1(k2_xboole_0(X1,k1_tarski(X1)))#d1_ordinal1 t13_ordinal1 t23_ordinal1#2
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|X1!=X2#d1_ordinal1 t13_ordinal1#1
+r2_hidden(k2_xboole_0(X1,k1_tarski(X1)),X2)|~r2_hidden(X1,X2)|~v4_ordinal1(X2)|~v3_ordinal1(X2)#d1_ordinal1 t23_ordinal1 t41_ordinal1#2
+r2_hidden(k2_xboole_0(X2,k1_tarski(X2)),X1)|~v3_ordinal1(X2)|~v3_ordinal1(X1)|~v4_ordinal1(X1)|~r2_hidden(X2,X1)#d1_ordinal1 t41_ordinal1#1
+r2_hidden(X1,k2_xboole_0(X2,k1_tarski(X2)))|X1!=X2#d1_ordinal1 t13_ordinal1#1
+X1!=k2_xboole_0(X1,k1_tarski(X1))#d1_ordinal1 t14_ordinal1#1

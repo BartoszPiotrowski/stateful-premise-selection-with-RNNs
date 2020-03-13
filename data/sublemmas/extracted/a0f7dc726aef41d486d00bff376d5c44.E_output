@@ -1,0 +1,11 @@
+k2_relat_1(X1)=k1_xboole_0|~v1_relat_1(X1)|~v1_xboole_0(k1_relat_1(X1))#d1_xboole_0 d4_relat_1 dt_k4_relat_1 fc9_relat_1 t37_relat_1 t7_xboole_0#4
+k2_relat_1(X1)=k1_xboole_0|~v1_relat_1(X1)|~v1_xboole_0(k4_relat_1(X1))#d1_xboole_0 d4_relat_1 t37_relat_1 t7_xboole_0#3
+~v1_relat_1(X1)|~v1_xboole_0(k4_relat_1(X1))|~r2_hidden(X2,k2_relat_1(X1))#d1_xboole_0 d4_relat_1 t37_relat_1#2
+~v1_xboole_0(X1)|~r2_hidden(X2,k1_relat_1(X1))#d1_xboole_0 d4_relat_1#1
+v1_xboole_0(k4_relat_1(X1))|~v1_relat_1(X1)|~v1_xboole_0(k1_relat_1(X1))#dt_k4_relat_1 fc9_relat_1 t37_relat_1#1
+k1_relat_1(k1_xboole_0)=k1_xboole_0#d4_relat_1 t2_boole t4_xboole_0 t65_xboole_1 t7_xboole_0#3
+~r2_hidden(X1,k1_relat_1(k1_xboole_0))#d4_relat_1 t2_boole t4_xboole_0 t65_xboole_1#2
+~r2_hidden(X1,k1_xboole_0)#t2_boole t4_xboole_0 t65_xboole_1#1
+k1_relat_1(k1_xboole_0)=k1_xboole_0#d4_relat_1 t2_boole t4_xboole_0 t65_xboole_1 t7_xboole_0#3
+~r2_hidden(X1,k1_relat_1(k1_xboole_0))#d4_relat_1 t2_boole t4_xboole_0 t65_xboole_1#2
+~r2_hidden(X1,k1_xboole_0)#t2_boole t4_xboole_0 t65_xboole_1#1
