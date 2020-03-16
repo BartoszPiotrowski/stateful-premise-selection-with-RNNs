@@ -51,6 +51,7 @@ def read_statements(file):
     '''
     stms = {}
     for line in read_lines(file):
+        line = line.replace(' ', '')
         name = line.split('(')[1].split(',')[0]
         assert name not in stms
         stms[name] = line
